@@ -1,0 +1,11 @@
+/* === Home === */
+.screen-home {
+  display: grid; grid-template-rows: auto 1fr auto;
+  height: 100%; padding: var(--s-5); gap: var(--s-4);
+}
+.screen-home .header { display: flex; justify-content: space-between; align-items: center; }
+.screen-home .greeting {
+  font-family: var(--font-display); font-weight: 700; font-size: var(--fs-title);
+}
+.screen-home .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-5); }
+.screen-home .footer { display: flex; justify-content: center; gap: var(--s-3); }
