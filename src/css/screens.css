@@ -27,3 +27,16 @@
 .reveal.hidden { opacity: 0; }
 @keyframes pulse { 0%,100% { r: 14 } 50% { r: 22 } }
 .dot-pulse.animated { animation: pulse 1.2s infinite; }
+
+/* === Colouring screen === */
+.screen-colour { display: grid; grid-template-rows: auto 1fr auto; height: 100%; }
+.screen-colour .stage { position: relative; flex: 1; overflow: hidden; touch-action: none; background: white; }
+.screen-colour canvas.paint { position: absolute; inset: 0; width: 100%; height: 100%; }
+.screen-colour .outline-top { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.screen-colour .palette {
+  display: flex; align-items: center; gap: var(--s-3);
+  padding: var(--s-3) var(--s-4);
+  border-top: 2px solid var(--c-border); background: var(--c-bg);
+  flex-wrap: wrap;
+}
+.screen-colour .palette .spacer { flex: 1; }
