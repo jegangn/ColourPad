@@ -1,0 +1,26 @@
+<!DOCTYPE html><html><body>
+<canvas id="c192" width="192" height="192"></canvas>
+<canvas id="c512" width="512" height="512"></canvas>
+<script>
+const draw = (canvas) => {
+  const ctx = canvas.getContext('2d');
+  const w = canvas.width;
+  ctx.fillStyle = '#FFF7ED'; ctx.fillRect(0,0,w,w);
+  ctx.fillStyle = '#F97316';
+  ctx.beginPath(); ctx.arc(w/2, w/2, w*0.40, 0, Math.PI*2); ctx.fill();
+  ctx.fillStyle = '#fff';
+  for (const [x,y] of [[0.35,0.45],[0.5,0.6],[0.65,0.45]]) {
+    ctx.beginPath(); ctx.arc(w*x, w*y, w*0.07, 0, Math.PI*2); ctx.fill();
+  }
+  ctx.strokeStyle = '#fff'; ctx.lineWidth = w*0.025;
+  ctx.beginPath(); ctx.moveTo(w*0.35, w*0.45); ctx.lineTo(w*0.5, w*0.6); ctx.lineTo(w*0.65, w*0.45); ctx.stroke();
+  const a = document.createElement('a');
+  a.download = 'icon-' + w + '.png';
+  a.href = canvas.toDataURL();
+  a.textContent = 'Download ' + w + 'px';
+  a.style = 'display:block;margin:12px';
+  document.body.appendChild(a);
+};
+draw(document.getElementById('c192'));
+draw(document.getElementById('c512'));
+</script></body></html>
