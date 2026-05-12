@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "car",
+    "name": "Car",
+    "category": "vehicles",
+    "prompt": "A friendly cartoon car, side view, with round wheels, two windows, and a small antenna on the roof."
+  },
+  {
+    "id": "truck",
+    "name": "Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon truck, side view, with a large cargo box, big round wheels, and a tall cab with a window."
+  },
+  {
+    "id": "fire-truck",
+    "name": "Fire Truck",
+    "category": "vehicles",
+    "prompt": "A red cartoon fire truck, side view, with a ladder on top, blue cabin window, and a small siren on the roof."
+  },
+  {
+    "id": "ambulance",
+    "name": "Ambulance",
+    "category": "vehicles",
+    "prompt": "A white cartoon ambulance, side view, with a red cross on the side, a siren on the roof, and round wheels."
+  },
+  {
+    "id": "police-car",
+    "name": "Police Car",
+    "category": "vehicles",
+    "prompt": "A blue cartoon police car, side view, with a light bar on top, a star badge on the door, and round wheels."
+  },
+  {
+    "id": "school-bus",
+    "name": "School Bus",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon school bus, side view, with a flat front, two windows, and large round wheels."
+  },
+  {
+    "id": "garbage-truck",
+    "name": "Garbage Truck",
+    "category": "vehicles",
+    "prompt": "A green cartoon garbage truck, side view, with a large compactor box at the back and big round wheels."
+  },
+  {
+    "id": "ice-cream-truck",
+    "name": "Ice Cream Truck",
+    "category": "vehicles",
+    "prompt": "A white cartoon ice cream truck, side view, with a cone painted on the side and a speaker on the roof."
+  },
+  {
+    "id": "taxi",
+    "name": "Taxi",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon taxi cab, side view, with a taxi sign on the roof, a round window, and two wheels."
+  },
+  {
+    "id": "train",
+    "name": "Train",
+    "category": "vehicles",
+    "prompt": "A cartoon train engine, side view, with a round boiler, a tall chimney stack, and big drive wheels."
+  },
+  {
+    "id": "helicopter",
+    "name": "Helicopter",
+    "category": "vehicles",
+    "prompt": "A cartoon helicopter, side view, with a large rotor on top, a bubble cockpit window, and a tail rotor."
+  },
+  {
+    "id": "plane",
+    "name": "Plane",
+    "category": "vehicles",
+    "prompt": "A cartoon passenger plane, side view, with two wings, a row of oval windows, and engines under the wings."
+  },
+  {
+    "id": "boat",
+    "name": "Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon motorboat, side view, with a curved hull, a small windshield, and a propeller at the back."
+  },
+  {
+    "id": "submarine",
+    "name": "Submarine",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon submarine, side view, with a round porthole, a periscope on top, and a propeller at the tail."
+  },
+  {
+    "id": "motorcycle",
+    "name": "Motorcycle",
+    "category": "vehicles",
+    "prompt": "A cartoon motorcycle, side view, with two large spoke wheels, handlebars, and a rounded fuel tank."
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "category": "vehicles",
+    "prompt": "A cartoon bicycle, side view, with two round spoke wheels, handlebars, and a small seat on top."
+  },
+  {
+    "id": "scooter",
+    "name": "Scooter",
+    "category": "vehicles",
+    "prompt": "A cartoon kick scooter, side view, with two small wheels, a long deck, and tall handlebars."
+  },
+  {
+    "id": "tractor",
+    "name": "Tractor",
+    "category": "vehicles",
+    "prompt": "A red cartoon farm tractor, side view, with one large back wheel, one small front wheel, and an open cab."
+  },
+  {
+    "id": "excavator",
+    "name": "Excavator",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon excavator, side view, with a visible cabin window, large tracked wheels, and a digging arm with a bucket."
+  },
+  {
+    "id": "bulldozer",
+    "name": "Bulldozer",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon bulldozer, side view, with a large flat blade at the front, a cab with a window, and wide tracks."
+  },
+  {
+    "id": "dump-truck",
+    "name": "Dump Truck",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon dump truck, side view, with a large tilting bed, a cab with a window, and big round wheels."
+  },
+  {
+    "id": "crane",
+    "name": "Crane",
+    "category": "vehicles",
+    "prompt": "A cartoon tower crane, side view, with a tall vertical mast, a long horizontal jib, and a hanging hook."
+  },
+  {
+    "id": "cement-mixer",
+    "name": "Cement Mixer",
+    "category": "vehicles",
+    "prompt": "A cartoon cement mixer truck, side view, with a spinning drum on the back, a cab, and large round wheels."
+  },
+  {
+    "id": "forklift",
+    "name": "Forklift",
+    "category": "vehicles",
+    "prompt": "A cartoon forklift, side view, with two long forks at the front, a compact cab, and four small wheels."
+  },
+  {
+    "id": "steamroller",
+    "name": "Steamroller",
+    "category": "vehicles",
+    "prompt": "A cartoon steamroller, side view, with a huge smooth front roller, a cab with a canopy, and a small back wheel."
+  },
+  {
+    "id": "snow-plow",
+    "name": "Snow Plow",
+    "category": "vehicles",
+    "prompt": "A cartoon snow plow truck, side view, with a large angled blade at the front and a cab with a window."
+  },
+  {
+    "id": "road-roller",
+    "name": "Road Roller",
+    "category": "vehicles",
+    "prompt": "A cartoon road roller, side view, with two large smooth cylinders, a cab with a canopy, and a small steering wheel."
+  },
+  {
+    "id": "backhoe-loader",
+    "name": "Backhoe Loader",
+    "category": "vehicles",
+    "prompt": "A cartoon backhoe loader, side view, with a front bucket scoop and a rear digging arm, plus four wheels."
+  },
+  {
+    "id": "skid-steer",
+    "name": "Skid Steer",
+    "category": "vehicles",
+    "prompt": "A cartoon skid steer, side view, with a small bucket at the front, a compact enclosed cab, and four wheels."
+  },
+  {
+    "id": "telehandler",
+    "name": "Telehandler",
+    "category": "vehicles",
+    "prompt": "A cartoon telehandler, side view, with a long telescoping boom arm, a fork attachment, and four large wheels."
+  },
+  {
+    "id": "asphalt-paver",
+    "name": "Asphalt Paver",
+    "category": "vehicles",
+    "prompt": "A cartoon asphalt paver, side view, with a wide flat screed at the back, a hopper at the front, and tracks."
+  },
+  {
+    "id": "monster-truck",
+    "name": "Monster Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon monster truck, side view, with four enormous knobby tyres, a raised body, and a big exhaust pipe."
+  },
+  {
+    "id": "race-car",
+    "name": "Race Car",
+    "category": "vehicles",
+    "prompt": "A cartoon race car, side view, with a low body, a rear wing spoiler, a number on the door, and slick tyres."
+  },
+  {
+    "id": "hot-rod",
+    "name": "Hot Rod",
+    "category": "vehicles",
+    "prompt": "A cartoon hot rod, side view, with a raised engine sticking through the hood, flames on the side, and chrome wheels."
+  },
+  {
+    "id": "jeep",
+    "name": "Jeep",
+    "category": "vehicles",
+    "prompt": "A cartoon jeep, side view, with a round spare tyre on the back, an open top, and large chunky wheels."
+  },
+  {
+    "id": "rv",
+    "name": "RV",
+    "category": "vehicles",
+    "prompt": "A cartoon RV camper van, side view, with a large boxy body, two small square windows, and round wheels."
+  },
+  {
+    "id": "food-truck",
+    "name": "Food Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon food truck, side view, with a serving window cut in the side, a sign on the roof, and round wheels."
+  },
+  {
+    "id": "mail-truck",
+    "name": "Mail Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon mail truck, side view, with a flat boxy body, an envelope painted on the side, and round wheels."
+  },
+  {
+    "id": "tow-truck",
+    "name": "Tow Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon tow truck, side view, with a crane arm and hook at the back, a cab, and large round wheels."
+  },
+  {
+    "id": "fuel-tanker",
+    "name": "Fuel Tanker",
+    "category": "vehicles",
+    "prompt": "A cartoon fuel tanker truck, side view, with a long cylindrical tank on the back, a cab, and many wheels."
+  },
+  {
+    "id": "semi-truck",
+    "name": "Semi Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon semi truck, side view, with a tall cab, a long trailer behind, chrome exhaust stacks, and many wheels."
+  },
+  {
+    "id": "golf-cart",
+    "name": "Golf Cart",
+    "category": "vehicles",
+    "prompt": "A cartoon golf cart, side view, with a canopy roof, a small steering wheel, two seats, and four small wheels."
+  },
+  {
+    "id": "formula-car",
+    "name": "Formula Car",
+    "category": "vehicles",
+    "prompt": "A cartoon Formula 1 car, side view, with an open cockpit, a large rear wing, exposed wheels, and a pointed nose."
+  },
+  {
+    "id": "mining-truck",
+    "name": "Mining Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon giant mining truck, side view, with an enormous dump bed, a tiny cab on top, and huge round tyres."
+  },
+  {
+    "id": "harvester",
+    "name": "Harvester",
+    "category": "vehicles",
+    "prompt": "A cartoon grain harvester, side view, with a wide cutting header at the front, a tall grain tank, and big wheels."
+  },
+  {
+    "id": "combine",
+    "name": "Combine",
+    "category": "vehicles",
+    "prompt": "A cartoon combine harvester, side view, with a rotating reel at the front, a large cab, and giant rear wheels."
+  },
+  {
+    "id": "plough",
+    "name": "Plough",
+    "category": "vehicles",
+    "prompt": "A cartoon plough attached to a tractor, side view, with several curved blades turning soil and two wheels."
+  },
+  {
+    "id": "log-truck",
+    "name": "Log Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon log truck, side view, with a stack of round logs on the trailer, metal stakes holding them, and big wheels."
+  },
+  {
+    "id": "container-ship",
+    "name": "Container Ship",
+    "category": "vehicles",
+    "prompt": "A cartoon container ship, side view, with colorful stacked shipping containers on deck and a small bridge tower."
+  },
+  {
+    "id": "fishing-boat",
+    "name": "Fishing Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon fishing boat, side view, with a small cabin, a tall mast, fishing nets hanging over the side, and a hull."
+  },
+  {
+    "id": "ferry",
+    "name": "Ferry",
+    "category": "vehicles",
+    "prompt": "A cartoon car ferry, side view, with a wide flat deck, a small cabin on top, cars inside, and a smokestack."
+  },
+  {
+    "id": "jet-ski",
+    "name": "Jet Ski",
+    "category": "vehicles",
+    "prompt": "A cartoon jet ski, side view, with a sleek narrow body, handlebars, and a water jet at the back."
+  },
+  {
+    "id": "hovercraft",
+    "name": "Hovercraft",
+    "category": "vehicles",
+    "prompt": "A cartoon hovercraft, side view, with a large rubber skirt around the base, a propeller at the back, and a flat deck."
+  },
+  {
+    "id": "sailboat",
+    "name": "Sailboat",
+    "category": "vehicles",
+    "prompt": "A cartoon sailboat, side view, with a curved hull, a tall mast, and a large triangular sail."
+  },
+  {
+    "id": "hot-air-balloon",
+    "name": "Hot Air Balloon",
+    "category": "vehicles",
+    "prompt": "A cartoon hot air balloon, with a large colorful striped balloon envelope and a small wicker basket hanging below."
+  },
+  {
+    "id": "blimp",
+    "name": "Blimp",
+    "category": "vehicles",
+    "prompt": "A cartoon blimp, side view, with a large oval gas envelope, a small gondola underneath, and tail fins at the back."
+  },
+  {
+    "id": "spaceship",
+    "name": "Spaceship",
+    "category": "vehicles",
+    "prompt": "A cartoon spaceship, side view, with a round porthole, swept-back fins, and a glowing engine at the rear."
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket",
+    "category": "vehicles",
+    "prompt": "A cartoon rocket ship, side view, with a pointed nose cone, four fins at the base, and flames shooting out below."
+  },
+  {
+    "id": "drone",
+    "name": "Drone",
+    "category": "vehicles",
+    "prompt": "A cartoon quadcopter drone, top-angle view, with four arms, a spinning propeller on each arm, and a camera below."
+  },
+  {
+    "id": "segway",
+    "name": "Segway",
+    "category": "vehicles",
+    "prompt": "A cartoon segway, side view, with two large parallel wheels, a tall upright post, and T-shaped handlebars."
+  },
+  {
+    "id": "skateboard",
+    "name": "Skateboard",
+    "category": "vehicles",
+    "prompt": "A cartoon skateboard, side view, with a long flat deck, two trucks underneath, and four small wheels."
+  },
+  {
+    "id": "monorail",
+    "name": "Monorail",
+    "category": "vehicles",
+    "prompt": "A cartoon monorail train, side view, with a sleek smooth body, large windows, and a single rail underneath."
+  },
+  {
+    "id": "cable-car",
+    "name": "Cable Car",
+    "category": "vehicles",
+    "prompt": "A cartoon cable car, side view, with a boxy cabin, large windows, and a cable attached to the roof."
+  },
+  {
+    "id": "gondola",
+    "name": "Gondola",
+    "category": "vehicles",
+    "prompt": "A cartoon gondola boat, side view, with a long narrow black hull, a curved prow, and a gondolier's pole."
+  },
+  {
+    "id": "tram",
+    "name": "Tram",
+    "category": "vehicles",
+    "prompt": "A cartoon city tram, side view, with a boxy body, several windows, a pantograph on the roof, and rail wheels."
+  },
+  {
+    "id": "minivan",
+    "name": "Minivan",
+    "category": "vehicles",
+    "prompt": "A cartoon minivan, side view, with a tall boxy body, a sliding side door, two rows of windows, and round wheels."
+  },
+  {
+    "id": "sports-car",
+    "name": "Sports Car",
+    "category": "vehicles",
+    "prompt": "A cartoon sports car, side view, with a low sleek body, a large air vent on the hood, and wide tyres."
+  },
+  {
+    "id": "pickup-truck",
+    "name": "Pickup Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon pickup truck, side view, with a cab, an open flat truck bed at the back, and large round wheels."
+  },
+  {
+    "id": "station-wagon",
+    "name": "Station Wagon",
+    "category": "vehicles",
+    "prompt": "A cartoon station wagon, side view, with an elongated roof, a large rear window, and round wheels."
+  },
+  {
+    "id": "limousine",
+    "name": "Limousine",
+    "category": "vehicles",
+    "prompt": "A cartoon limousine, side view, with an extra-long body, several windows, a sunroof, and six round wheels."
+  },
+  {
+    "id": "convertible",
+    "name": "Convertible",
+    "category": "vehicles",
+    "prompt": "A cartoon convertible car, side view, with the roof folded down, a windshield, and two large round wheels."
+  },
+  {
+    "id": "snowmobile",
+    "name": "Snowmobile",
+    "category": "vehicles",
+    "prompt": "A cartoon snowmobile, side view, with a long track underneath, two front skis, and a rounded body with handlebars."
+  },
+  {
+    "id": "atv",
+    "name": "ATV",
+    "category": "vehicles",
+    "prompt": "A cartoon all-terrain vehicle, side view, with four fat knobby tyres, handlebars, and a short boxy body."
+  },
+  {
+    "id": "go-kart",
+    "name": "Go-Kart",
+    "category": "vehicles",
+    "prompt": "A cartoon go-kart, side view, with a low open frame, a small steering wheel, a seat, and four small tyres."
+  },
+  {
+    "id": "dirt-bike",
+    "name": "Dirt Bike",
+    "category": "vehicles",
+    "prompt": "A cartoon dirt bike, side view, with tall knobby tyres, a high exhaust pipe, and a slim lightweight frame."
+  },
+  {
+    "id": "electric-scooter",
+    "name": "Electric Scooter",
+    "category": "vehicles",
+    "prompt": "A cartoon electric scooter, side view, with two small wheels, a flat deck, handlebars, and a battery pack."
+  },
+  {
+    "id": "unicycle",
+    "name": "Unicycle",
+    "category": "vehicles",
+    "prompt": "A cartoon unicycle, side view, with one large wheel, a seat on a post, and two pedals on the sides."
+  },
+  {
+    "id": "tricycle",
+    "name": "Tricycle",
+    "category": "vehicles",
+    "prompt": "A cartoon tricycle, side view, with one large front wheel, two small back wheels, handlebars, and a seat."
+  },
+  {
+    "id": "fire-boat",
+    "name": "Fire Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon fire boat, side view, with a red hull, a water cannon on the deck, and a small cabin with a siren."
+  },
+  {
+    "id": "speedboat",
+    "name": "Speedboat",
+    "category": "vehicles",
+    "prompt": "A cartoon speedboat, side view, with a pointed nose, a sleek low hull, a windshield, and a large outboard motor."
+  },
+  {
+    "id": "yacht",
+    "name": "Yacht",
+    "category": "vehicles",
+    "prompt": "A cartoon yacht, side view, with a white hull, a tall mast, a sail, and a small upper deck with a railing."
+  },
+  {
+    "id": "cruise-ship",
+    "name": "Cruise Ship",
+    "category": "vehicles",
+    "prompt": "A cartoon cruise ship, side view, with a large white hull, many portholes, a smokestack, and several decks."
+  },
+  {
+    "id": "kayak",
+    "name": "Kayak",
+    "category": "vehicles",
+    "prompt": "A cartoon kayak, side view, with a long narrow hull, a cockpit opening, and a double-bladed paddle."
+  },
+  {
+    "id": "canoe",
+    "name": "Canoe",
+    "category": "vehicles",
+    "prompt": "A cartoon canoe, side view, with a narrow wooden hull, two pointed ends, and a single-bladed paddle."
+  },
+  {
+    "id": "paddleboat",
+    "name": "Paddle Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon paddle boat, side view, with a wide flat hull, two paddle wheels on the sides, and seats on top."
+  },
+  {
+    "id": "glider",
+    "name": "Glider",
+    "category": "vehicles",
+    "prompt": "A cartoon glider plane, side view, with very long slender wings, a streamlined body, and a small cockpit bubble."
+  },
+  {
+    "id": "biplane",
+    "name": "Biplane",
+    "category": "vehicles",
+    "prompt": "A cartoon biplane, side view, with two stacked wings, a round engine with a propeller, and a tail with rudder."
+  },
+  {
+    "id": "jumbo-jet",
+    "name": "Jumbo Jet",
+    "category": "vehicles",
+    "prompt": "A cartoon jumbo jet, side view, with a very wide body, four engines under the wings, and a row of windows."
+  },
+  {
+    "id": "fighter-jet",
+    "name": "Fighter Jet",
+    "category": "vehicles",
+    "prompt": "A cartoon fighter jet, side view, with a pointed nose, swept-back wings, a cockpit bubble, and a single jet engine."
+  },
+  {
+    "id": "seaplane",
+    "name": "Seaplane",
+    "category": "vehicles",
+    "prompt": "A cartoon seaplane, side view, with a propeller at the front, large float pontoons under the wings, and a cockpit."
+  },
+  {
+    "id": "airship",
+    "name": "Airship",
+    "category": "vehicles",
+    "prompt": "A cartoon airship, side view, with a long oval gas envelope, a gondola below with windows, and tail fins."
+  },
+  {
+    "id": "ufo",
+    "name": "UFO",
+    "category": "vehicles",
+    "prompt": "A cartoon UFO, side view, with a round disc body, a dome cockpit on top, glowing lights around the rim."
+  },
+  {
+    "id": "lunar-rover",
+    "name": "Lunar Rover",
+    "category": "vehicles",
+    "prompt": "A cartoon lunar rover, side view, with a boxy frame, four wire-mesh wheels, an antenna dish, and a camera."
+  },
+  {
+    "id": "mars-rover",
+    "name": "Mars Rover",
+    "category": "vehicles",
+    "prompt": "A cartoon Mars rover, side view, with six large wheels, a camera mast, a solar panel on top, and a robotic arm."
+  },
+  {
+    "id": "tank",
+    "name": "Tank",
+    "category": "vehicles",
+    "prompt": "A cartoon army tank, side view, with a long gun barrel, a round turret on top, and wide metal tracks."
+  },
+  {
+    "id": "milk-truck",
+    "name": "Milk Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon milk truck, side view, with a white cylindrical tank on the back, a cab, and a cow picture on the side."
+  },
+  {
+    "id": "delivery-van",
+    "name": "Delivery Van",
+    "category": "vehicles",
+    "prompt": "A cartoon delivery van, side view, with a large boxy back, a sliding door, a package logo on the side, and wheels."
+  },
+  {
+    "id": "double-decker-bus",
+    "name": "Double Decker Bus",
+    "category": "vehicles",
+    "prompt": "A cartoon double decker bus, side view, with a red body, windows on two levels, and a staircase visible inside."
+  },
+  {
+    "id": "trolley-bus",
+    "name": "Trolley Bus",
+    "category": "vehicles",
+    "prompt": "A cartoon trolley bus, side view, with two poles on the roof connecting to overhead wires, windows, and round wheels."
+  },
+  {
+    "id": "bread-truck",
+    "name": "Bread Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon bread delivery truck, side view, with a tall boxy body, a bread loaf painted on the side, and round wheels."
+  },
+  {
+    "id": "cat",
+    "name": "Cat",
+    "category": "animals",
+    "prompt": "A fluffy cartoon cat, side view, sitting upright with pointed ears, whiskers, and a curled tail."
+  },
+  {
+    "id": "dog",
+    "name": "Dog",
+    "category": "animals",
+    "prompt": "A happy cartoon dog, side view, with floppy ears, a wagging tail, a big nose, and four paws."
+  },
+  {
+    "id": "lion",
+    "name": "Lion",
+    "category": "animals",
+    "prompt": "A cartoon lion, side view, standing proud with a large fluffy mane, a long tail with a tuft, and big paws."
+  },
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "category": "animals",
+    "prompt": "A cartoon tiger, side view, with bold orange and black stripes, a long tail, and sharp visible claws."
+  },
+  {
+    "id": "elephant",
+    "name": "Elephant",
+    "category": "animals",
+    "prompt": "A cartoon elephant, side view, with a long trunk curled up, big round ears, and four pillar-like legs."
+  },
+  {
+    "id": "giraffe",
+    "name": "Giraffe",
+    "category": "animals",
+    "prompt": "A cartoon giraffe, side view, with a very long spotted neck, two short horns, and four long legs."
+  },
+  {
+    "id": "monkey",
+    "name": "Monkey",
+    "category": "animals",
+    "prompt": "A cartoon monkey, side view, hanging from a branch with a long curled tail and a round face with big eyes."
+  },
+  {
+    "id": "bear",
+    "name": "Bear",
+    "category": "animals",
+    "prompt": "A cartoon bear, side view, standing on four legs with round ears, a big snout, and a fluffy round body."
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "category": "animals",
+    "prompt": "A cartoon wolf, side view, with pointed ears, a bushy tail, grey fur, and sharp teeth in a howling pose."
+  },
+  {
+    "id": "fox",
+    "name": "Fox",
+    "category": "animals",
+    "prompt": "A cartoon fox, side view, with large pointed ears, a bushy white-tipped tail, and orange fur."
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "category": "animals",
+    "prompt": "A cartoon rabbit, side view, with very long ears, a small fluffy tail, and big round eyes."
+  },
+  {
+    "id": "deer",
+    "name": "Deer",
+    "category": "animals",
+    "prompt": "A cartoon deer, side view, with branching antlers, a spotted brown coat, a small white tail, and long legs."
+  },
+  {
+    "id": "horse",
+    "name": "Horse",
+    "category": "animals",
+    "prompt": "A cartoon horse, side view, standing tall with a flowing mane, a long tail, and four hooved legs."
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "category": "animals",
+    "prompt": "A cartoon cow, side view, with black and white patches, a pink udder, a bell around the neck, and four legs."
+  },
+  {
+    "id": "pig",
+    "name": "Pig",
+    "category": "animals",
+    "prompt": "A cartoon pig, side view, with a round pink body, a curly tail, a flat snout, and four short legs."
+  },
+  {
+    "id": "sheep",
+    "name": "Sheep",
+    "category": "animals",
+    "prompt": "A cartoon sheep, side view, with a fluffy woolly body, small black legs, and floppy ears."
+  },
+  {
+    "id": "goat",
+    "name": "Goat",
+    "category": "animals",
+    "prompt": "A cartoon goat, side view, with a small beard, curved horns, a short tail held up, and four hooved legs."
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "category": "animals",
+    "prompt": "A cartoon chicken, side view, with a red comb on its head, a beak, two wings, a round body, and two feet."
+  },
+  {
+    "id": "duck",
+    "name": "Duck",
+    "category": "animals",
+    "prompt": "A cartoon duck, side view, with a yellow beak, an orange bill, a rounded body, and two webbed feet."
+  },
+  {
+    "id": "owl",
+    "name": "Owl",
+    "category": "animals",
+    "prompt": "A cartoon owl, front view, perched on a branch with large round eyes, feathered ear tufts, and spread wings."
+  },
+  {
+    "id": "eagle",
+    "name": "Eagle",
+    "category": "animals",
+    "prompt": "A cartoon eagle, side view, with a hooked beak, a white head, spread wings, and sharp talons."
+  },
+  {
+    "id": "parrot",
+    "name": "Parrot",
+    "category": "animals",
+    "prompt": "A cartoon parrot, side view, perched on a branch with colorful feathers, a curved beak, and a long tail."
+  },
+  {
+    "id": "penguin",
+    "name": "Penguin",
+    "category": "animals",
+    "prompt": "A cartoon penguin, front view, with a black back, white belly, orange beak, and small flipper wings."
+  },
+  {
+    "id": "fish",
+    "name": "Fish",
+    "category": "animals",
+    "prompt": "A cartoon fish, side view, with colorful scales, a round eye, a fan tail, and two small side fins."
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "category": "animals",
+    "prompt": "A cartoon dolphin, side view, leaping with a curved body, a dorsal fin, a smiling beak, and a forked tail."
+  },
+  {
+    "id": "whale",
+    "name": "Whale",
+    "category": "animals",
+    "prompt": "A cartoon blue whale, side view, with a massive round body, a small eye, a water spout on top, and a wide tail."
+  },
+  {
+    "id": "shark",
+    "name": "Shark",
+    "category": "animals",
+    "prompt": "A cartoon shark, side view, with a pointed snout, a tall dorsal fin, visible teeth, and a crescent tail."
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle",
+    "category": "animals",
+    "prompt": "A cartoon sea turtle, side view, with a patterned dome shell, four flippers, and a smiling face."
+  },
+  {
+    "id": "crab",
+    "name": "Crab",
+    "category": "animals",
+    "prompt": "A cartoon crab, front view, with a wide red shell, two large claws, and eight small legs."
+  },
+  {
+    "id": "octopus",
+    "name": "Octopus",
+    "category": "animals",
+    "prompt": "A cartoon octopus, front view, with a round bulging head, big eyes, and eight curling tentacles with suckers."
+  },
+  {
+    "id": "frog",
+    "name": "Frog",
+    "category": "animals",
+    "prompt": "A cartoon frog, front view, sitting with large round eyes on top of its head, a wide smile, and webbed feet."
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "category": "animals",
+    "prompt": "A cartoon snake, side view, coiled in an S-shape with a forked tongue, patterned scales, and a round eye."
+  },
+  {
+    "id": "butterfly",
+    "name": "Butterfly",
+    "category": "animals",
+    "prompt": "A cartoon butterfly, front view, with two large colorful wings decorated with spots and swirls, and a thin body."
+  },
+  {
+    "id": "bee",
+    "name": "Bee",
+    "category": "animals",
+    "prompt": "A cartoon bee, side view, with a yellow and black striped body, two transparent wings, antennae, and a stinger."
+  },
+  {
+    "id": "ladybug",
+    "name": "Ladybug",
+    "category": "animals",
+    "prompt": "A cartoon ladybug, top view, with a round red body covered in black spots, a black head, and six small legs."
+  },
+  {
+    "id": "spider",
+    "name": "Spider",
+    "category": "animals",
+    "prompt": "A cartoon spider, front view, with a round body, eight long legs, two eyes, and a web thread hanging below."
+  },
+  {
+    "id": "kangaroo",
+    "name": "Kangaroo",
+    "category": "animals",
+    "prompt": "A cartoon kangaroo, side view, with large back legs, a long thick tail, small front arms, and a joey in its pouch."
+  },
+  {
+    "id": "koala",
+    "name": "Koala",
+    "category": "animals",
+    "prompt": "A cartoon koala, side view, hugging a eucalyptus branch with large fluffy ears, a big nose, and grey fur."
+  },
+  {
+    "id": "panda",
+    "name": "Panda",
+    "category": "animals",
+    "prompt": "A cartoon giant panda, front view, sitting and holding bamboo with black eye patches, round ears, and a white body."
+  },
+  {
+    "id": "hippo",
+    "name": "Hippo",
+    "category": "animals",
+    "prompt": "A cartoon hippo, side view, with a huge round body, a wide mouth, small ears, and four stubby legs."
+  },
+  {
+    "id": "rhino",
+    "name": "Rhino",
+    "category": "animals",
+    "prompt": "A cartoon rhino, side view, with a large horn on its snout, thick grey skin folds, and four stocky legs."
+  },
+  {
+    "id": "zebra",
+    "name": "Zebra",
+    "category": "animals",
+    "prompt": "A cartoon zebra, side view, with bold black and white stripes, a short mane, and four hooved legs."
+  },
+  {
+    "id": "camel",
+    "name": "Camel",
+    "category": "animals",
+    "prompt": "A cartoon camel, side view, with two humps, a long neck, a small head, and four long legs."
+  },
+  {
+    "id": "peacock",
+    "name": "Peacock",
+    "category": "animals",
+    "prompt": "A cartoon peacock, side view, with a blue body, a crested head, and a large fan tail spread with eye spots."
+  },
+  {
+    "id": "swan",
+    "name": "Swan",
+    "category": "animals",
+    "prompt": "A cartoon swan, side view, floating on water with a gracefully curved long neck, white feathers, and an orange beak."
+  },
+  {
+    "id": "hedgehog",
+    "name": "Hedgehog",
+    "category": "animals",
+    "prompt": "A cartoon hedgehog, side view, with a round spiky back, a pointed snout, small legs, and a tiny nose."
+  },
+  {
+    "id": "squirrel",
+    "name": "Squirrel",
+    "category": "animals",
+    "prompt": "A cartoon squirrel, side view, sitting up with a large bushy tail curled over its back and holding an acorn."
+  },
+  {
+    "id": "raccoon",
+    "name": "Raccoon",
+    "category": "animals",
+    "prompt": "A cartoon raccoon, side view, with a black mask around its eyes, a striped ringed tail, and small paws."
+  },
+  {
+    "id": "bat",
+    "name": "Bat",
+    "category": "animals",
+    "prompt": "A cartoon bat, front view, hanging upside down with large leathery wings spread, pointed ears, and beady eyes."
+  },
+  {
+    "id": "jellyfish",
+    "name": "Jellyfish",
+    "category": "animals",
+    "prompt": "A cartoon jellyfish, front view, with a translucent dome bell and long trailing tentacles hanging below."
+  },
+  {
+    "id": "t-rex",
+    "name": "T-Rex",
+    "category": "dinosaurs",
+    "prompt": "A friendly green cartoon T-Rex, side view, standing on two legs with a big head, visible teeth, and tiny arms."
+  },
+  {
+    "id": "triceratops",
+    "name": "Triceratops",
+    "category": "dinosaurs",
+    "prompt": "A cartoon triceratops, side view, with three sharp horns on its face, a wide bony frill, and four sturdy legs."
+  },
+  {
+    "id": "brontosaurus",
+    "name": "Brontosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon brontosaurus, side view, with an extremely long neck, a tiny head, a plump body, and four thick legs."
+  },
+  {
+    "id": "stegosaurus",
+    "name": "Stegosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon stegosaurus, side view, with a row of diamond-shaped plates along its back and spikes on its tail."
+  },
+  {
+    "id": "velociraptor",
+    "name": "Velociraptor",
+    "category": "dinosaurs",
+    "prompt": "A cartoon velociraptor, side view, running with a curved claw raised, feathered arms, and a long stiff tail."
+  },
+  {
+    "id": "pterodactyl",
+    "name": "Pterodactyl",
+    "category": "dinosaurs",
+    "prompt": "A cartoon pterodactyl, side view, flying with large leathery wings, a long beak crest, and a trailing tail."
+  },
+  {
+    "id": "brachiosaurus",
+    "name": "Brachiosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon brachiosaurus, side view, with a very long neck reaching up, a small head, long front legs, and a round body."
+  },
+  {
+    "id": "ankylosaurus",
+    "name": "Ankylosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon ankylosaurus, side view, with an armored bony shell on its back, short legs, and a club tail."
+  },
+  {
+    "id": "parasaurolophus",
+    "name": "Parasaurolophus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon parasaurolophus, side view, with a long curved head crest, a duck bill, and two hind legs."
+  },
+  {
+    "id": "spinosaurus",
+    "name": "Spinosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon spinosaurus, side view, with a large sail fin along its back, a long crocodile snout, and clawed arms."
+  },
+  {
+    "id": "diplodocus",
+    "name": "Diplodocus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon diplodocus, side view, with an extremely long thin tail, a long neck, small head, and four legs."
+  },
+  {
+    "id": "allosaurus",
+    "name": "Allosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon allosaurus, side view, with a large head and ridged brow horns, sharp teeth, strong arms, and two legs."
+  },
+  {
+    "id": "iguanodon",
+    "name": "Iguanodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon iguanodon, side view, with a thumb spike, a broad flat snout, a stocky body, and a long tail."
+  },
+  {
+    "id": "dimetrodon",
+    "name": "Dimetrodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon dimetrodon, side view, with a large sail fin on its back, a lizard-like body, and four sprawled legs."
+  },
+  {
+    "id": "plesiosaurus",
+    "name": "Plesiosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon plesiosaurus, side view, swimming with a long elegant neck, a round body, and four wide flippers."
+  },
+  {
+    "id": "mosasaurus",
+    "name": "Mosasaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon mosasaurus, side view, swimming with a long body, massive jaws, four flipper limbs, and a forked tail."
+  },
+  {
+    "id": "archaeopteryx",
+    "name": "Archaeopteryx",
+    "category": "dinosaurs",
+    "prompt": "A cartoon archaeopteryx, side view, with feathered wings spread, clawed wingtips, a beaked mouth with teeth."
+  },
+  {
+    "id": "gallimimus",
+    "name": "Gallimimus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon gallimimus, side view, running fast with long legs, a toothless beak, small arms, and a long tail."
+  },
+  {
+    "id": "oviraptor",
+    "name": "Oviraptor",
+    "category": "dinosaurs",
+    "prompt": "A cartoon oviraptor, side view, crouching over a nest with a crested skull, a toothless beak, and feathered arms."
+  },
+  {
+    "id": "dilophosaurus",
+    "name": "Dilophosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon dilophosaurus, side view, with two parallel crests on its head, long arms with claws, and two strong legs."
+  },
+  {
+    "id": "carnotaurus",
+    "name": "Carnotaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon carnotaurus, side view, with two bull-like horns above its eyes, a muscular body, and very tiny arms."
+  },
+  {
+    "id": "baryonyx",
+    "name": "Baryonyx",
+    "category": "dinosaurs",
+    "prompt": "A cartoon baryonyx, side view, with a long crocodile snout, a large thumb claw, and four legs near a river."
+  },
+  {
+    "id": "kentrosaurus",
+    "name": "Kentrosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon kentrosaurus, side view, with narrow plates along its neck and sharp spikes along its back and tail."
+  },
+  {
+    "id": "pachycephalosaurus",
+    "name": "Pachycephalosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon pachycephalosaurus, side view, with a very thick domed skull, a row of small spikes, and two legs."
+  },
+  {
+    "id": "compsognathus",
+    "name": "Compsognathus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon compsognathus, side view, a tiny dinosaur running with a slim body, small clawed arms, and long legs."
+  },
+  {
+    "id": "microraptor",
+    "name": "Microraptor",
+    "category": "dinosaurs",
+    "prompt": "A cartoon microraptor, side view, gliding with four feathered limbs spread like wings and a long feathered tail."
+  },
+  {
+    "id": "therizinosaurus",
+    "name": "Therizinosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon therizinosaurus, side view, with three enormous curved claws on each hand, a long neck, and a round body."
+  },
+  {
+    "id": "gigantosaurus",
+    "name": "Gigantosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon gigantosaurus, side view, with a massive body, a huge head with teeth, short arms, and two powerful legs."
+  },
+  {
+    "id": "troodon",
+    "name": "Troodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon troodon, side view, with large intelligent eyes, a slim body, feathered arms, and a sickle claw on one toe."
+  },
+  {
+    "id": "megalodon",
+    "name": "Megalodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon megalodon, side view, an enormous shark with a wide jaw full of triangular teeth, a huge dorsal fin."
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "food",
+    "prompt": "A cartoon red apple, front view, with a shiny highlight spot, a brown stem on top, and a single green leaf."
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "category": "food",
+    "prompt": "A cartoon yellow banana, side view, with a curved shape, a brown tip at each end, and a peeled section."
+  },
+  {
+    "id": "ice-cream-cone",
+    "name": "Ice Cream Cone",
+    "category": "food",
+    "prompt": "A cartoon ice cream cone with a waffle cone at the bottom and a swirled scoop of pink ice cream on top."
+  },
+  {
+    "id": "pizza-slice",
+    "name": "Pizza Slice",
+    "category": "food",
+    "prompt": "A cartoon pizza slice with a golden crust, red sauce, round pepperoni pieces, and a stretchy cheese pull."
+  },
+  {
+    "id": "cupcake",
+    "name": "Cupcake",
+    "category": "food",
+    "prompt": "A cartoon cupcake with a paper case, a swirl of pink frosting on top, and a single sprinkle decoration."
+  },
+  {
+    "id": "donut",
+    "name": "Donut",
+    "category": "food",
+    "prompt": "A cartoon donut, front view, with a round ring shape, pink glaze on top, and colorful sprinkles."
+  },
+  {
+    "id": "watermelon-slice",
+    "name": "Watermelon Slice",
+    "category": "food",
+    "prompt": "A cartoon watermelon slice, front view, with a red interior, black seeds, and a green and white striped rind."
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "category": "food",
+    "prompt": "A cartoon hot dog in a bun, side view, with a brown sausage, a zigzag of yellow mustard, and a soft bun."
+  },
+  {
+    "id": "hamburger",
+    "name": "Hamburger",
+    "category": "food",
+    "prompt": "A cartoon hamburger, side view, with a sesame seed bun, a beef patty, lettuce, tomato, and cheese."
+  },
+  {
+    "id": "pancakes",
+    "name": "Pancakes",
+    "category": "food",
+    "prompt": "A cartoon stack of three pancakes with butter melting on top and golden syrup dripping down the sides."
+  },
+  {
+    "id": "sun",
+    "name": "Sun",
+    "category": "other",
+    "prompt": "A cartoon smiling sun with a round face, triangular rays pointing outward all around, and two eyes."
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "category": "other",
+    "prompt": "A cartoon crescent moon, with a smiling face, a sleepy eye, and several small stars around it."
+  },
+  {
+    "id": "star",
+    "name": "Star",
+    "category": "other",
+    "prompt": "A cartoon five-pointed star with a happy smiling face, a shiny highlight, and small sparkles around it."
+  },
+  {
+    "id": "robot",
+    "name": "Robot",
+    "category": "other",
+    "prompt": "A friendly cartoon robot, front view, with a boxy head, antenna on top, round eyes with lights, and claw hands."
+  },
+  {
+    "id": "castle",
+    "name": "Castle",
+    "category": "other",
+    "prompt": "A cartoon fantasy castle, front view, with two tall towers, crenellated battlements, a drawbridge, and a flag."
+  },
+  {
+    "id": "house",
+    "name": "House",
+    "category": "other",
+    "prompt": "A cartoon house, front view, with a triangular roof, a chimney with smoke, a front door, and two square windows."
+  },
+  {
+    "id": "balloon",
+    "name": "Balloon",
+    "category": "other",
+    "prompt": "A cartoon round balloon, with a happy smiley face, a tied knot at the bottom, and a curling string."
+  },
+  {
+    "id": "flower",
+    "name": "Flower",
+    "category": "other",
+    "prompt": "A cartoon sunflower with a large round yellow centre, petals spread all around, and a green stem with two leaves."
+  },
+  {
+    "id": "tree",
+    "name": "Tree",
+    "category": "other",
+    "prompt": "A cartoon oak tree, front view, with a wide round fluffy green canopy, a brown trunk, and roots at the base."
+  },
+  {
+    "id": "rainbow",
+    "name": "Rainbow",
+    "category": "other",
+    "prompt": "A cartoon rainbow with six colorful arching bands, a fluffy white cloud at each end, and sparkles in the sky."
+  }
+]
