@@ -86,3 +86,12 @@
   min-height: var(--touch-min); box-shadow: var(--shadow-soft); cursor: pointer;
 }
 .menu-row .v { color: var(--c-fg-soft); font-size: var(--fs-body); font-weight: 400; }
+
+/* === Picker === */
+.screen-picker { display: grid; grid-template-rows: auto auto auto 1fr; height: 100%; gap: var(--s-3); padding-bottom: var(--s-4); }
+.screen-picker .level-row { display: flex; gap: var(--s-3); padding: 0 var(--s-5); }
+.screen-picker .category-row { display: flex; gap: var(--s-2); padding: 0 var(--s-5); overflow-x: auto; }
+.screen-picker .grid {
+  display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr;
+  gap: var(--s-4); padding: 0 var(--s-5) var(--s-5); overflow-y: auto;
+}
