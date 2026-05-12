@@ -1,0 +1,14 @@
+{
+  "name": "dotpaint",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bunx serve src -p 5173",
+    "test": "bun test",
+    "generate": "bun run scripts/generate-pictures.mjs"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.40.0"
+  }
+}

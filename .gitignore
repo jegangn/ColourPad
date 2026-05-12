@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+scripts/cache/
+src/assets/pictures/manifest.json
+src/assets/pictures/*.svg
+*.log
+.DS_Store
