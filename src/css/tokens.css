@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Comic+Neue:wght@400;700&display=swap');
+
+:root {
+  /* Brand palette (UI chrome) */
+  --c-bg:        #FFF7ED;
+  --c-surface:   #FFFFFF;
+  --c-primary:   #F97316;
+  --c-secondary: #FB923C;
+  --c-accent:    #2563EB;
+  --c-fg:        #9A3412;
+  --c-fg-soft:   #7A6A5D;
+  --c-border:    #FED7AA;
+  --c-muted:     #F1F0F0;
+  --c-danger:    #DC2626;
+  --c-success:   #22C55E;
+
+  /* Paint palette (the 8 colours kid uses) */
+  --paint-red:    #E63946;
+  --paint-orange: #F97316;
+  --paint-yellow: #FFD166;
+  --paint-green:  #06D6A0;
+  --paint-blue:   #118AB2;
+  --paint-purple: #7B2CBF;
+  --paint-brown:  #8B5E3C;
+  --paint-black:  #1F1F1F;
+
+  /* Typography */
+  --font-display: 'Baloo 2', system-ui, sans-serif;
+  --font-body:    'Comic Neue', system-ui, sans-serif;
+  --fs-title:  32px;
+  --fs-button: 24px;
+  --fs-body:   18px;
+  --fs-label:  14px;
+
+  /* Radii (claymorphic chunky) */
+  --r-sm: 12px; --r-md: 18px; --r-lg: 24px; --r-pill: 999px;
+
+  /* Spacing scale (8pt) */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px;
+  --s-5: 24px; --s-6: 32px; --s-7: 48px; --s-8: 64px;
+
+  /* Touch target minimum (5yo finger margin) */
+  --touch-min: 60px;
+
+  /* Claymorphic shadow (soft 3D) */
+  --shadow-soft:
+    0 6px 0 rgba(154, 52, 18, 0.18),
+    0 8px 18px rgba(154, 52, 18, 0.10),
+    inset 0 -3px 0 rgba(0,0,0,0.05),
+    inset 0 2px 0 rgba(255,255,255,0.55);
+  --shadow-press:
+    0 2px 0 rgba(154, 52, 18, 0.18),
+    0 3px 8px rgba(154, 52, 18, 0.10),
+    inset 0 -1px 0 rgba(0,0,0,0.05),
+    inset 0 1px 0 rgba(255,255,255,0.4);
+
+  /* Motion */
+  --t-press: 200ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-reduced-motion: reduce) { :root { --t-press: 0ms; } }
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0; height: 100%;
+  background: var(--c-bg); color: var(--c-fg);
+  font-family: var(--font-body); font-size: var(--fs-body);
+  overflow: hidden; user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+#app { display: flex; flex-direction: column; height: 100vh; min-height: 100dvh; }
