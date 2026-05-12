@@ -23,11 +23,12 @@ export class Storage {
   setSettings(patch) { this._write(this.k.settings, { ...this.getSettings(), ...patch }); }
 
   getGallery() {
-    return this._read(this.k.gallery, []).slice().sort((a, b) => b.savedAt - a.savedAt);
+    return this._read(this.k.gallery, []).slice().sort((a, b) => (b.savedAt - a.savedAt) || ((b.seq ?? 0) - (a.seq ?? 0)));
   }
   addToGallery({ id, dataUrl, mode }) {
     const list = this._read(this.k.gallery, []);
-    list.push({ id, dataUrl, mode, savedAt: Date.now() });
+    const seq = (list[list.length - 1]?.seq ?? 0) + 1;
+    list.push({ id, dataUrl, mode, savedAt: Date.now(), seq });
     this._write(this.k.gallery, list);
   }
   removeFromGallery(savedAt) {
