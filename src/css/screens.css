@@ -66,3 +66,23 @@
 }
 .lightbox img { max-width: 90vw; max-height: 80vh; box-shadow: 0 8px 30px rgba(0,0,0,0.4); border-radius: var(--r-md); }
 .lightbox .close { position: absolute; top: 20px; right: 20px; }
+
+/* === Parent === */
+.screen-parent { display: grid; grid-template-rows: auto 1fr; height: 100%; }
+.parent-pin {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 100%; gap: var(--s-5); padding: var(--s-5);
+}
+.parent-pin .label { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-button); color: var(--c-fg); }
+.pin-dots { display: flex; gap: var(--s-3); }
+.pin-dots .d { width: 18px; height: 18px; border-radius: 50%; background: var(--c-muted); border: 2px solid var(--c-border); }
+.pin-dots .d.on { background: var(--c-fg); }
+.keypad { display: grid; grid-template-columns: repeat(3, 80px); gap: var(--s-3); }
+.parent-menu { display: flex; flex-direction: column; gap: var(--s-3); padding: var(--s-5); overflow-y: auto; }
+.menu-row {
+  display: flex; align-items: center; justify-content: space-between;
+  background: var(--c-surface); border: 3px solid var(--c-border); border-radius: var(--r-md);
+  padding: var(--s-4); font-family: var(--font-display); font-weight: 700; font-size: var(--fs-button);
+  min-height: var(--touch-min); box-shadow: var(--shadow-soft); cursor: pointer;
+}
+.menu-row .v { color: var(--c-fg-soft); font-size: var(--fs-body); font-weight: 400; }
