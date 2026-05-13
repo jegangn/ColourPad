@@ -1,5 +1,5 @@
 // src/sw.js
-const CACHE = 'dotpaint-v2';
+const CACHE = 'dotpaint-v3';
 const PRECACHE = [
   './',
   './index.html',
@@ -14,12 +14,10 @@ const PRECACHE = [
   './js/lib/storage.js',
   './js/lib/audio.js',
   './js/lib/voice.js',
-  './js/lib/dots-engine.js',
   './js/lib/paint.js',
   './js/lib/photo-to-outline.js',
   './js/screens/home.js',
   './js/screens/picker.js',
-  './js/screens/dots.js',
   './js/screens/colour.js',
   './js/screens/gallery.js',
   './js/screens/parent.js',

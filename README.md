@@ -1,15 +1,16 @@
 # DotPaint
 
-Connect-the-dots and finger-painting PWA for a 5-year-old, built for Samsung Tab S8 landscape.
+Finger-painting colouring PWA for a 5-year-old, built for Samsung Tab S8 landscape.
 
 ## What's inside
 
-- **Two games** picked from a single home screen — Connect the Dots (drag a finger from dot 1 onward) and Colour (finger painting on top of an outline).
-- **200 built-in pictures**: 100 vehicles (incl. construction & machinery), 50 animals, 30 dinosaurs, 10 food, 10 misc. Each has a side-view cartoon SVG plus easy/medium/hard dot arrays (10/20/40 dots).
+- **One game**: pick a picture → colour it with your finger.
+- **200 built-in outlines**: 100 vehicles (incl. construction & machinery), 50 animals, 30 dinosaurs, 10 food, 10 misc. Each is a side-view cartoon SVG with a stroke-only outline ready to paint over.
 - **Add-your-own photos** (parent area) → auto-converted to colouring outlines via Sobel edge detection.
+- **8-colour palette + eraser, 3 brush sizes, undo, clear, save to gallery.**
 - **Fully offline PWA** after first install — service worker caches everything.
-- **Voice + sound effects**: soft chime per dot snap, brush whoosh while painting, picture name spoken on completion. Toggle in parent area.
-- **Save to gallery** on tap (never automatic). Long-press an item to delete.
+- **Voice + sound effects**: brush whoosh while painting, picture name spoken on completion. Toggle in parent area.
+- **Save to gallery** on tap (never automatic). Long-press a gallery item to delete.
 
 ## Dev
 
@@ -43,10 +44,12 @@ Once installed via the hosted URL, the service worker keeps a full offline copy.
 
 The 200 pictures live as committed SVGs in `src/assets/pictures/`. To add more:
 
-1. Append entries to `scripts/picture-list.json` (each: `{id, name, category, prompt}`).
-2. Generate new SVGs (manually or via `scripts/generate-pictures.mjs` with an Anthropic API key) into `src/assets/pictures/{id}.svg`.
-3. Append matching entries (with `dotsByLevel`) to `src/assets/pictures/manifest.json`.
-4. Bump the `CACHE` version string in `src/sw.js` so installed apps refresh.
+1. Drop a new outline SVG at `src/assets/pictures/{id}.svg`. The file should be a `viewBox="0 0 400 300"` SVG with two groups: `<g id="fill">` (filled shapes — used as the "answer" if you ever want to show it) and `<g id="outline">` (stroke-only — what the child paints over).
+2. Append a matching entry to `src/assets/pictures/manifest.json`:
+   ```json
+   { "id": "rocket", "name": "Rocket", "category": "vehicles", "svg": "rocket.svg" }
+   ```
+3. Bump the `CACHE` version string in `src/sw.js` so installed apps refresh.
 
 ## Parent area
 

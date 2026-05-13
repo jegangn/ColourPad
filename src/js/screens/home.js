@@ -9,14 +9,10 @@ export function renderHome(root) {
         <div class="greeting">Hi! 👋</div>
         <button class="icon-btn" data-action="parent" aria-label="Parent area">⚙️</button>
       </div>
-      <div class="tiles">
-        <button class="tile dots" data-action="dots">
-          <div class="tile-icon">🔗</div>
-          Connect the Dots
-        </button>
+      <div class="tiles single">
         <button class="tile colour" data-action="colour">
           <div class="tile-icon">🎨</div>
-          Colour
+          Start Colouring
         </button>
       </div>
       <div class="footer">
@@ -29,8 +25,7 @@ export function renderHome(root) {
     const btn = e.target.closest('[data-action]');
     if (!btn) return;
     switch (btn.dataset.action) {
-      case 'dots':    navigate('picker', { mode: 'dots' }); break;
-      case 'colour':  navigate('picker', { mode: 'colour' }); break;
+      case 'colour':  navigate('picker'); break;
       case 'gallery': navigate('gallery'); break;
       case 'parent':  navigate('parent'); break;
     }

@@ -5,3 +5,4 @@ scripts/cache/
 src/assets/pictures/.batch-*.json
 *.log
 .DS_Store
+.playwright-cli/

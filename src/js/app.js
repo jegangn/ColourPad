@@ -7,7 +7,6 @@ import { render } from './lib/render.js';
 
 import { renderHome }    from './screens/home.js';
 import { renderPicker }  from './screens/picker.js';
-import { renderDots }    from './screens/dots.js';
 import { renderColour }  from './screens/colour.js';
 import { renderGallery } from './screens/gallery.js';
 import { renderParent }  from './screens/parent.js';
@@ -22,7 +21,6 @@ const root = document.getElementById('app');
 const RENDERERS = {
   home:    (params) => renderHome(root, params),
   picker:  (params) => renderPicker(root, params),
-  dots:    (params) => renderDots(root, params),
   colour:  (params) => renderColour(root, params),
   gallery: (params) => renderGallery(root, params),
   parent:  (params) => renderParent(root, params),

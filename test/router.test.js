@@ -6,13 +6,8 @@ describe('parseRoute', () => {
   it('parses /home', () => {
     expect(parseRoute('#/home')).toEqual({ name: 'home', params: {} });
   });
-  it('parses /picker/dots', () => {
-    expect(parseRoute('#/picker/dots')).toEqual({ name: 'picker', params: { mode: 'dots' } });
-  });
-  it('parses /dots/excavator/medium', () => {
-    expect(parseRoute('#/dots/excavator/medium')).toEqual({
-      name: 'dots', params: { pictureId: 'excavator', level: 'medium' }
-    });
+  it('parses /picker', () => {
+    expect(parseRoute('#/picker')).toEqual({ name: 'picker', params: {} });
   });
   it('parses /colour/firetruck', () => {
     expect(parseRoute('#/colour/firetruck')).toEqual({
