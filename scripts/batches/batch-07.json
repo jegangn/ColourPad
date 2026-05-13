@@ -1,0 +1,122 @@
+[
+  {
+    "id": "eagle",
+    "name": "Eagle",
+    "category": "animals",
+    "prompt": "A cartoon eagle, side view, with a hooked beak, a white head, spread wings, and sharp talons."
+  },
+  {
+    "id": "parrot",
+    "name": "Parrot",
+    "category": "animals",
+    "prompt": "A cartoon parrot, side view, perched on a branch with colorful feathers, a curved beak, and a long tail."
+  },
+  {
+    "id": "penguin",
+    "name": "Penguin",
+    "category": "animals",
+    "prompt": "A cartoon penguin, front view, with a black back, white belly, orange beak, and small flipper wings."
+  },
+  {
+    "id": "fish",
+    "name": "Fish",
+    "category": "animals",
+    "prompt": "A cartoon fish, side view, with colorful scales, a round eye, a fan tail, and two small side fins."
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "category": "animals",
+    "prompt": "A cartoon dolphin, side view, leaping with a curved body, a dorsal fin, a smiling beak, and a forked tail."
+  },
+  {
+    "id": "whale",
+    "name": "Whale",
+    "category": "animals",
+    "prompt": "A cartoon blue whale, side view, with a massive round body, a small eye, a water spout on top, and a wide tail."
+  },
+  {
+    "id": "shark",
+    "name": "Shark",
+    "category": "animals",
+    "prompt": "A cartoon shark, side view, with a pointed snout, a tall dorsal fin, visible teeth, and a crescent tail."
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle",
+    "category": "animals",
+    "prompt": "A cartoon sea turtle, side view, with a patterned dome shell, four flippers, and a smiling face."
+  },
+  {
+    "id": "crab",
+    "name": "Crab",
+    "category": "animals",
+    "prompt": "A cartoon crab, front view, with a wide red shell, two large claws, and eight small legs."
+  },
+  {
+    "id": "octopus",
+    "name": "Octopus",
+    "category": "animals",
+    "prompt": "A cartoon octopus, front view, with a round bulging head, big eyes, and eight curling tentacles with suckers."
+  },
+  {
+    "id": "frog",
+    "name": "Frog",
+    "category": "animals",
+    "prompt": "A cartoon frog, front view, sitting with large round eyes on top of its head, a wide smile, and webbed feet."
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "category": "animals",
+    "prompt": "A cartoon snake, side view, coiled in an S-shape with a forked tongue, patterned scales, and a round eye."
+  },
+  {
+    "id": "butterfly",
+    "name": "Butterfly",
+    "category": "animals",
+    "prompt": "A cartoon butterfly, front view, with two large colorful wings decorated with spots and swirls, and a thin body."
+  },
+  {
+    "id": "bee",
+    "name": "Bee",
+    "category": "animals",
+    "prompt": "A cartoon bee, side view, with a yellow and black striped body, two transparent wings, antennae, and a stinger."
+  },
+  {
+    "id": "ladybug",
+    "name": "Ladybug",
+    "category": "animals",
+    "prompt": "A cartoon ladybug, top view, with a round red body covered in black spots, a black head, and six small legs."
+  },
+  {
+    "id": "spider",
+    "name": "Spider",
+    "category": "animals",
+    "prompt": "A cartoon spider, front view, with a round body, eight long legs, two eyes, and a web thread hanging below."
+  },
+  {
+    "id": "kangaroo",
+    "name": "Kangaroo",
+    "category": "animals",
+    "prompt": "A cartoon kangaroo, side view, with large back legs, a long thick tail, small front arms, and a joey in its pouch."
+  },
+  {
+    "id": "koala",
+    "name": "Koala",
+    "category": "animals",
+    "prompt": "A cartoon koala, side view, hugging a eucalyptus branch with large fluffy ears, a big nose, and grey fur."
+  },
+  {
+    "id": "panda",
+    "name": "Panda",
+    "category": "animals",
+    "prompt": "A cartoon giant panda, front view, sitting and holding bamboo with black eye patches, round ears, and a white body."
+  },
+  {
+    "id": "hippo",
+    "name": "Hippo",
+    "category": "animals",
+    "prompt": "A cartoon hippo, side view, with a huge round body, a wide mouth, small ears, and four stubby legs."
+  }
+]

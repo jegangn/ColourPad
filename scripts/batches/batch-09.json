@@ -1,0 +1,122 @@
+[
+  {
+    "id": "diplodocus",
+    "name": "Diplodocus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon diplodocus, side view, with an extremely long thin tail, a long neck, small head, and four legs."
+  },
+  {
+    "id": "allosaurus",
+    "name": "Allosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon allosaurus, side view, with a large head and ridged brow horns, sharp teeth, strong arms, and two legs."
+  },
+  {
+    "id": "iguanodon",
+    "name": "Iguanodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon iguanodon, side view, with a thumb spike, a broad flat snout, a stocky body, and a long tail."
+  },
+  {
+    "id": "dimetrodon",
+    "name": "Dimetrodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon dimetrodon, side view, with a large sail fin on its back, a lizard-like body, and four sprawled legs."
+  },
+  {
+    "id": "plesiosaurus",
+    "name": "Plesiosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon plesiosaurus, side view, swimming with a long elegant neck, a round body, and four wide flippers."
+  },
+  {
+    "id": "mosasaurus",
+    "name": "Mosasaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon mosasaurus, side view, swimming with a long body, massive jaws, four flipper limbs, and a forked tail."
+  },
+  {
+    "id": "archaeopteryx",
+    "name": "Archaeopteryx",
+    "category": "dinosaurs",
+    "prompt": "A cartoon archaeopteryx, side view, with feathered wings spread, clawed wingtips, a beaked mouth with teeth."
+  },
+  {
+    "id": "gallimimus",
+    "name": "Gallimimus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon gallimimus, side view, running fast with long legs, a toothless beak, small arms, and a long tail."
+  },
+  {
+    "id": "oviraptor",
+    "name": "Oviraptor",
+    "category": "dinosaurs",
+    "prompt": "A cartoon oviraptor, side view, crouching over a nest with a crested skull, a toothless beak, and feathered arms."
+  },
+  {
+    "id": "dilophosaurus",
+    "name": "Dilophosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon dilophosaurus, side view, with two parallel crests on its head, long arms with claws, and two strong legs."
+  },
+  {
+    "id": "carnotaurus",
+    "name": "Carnotaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon carnotaurus, side view, with two bull-like horns above its eyes, a muscular body, and very tiny arms."
+  },
+  {
+    "id": "baryonyx",
+    "name": "Baryonyx",
+    "category": "dinosaurs",
+    "prompt": "A cartoon baryonyx, side view, with a long crocodile snout, a large thumb claw, and four legs near a river."
+  },
+  {
+    "id": "kentrosaurus",
+    "name": "Kentrosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon kentrosaurus, side view, with narrow plates along its neck and sharp spikes along its back and tail."
+  },
+  {
+    "id": "pachycephalosaurus",
+    "name": "Pachycephalosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon pachycephalosaurus, side view, with a very thick domed skull, a row of small spikes, and two legs."
+  },
+  {
+    "id": "compsognathus",
+    "name": "Compsognathus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon compsognathus, side view, a tiny dinosaur running with a slim body, small clawed arms, and long legs."
+  },
+  {
+    "id": "microraptor",
+    "name": "Microraptor",
+    "category": "dinosaurs",
+    "prompt": "A cartoon microraptor, side view, gliding with four feathered limbs spread like wings and a long feathered tail."
+  },
+  {
+    "id": "therizinosaurus",
+    "name": "Therizinosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon therizinosaurus, side view, with three enormous curved claws on each hand, a long neck, and a round body."
+  },
+  {
+    "id": "gigantosaurus",
+    "name": "Gigantosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon gigantosaurus, side view, with a massive body, a huge head with teeth, short arms, and two powerful legs."
+  },
+  {
+    "id": "troodon",
+    "name": "Troodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon troodon, side view, with large intelligent eyes, a slim body, feathered arms, and a sickle claw on one toe."
+  },
+  {
+    "id": "megalodon",
+    "name": "Megalodon",
+    "category": "dinosaurs",
+    "prompt": "A cartoon megalodon, side view, an enormous shark with a wide jaw full of triangular teeth, a huge dorsal fin."
+  }
+]

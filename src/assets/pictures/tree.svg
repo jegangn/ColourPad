@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <rect x="180" y="180" width="40" height="80" fill="#6D4C2E"/>
+    <path d="M150,265 Q170,255 180,260 L180,180 L160,180 Q150,200 130,205 Q140,225 130,245 Q145,255 150,265 Z" fill="#6D4C2E"/>
+    <path d="M250,265 Q230,255 220,260 L220,180 L240,180 Q250,200 270,205 Q260,225 270,245 Q255,255 250,265 Z" fill="#6D4C2E"/>
+    <circle cx="200" cy="120" r="80" fill="#43A047"/>
+    <circle cx="150" cy="140" r="50" fill="#43A047"/>
+    <circle cx="250" cy="140" r="50" fill="#43A047"/>
+    <circle cx="180" cy="80" r="40" fill="#66BB6A"/>
+    <circle cx="230" cy="80" r="40" fill="#66BB6A"/>
+  </g>
+  <g id="outline">
+    <rect x="180" y="180" width="40" height="80" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M150,265 Q170,255 180,260" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M250,265 Q230,255 220,260" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M120,140 Q90,90 130,60 Q170,30 200,60 Q230,30 270,60 Q310,90 280,140 Q300,180 250,180 Q210,200 200,180 Q190,200 150,180 Q100,180 120,140 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

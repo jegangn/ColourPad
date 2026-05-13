@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <!-- base/cab -->
+    <rect x="60" y="185" width="100" height="65" rx="6" fill="#FFD600"/>
+    <!-- cab roof -->
+    <rect x="75" y="165" width="70" height="25" rx="4" fill="#FFD600"/>
+    <!-- window -->
+    <rect x="85" y="170" width="40" height="17" rx="3" fill="#bde0fe"/>
+    <!-- vertical mast -->
+    <rect x="145" y="40" width="22" height="210" rx="4" fill="#FF9800"/>
+    <!-- horizontal jib -->
+    <rect x="90" y="40" width="255" height="18" rx="4" fill="#FF9800"/>
+    <!-- counterweight arm -->
+    <rect x="90" y="40" width="60" height="14" rx="3" fill="#FF6F00"/>
+    <!-- hook cable -->
+    <line x1="320" y1="58" x2="320" y2="195" stroke="#888" stroke-width="3"/>
+    <!-- hook -->
+    <path d="M310,195 Q310,215 325,215 Q340,215 340,200" fill="#888"/>
+    <!-- wheels -->
+    <circle cx="95" cy="260" r="20" fill="#3a3a3a"/>
+    <circle cx="95" cy="260" r="10" fill="#5a5a5a"/>
+    <circle cx="145" cy="260" r="20" fill="#3a3a3a"/>
+    <circle cx="145" cy="260" r="10" fill="#5a5a5a"/>
+  </g>
+  <g id="outline">
+    <rect x="60" y="185" width="100" height="65" rx="6" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="75" y="165" width="70" height="25" rx="4" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="85" y="170" width="40" height="17" rx="3" stroke="#1F1F1F" stroke-width="2" fill="none"/>
+    <rect x="145" y="40" width="22" height="210" rx="4" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <rect x="90" y="40" width="255" height="18" rx="4" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <line x1="320" y1="58" x2="320" y2="195" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
+    <path d="M310,195 Q310,215 325,215 Q340,215 340,200" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <circle cx="95" cy="260" r="20" stroke="#1F1F1F" stroke-width="3" fill="none"/>
+    <circle cx="95" cy="260" r="10" stroke="#1F1F1F" stroke-width="2" fill="none"/>
+    <circle cx="145" cy="260" r="20" stroke="#1F1F1F" stroke-width="3" fill="none"/>
+    <circle cx="145" cy="260" r="10" stroke="#1F1F1F" stroke-width="2" fill="none"/>
+  </g>
+</svg>

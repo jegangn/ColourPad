@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <rect x="100" y="150" width="200" height="120" fill="#FFE0B2"/>
+    <path d="M80,150 L200,60 L320,150 Z" fill="#E53935"/>
+    <rect x="240" y="80" width="25" height="50" fill="#8D6E63"/>
+    <circle cx="245" cy="65" r="8" fill="#ECEFF1" opacity="0.8"/>
+    <circle cx="260" cy="55" r="10" fill="#ECEFF1" opacity="0.8"/>
+    <circle cx="252" cy="40" r="9" fill="#ECEFF1" opacity="0.8"/>
+    <rect x="180" y="190" width="40" height="80" rx="3" fill="#6D4C2E"/>
+    <circle cx="212" cy="230" r="3" fill="#FFC107"/>
+    <rect x="120" y="180" width="40" height="40" fill="#90CAF9"/>
+    <rect x="240" y="180" width="40" height="40" fill="#90CAF9"/>
+    <line x1="140" y1="180" x2="140" y2="220" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="120" y1="200" x2="160" y2="200" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="260" y1="180" x2="260" y2="220" stroke="#FFFFFF" stroke-width="2"/>
+    <line x1="240" y1="200" x2="280" y2="200" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  <g id="outline">
+    <rect x="100" y="150" width="200" height="120" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M80,150 L200,60 L320,150 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="240" y="80" width="25" height="50" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="180" y="190" width="40" height="80" rx="3" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="120" y="180" width="40" height="40" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="240" y="180" width="40" height="40" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="140" y1="180" x2="140" y2="220" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="120" y1="200" x2="160" y2="200" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="260" y1="180" x2="260" y2="220" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="240" y1="200" x2="280" y2="200" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

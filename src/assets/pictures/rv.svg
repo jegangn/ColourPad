@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <rect x="40" y="80" width="320" height="150" rx="12" fill="#bde0fe"/>
+    <rect x="40" y="190" width="320" height="40" rx="6" fill="#2563EB"/>
+    <rect x="80" y="100" width="50" height="50" rx="3" fill="#FFD600"/>
+    <rect x="160" y="100" width="50" height="50" rx="3" fill="#FFD600"/>
+    <rect x="240" y="100" width="60" height="80" rx="3" fill="#22c55e"/>
+    <rect x="245" y="105" width="50" height="40" rx="2" fill="#bde0fe"/>
+    <circle cx="100" cy="240" r="25" fill="#3a3a3a"/>
+    <circle cx="100" cy="240" r="11" fill="#888"/>
+    <circle cx="300" cy="240" r="25" fill="#3a3a3a"/>
+    <circle cx="300" cy="240" r="11" fill="#888"/>
+  </g>
+  <g id="outline">
+    <rect x="40" y="80" width="320" height="150" rx="12" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="40" y1="190" x2="360" y2="190" stroke="#1F1F1F" stroke-width="3"/>
+    <rect x="80" y="100" width="50" height="50" rx="3" fill="none" stroke="#1F1F1F" stroke-width="2"/>
+    <rect x="160" y="100" width="50" height="50" rx="3" fill="none" stroke="#1F1F1F" stroke-width="2"/>
+    <rect x="240" y="100" width="60" height="80" rx="3" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <rect x="245" y="105" width="50" height="40" rx="2" fill="none" stroke="#1F1F1F" stroke-width="2"/>
+    <circle cx="100" cy="240" r="25" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <circle cx="100" cy="240" r="11" fill="none" stroke="#1F1F1F" stroke-width="2"/>
+    <circle cx="300" cy="240" r="25" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <circle cx="300" cy="240" r="11" fill="none" stroke="#1F1F1F" stroke-width="2"/>
+  </g>
+</svg>

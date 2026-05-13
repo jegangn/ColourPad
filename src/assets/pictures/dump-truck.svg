@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <!-- truck body/cab -->
+    <rect x="40" y="155" width="90" height="70" rx="6" fill="#FFD600"/>
+    <!-- dump bed -->
+    <polygon points="130,120 310,120 320,225 130,225" fill="#FFB300"/>
+    <!-- cab roof -->
+    <rect x="50" y="130" width="70" height="30" rx="5" fill="#FFD600"/>
+    <!-- window -->
+    <rect x="60" y="137" width="45" height="20" rx="3" fill="#bde0fe"/>
+    <!-- wheels -->
+    <circle cx="90" cy="235" r="28" fill="#3a3a3a"/>
+    <circle cx="90" cy="235" r="14" fill="#5a5a5a"/>
+    <circle cx="250" cy="235" r="28" fill="#3a3a3a"/>
+    <circle cx="250" cy="235" r="14" fill="#5a5a5a"/>
+    <circle cx="310" cy="235" r="28" fill="#3a3a3a"/>
+    <circle cx="310" cy="235" r="14" fill="#5a5a5a"/>
+  </g>
+  <g id="outline">
+    <!-- cab -->
+    <rect x="40" y="155" width="90" height="70" rx="6" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- dump bed -->
+    <polygon points="130,120 310,120 320,225 130,225" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- cab roof -->
+    <rect x="50" y="130" width="70" height="30" rx="5" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- window -->
+    <rect x="60" y="137" width="45" height="20" rx="3" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- wheels -->
+    <circle cx="90" cy="235" r="28" stroke="#1F1F1F" stroke-width="3" fill="none"/>
+    <circle cx="90" cy="235" r="14" stroke="#1F1F1F" stroke-width="2" fill="none"/>
+    <circle cx="250" cy="235" r="28" stroke="#1F1F1F" stroke-width="3" fill="none"/>
+    <circle cx="250" cy="235" r="14" stroke="#1F1F1F" stroke-width="2" fill="none"/>
+    <circle cx="310" cy="235" r="28" stroke="#1F1F1F" stroke-width="3" fill="none"/>
+    <circle cx="310" cy="235" r="14" stroke="#1F1F1F" stroke-width="2" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <ellipse cx="215" cy="175" rx="80" ry="40" fill="#8B4513"/>
+    <rect x="140" y="95" width="30" height="95" rx="10" fill="#8B4513"/>
+    <ellipse cx="130" cy="95" rx="35" ry="22" fill="#8B4513"/>
+    <polygon points="130,80 125,60 140,75" fill="#8B4513"/>
+    <polygon points="150,80 145,60 158,75" fill="#8B4513"/>
+    <path d="M155,90 Q175,75 175,100 Q170,115 165,110" fill="#3A2014"/>
+    <rect x="165" y="210" width="16" height="65" rx="4" fill="#8B4513"/>
+    <rect x="195" y="210" width="16" height="65" rx="4" fill="#8B4513"/>
+    <rect x="245" y="210" width="16" height="65" rx="4" fill="#8B4513"/>
+    <rect x="275" y="210" width="16" height="65" rx="4" fill="#8B4513"/>
+    <path d="M295,170 Q330,200 320,250" fill="#3A2014"/>
+  </g>
+  <g id="outline">
+    <ellipse cx="215" cy="175" rx="80" ry="40" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="140" y="95" width="30" height="95" rx="10" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="130" cy="95" rx="35" ry="22" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="130,80 125,60 140,75" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="150,80 145,60 158,75" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M155,90 Q175,75 175,100 Q170,115 165,110" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="165" y="210" width="16" height="65" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="195" y="210" width="16" height="65" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="245" y="210" width="16" height="65" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="275" y="210" width="16" height="65" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M295,170 Q330,200 320,250" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="125" cy="92" r="3" fill="#1F1F1F"/>
+    <circle cx="115" cy="100" r="3" fill="#1F1F1F"/>
+  </g>
+</svg>

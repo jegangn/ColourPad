@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <path d="M200,140 L40,80 Q30,120 60,160 L150,150 Z" fill="#90a4ae"/>
+    <path d="M200,140 L360,80 Q370,120 340,160 L250,150 Z" fill="#90a4ae"/>
+    <ellipse cx="200" cy="160" rx="30" ry="40" fill="#78909c"/>
+    <path d="M180,120 L120,90 L180,110 L220,110 L280,90 L220,120 Z" fill="#78909c"/>
+    <circle cx="200" cy="115" r="22" fill="#78909c"/>
+    <path d="M200,95 L210,75 L195,95 Z" fill="#546e7a"/>
+    <path d="M200,195 L195,250 L205,250 Z" fill="#78909c"/>
+    <path d="M195,250 L185,265 L210,260 Z" fill="#90a4ae"/>
+    <line x1="190" y1="195" x2="180" y2="220" stroke="#78909c" stroke-width="5"/>
+    <line x1="210" y1="195" x2="220" y2="220" stroke="#78909c" stroke-width="5"/>
+    <circle cx="195" cy="112" r="3" fill="#1F1F1F"/>
+  </g>
+  <g id="outline">
+    <path d="M200,140 L40,80 Q30,120 60,160 L150,150 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200,140 L360,80 Q370,120 340,160 L250,150 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="200" cy="160" rx="30" ry="40" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M180,120 L120,90 L180,110 L220,110 L280,90 L220,120 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="200" cy="115" r="22" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200,95 L210,75 L195,95 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M200,195 L195,250 L205,250 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M195,250 L185,265 L210,260 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="190" y1="195" x2="180" y2="220" stroke="#1F1F1F" stroke-width="3"/>
+    <line x1="210" y1="195" x2="220" y2="220" stroke="#1F1F1F" stroke-width="3"/>
+    <circle cx="195" cy="112" r="3" fill="#1F1F1F"/>
+  </g>
+</svg>

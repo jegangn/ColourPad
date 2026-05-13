@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <path d="M60,90 Q200,300 340,90 Z" fill="#388E3C"/>
+    <path d="M75,100 Q200,285 325,100 Z" fill="#FFFFFF"/>
+    <path d="M90,110 Q200,270 310,110 Z" fill="#E91E63"/>
+    <ellipse cx="160" cy="160" rx="6" ry="10" fill="#212121"/>
+    <ellipse cx="200" cy="180" rx="6" ry="10" fill="#212121"/>
+    <ellipse cx="240" cy="160" rx="6" ry="10" fill="#212121"/>
+    <ellipse cx="180" cy="220" rx="6" ry="10" fill="#212121"/>
+    <ellipse cx="220" cy="220" rx="6" ry="10" fill="#212121"/>
+  </g>
+  <g id="outline">
+    <path d="M60,90 Q200,300 340,90 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M75,100 Q200,285 325,100" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M90,110 Q200,270 310,110" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="160" cy="160" rx="6" ry="10" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="200" cy="180" rx="6" ry="10" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="240" cy="160" rx="6" ry="10" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="180" cy="220" rx="6" ry="10" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="220" cy="220" rx="6" ry="10" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

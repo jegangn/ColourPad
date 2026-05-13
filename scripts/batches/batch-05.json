@@ -1,0 +1,122 @@
+[
+  {
+    "id": "yacht",
+    "name": "Yacht",
+    "category": "vehicles",
+    "prompt": "A cartoon yacht, side view, with a white hull, a tall mast, a sail, and a small upper deck with a railing."
+  },
+  {
+    "id": "cruise-ship",
+    "name": "Cruise Ship",
+    "category": "vehicles",
+    "prompt": "A cartoon cruise ship, side view, with a large white hull, many portholes, a smokestack, and several decks."
+  },
+  {
+    "id": "kayak",
+    "name": "Kayak",
+    "category": "vehicles",
+    "prompt": "A cartoon kayak, side view, with a long narrow hull, a cockpit opening, and a double-bladed paddle."
+  },
+  {
+    "id": "canoe",
+    "name": "Canoe",
+    "category": "vehicles",
+    "prompt": "A cartoon canoe, side view, with a narrow wooden hull, two pointed ends, and a single-bladed paddle."
+  },
+  {
+    "id": "paddleboat",
+    "name": "Paddle Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon paddle boat, side view, with a wide flat hull, two paddle wheels on the sides, and seats on top."
+  },
+  {
+    "id": "glider",
+    "name": "Glider",
+    "category": "vehicles",
+    "prompt": "A cartoon glider plane, side view, with very long slender wings, a streamlined body, and a small cockpit bubble."
+  },
+  {
+    "id": "biplane",
+    "name": "Biplane",
+    "category": "vehicles",
+    "prompt": "A cartoon biplane, side view, with two stacked wings, a round engine with a propeller, and a tail with rudder."
+  },
+  {
+    "id": "jumbo-jet",
+    "name": "Jumbo Jet",
+    "category": "vehicles",
+    "prompt": "A cartoon jumbo jet, side view, with a very wide body, four engines under the wings, and a row of windows."
+  },
+  {
+    "id": "fighter-jet",
+    "name": "Fighter Jet",
+    "category": "vehicles",
+    "prompt": "A cartoon fighter jet, side view, with a pointed nose, swept-back wings, a cockpit bubble, and a single jet engine."
+  },
+  {
+    "id": "seaplane",
+    "name": "Seaplane",
+    "category": "vehicles",
+    "prompt": "A cartoon seaplane, side view, with a propeller at the front, large float pontoons under the wings, and a cockpit."
+  },
+  {
+    "id": "airship",
+    "name": "Airship",
+    "category": "vehicles",
+    "prompt": "A cartoon airship, side view, with a long oval gas envelope, a gondola below with windows, and tail fins."
+  },
+  {
+    "id": "ufo",
+    "name": "UFO",
+    "category": "vehicles",
+    "prompt": "A cartoon UFO, side view, with a round disc body, a dome cockpit on top, glowing lights around the rim."
+  },
+  {
+    "id": "lunar-rover",
+    "name": "Lunar Rover",
+    "category": "vehicles",
+    "prompt": "A cartoon lunar rover, side view, with a boxy frame, four wire-mesh wheels, an antenna dish, and a camera."
+  },
+  {
+    "id": "mars-rover",
+    "name": "Mars Rover",
+    "category": "vehicles",
+    "prompt": "A cartoon Mars rover, side view, with six large wheels, a camera mast, a solar panel on top, and a robotic arm."
+  },
+  {
+    "id": "tank",
+    "name": "Tank",
+    "category": "vehicles",
+    "prompt": "A cartoon army tank, side view, with a long gun barrel, a round turret on top, and wide metal tracks."
+  },
+  {
+    "id": "milk-truck",
+    "name": "Milk Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon milk truck, side view, with a white cylindrical tank on the back, a cab, and a cow picture on the side."
+  },
+  {
+    "id": "delivery-van",
+    "name": "Delivery Van",
+    "category": "vehicles",
+    "prompt": "A cartoon delivery van, side view, with a large boxy back, a sliding door, a package logo on the side, and wheels."
+  },
+  {
+    "id": "double-decker-bus",
+    "name": "Double Decker Bus",
+    "category": "vehicles",
+    "prompt": "A cartoon double decker bus, side view, with a red body, windows on two levels, and a staircase visible inside."
+  },
+  {
+    "id": "trolley-bus",
+    "name": "Trolley Bus",
+    "category": "vehicles",
+    "prompt": "A cartoon trolley bus, side view, with two poles on the roof connecting to overhead wires, windows, and round wheels."
+  },
+  {
+    "id": "bread-truck",
+    "name": "Bread Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon bread delivery truck, side view, with a tall boxy body, a bread loaf painted on the side, and round wheels."
+  }
+]

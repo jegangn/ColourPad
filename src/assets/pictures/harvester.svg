@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <rect x="120" y="120" width="180" height="100" rx="6" fill="#22c55e"/>
+    <rect x="160" y="60" width="100" height="65" rx="4" fill="#FFD600"/>
+    <rect x="170" y="70" width="80" height="40" rx="3" fill="#bde0fe"/>
+    <path d="M40,180 L120,180 L120,230 L40,230 Z" fill="#FFD600"/>
+    <rect x="40" y="225" width="80" height="10" fill="#3a3a3a"/>
+    <circle cx="160" cy="245" r="20" fill="#3a3a3a"/>
+    <circle cx="290" cy="250" r="35" fill="#3a3a3a"/>
+    <circle cx="160" cy="245" r="9" fill="#888"/>
+    <circle cx="290" cy="250" r="15" fill="#888"/>
+  </g>
+  <g id="outline">
+    <rect x="120" y="120" width="180" height="100" rx="6" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="160" y="60" width="100" height="65" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="170" y="70" width="80" height="40" rx="3" fill="none" stroke="#1F1F1F" stroke-width="2"/>
+    <path d="M40,180 L120,180 L120,230 L40,230 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="40" y="225" width="80" height="10" fill="none" stroke="#1F1F1F" stroke-width="2"/>
+    <circle cx="160" cy="245" r="20" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <circle cx="290" cy="250" r="35" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+  </g>
+</svg>

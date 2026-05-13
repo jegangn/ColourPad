@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <ellipse cx="210" cy="170" rx="105" ry="45" fill="#ffffff"/>
+    <ellipse cx="105" cy="140" rx="35" ry="30" fill="#ffffff"/>
+    <path d="M115,160 L130,140 L150,150 L145,180 Z" fill="#ffffff"/>
+    <path d="M120,135 L135,115 L145,135 L155,118 L160,140" fill="#1F1F1F"/>
+    <rect x="170" y="135" width="10" height="70" fill="#1F1F1F"/>
+    <rect x="195" y="135" width="10" height="70" fill="#1F1F1F"/>
+    <rect x="220" y="135" width="10" height="70" fill="#1F1F1F"/>
+    <rect x="245" y="135" width="10" height="70" fill="#1F1F1F"/>
+    <rect x="270" y="135" width="10" height="70" fill="#1F1F1F"/>
+    <rect x="142" y="205" width="16" height="55" rx="3" fill="#ffffff"/>
+    <rect x="192" y="205" width="16" height="55" rx="3" fill="#ffffff"/>
+    <rect x="242" y="205" width="16" height="55" rx="3" fill="#ffffff"/>
+    <rect x="282" y="205" width="16" height="55" rx="3" fill="#ffffff"/>
+    <path d="M315,165 Q335,170 330,210 Q335,215 325,215" fill="#1F1F1F"/>
+    <circle cx="95" cy="135" r="3" fill="#1F1F1F"/>
+  </g>
+  <g id="outline">
+    <ellipse cx="210" cy="170" rx="105" ry="45" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="105" cy="140" rx="35" ry="30" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M115,160 L130,140 L150,150 L145,180 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M120,135 L135,115 L145,135 L155,118 L160,140" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="170" y="135" width="10" height="70" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="195" y="135" width="10" height="70" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="220" y="135" width="10" height="70" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="245" y="135" width="10" height="70" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="270" y="135" width="10" height="70" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="142" y="205" width="16" height="55" rx="3" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="192" y="205" width="16" height="55" rx="3" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="242" y="205" width="16" height="55" rx="3" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="282" y="205" width="16" height="55" rx="3" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M315,165 Q335,170 330,210 Q335,215 325,215" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="95" cy="135" r="3" fill="#1F1F1F"/>
+  </g>
+</svg>

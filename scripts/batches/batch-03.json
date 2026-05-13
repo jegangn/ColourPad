@@ -1,0 +1,122 @@
+[
+  {
+    "id": "semi-truck",
+    "name": "Semi Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon semi truck, side view, with a tall cab, a long trailer behind, chrome exhaust stacks, and many wheels."
+  },
+  {
+    "id": "golf-cart",
+    "name": "Golf Cart",
+    "category": "vehicles",
+    "prompt": "A cartoon golf cart, side view, with a canopy roof, a small steering wheel, two seats, and four small wheels."
+  },
+  {
+    "id": "formula-car",
+    "name": "Formula Car",
+    "category": "vehicles",
+    "prompt": "A cartoon Formula 1 car, side view, with an open cockpit, a large rear wing, exposed wheels, and a pointed nose."
+  },
+  {
+    "id": "mining-truck",
+    "name": "Mining Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon giant mining truck, side view, with an enormous dump bed, a tiny cab on top, and huge round tyres."
+  },
+  {
+    "id": "harvester",
+    "name": "Harvester",
+    "category": "vehicles",
+    "prompt": "A cartoon grain harvester, side view, with a wide cutting header at the front, a tall grain tank, and big wheels."
+  },
+  {
+    "id": "combine",
+    "name": "Combine",
+    "category": "vehicles",
+    "prompt": "A cartoon combine harvester, side view, with a rotating reel at the front, a large cab, and giant rear wheels."
+  },
+  {
+    "id": "plough",
+    "name": "Plough",
+    "category": "vehicles",
+    "prompt": "A cartoon plough attached to a tractor, side view, with several curved blades turning soil and two wheels."
+  },
+  {
+    "id": "log-truck",
+    "name": "Log Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon log truck, side view, with a stack of round logs on the trailer, metal stakes holding them, and big wheels."
+  },
+  {
+    "id": "container-ship",
+    "name": "Container Ship",
+    "category": "vehicles",
+    "prompt": "A cartoon container ship, side view, with colorful stacked shipping containers on deck and a small bridge tower."
+  },
+  {
+    "id": "fishing-boat",
+    "name": "Fishing Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon fishing boat, side view, with a small cabin, a tall mast, fishing nets hanging over the side, and a hull."
+  },
+  {
+    "id": "ferry",
+    "name": "Ferry",
+    "category": "vehicles",
+    "prompt": "A cartoon car ferry, side view, with a wide flat deck, a small cabin on top, cars inside, and a smokestack."
+  },
+  {
+    "id": "jet-ski",
+    "name": "Jet Ski",
+    "category": "vehicles",
+    "prompt": "A cartoon jet ski, side view, with a sleek narrow body, handlebars, and a water jet at the back."
+  },
+  {
+    "id": "hovercraft",
+    "name": "Hovercraft",
+    "category": "vehicles",
+    "prompt": "A cartoon hovercraft, side view, with a large rubber skirt around the base, a propeller at the back, and a flat deck."
+  },
+  {
+    "id": "sailboat",
+    "name": "Sailboat",
+    "category": "vehicles",
+    "prompt": "A cartoon sailboat, side view, with a curved hull, a tall mast, and a large triangular sail."
+  },
+  {
+    "id": "hot-air-balloon",
+    "name": "Hot Air Balloon",
+    "category": "vehicles",
+    "prompt": "A cartoon hot air balloon, with a large colorful striped balloon envelope and a small wicker basket hanging below."
+  },
+  {
+    "id": "blimp",
+    "name": "Blimp",
+    "category": "vehicles",
+    "prompt": "A cartoon blimp, side view, with a large oval gas envelope, a small gondola underneath, and tail fins at the back."
+  },
+  {
+    "id": "spaceship",
+    "name": "Spaceship",
+    "category": "vehicles",
+    "prompt": "A cartoon spaceship, side view, with a round porthole, swept-back fins, and a glowing engine at the rear."
+  },
+  {
+    "id": "rocket",
+    "name": "Rocket",
+    "category": "vehicles",
+    "prompt": "A cartoon rocket ship, side view, with a pointed nose cone, four fins at the base, and flames shooting out below."
+  },
+  {
+    "id": "drone",
+    "name": "Drone",
+    "category": "vehicles",
+    "prompt": "A cartoon quadcopter drone, top-angle view, with four arms, a spinning propeller on each arm, and a camera below."
+  },
+  {
+    "id": "segway",
+    "name": "Segway",
+    "category": "vehicles",
+    "prompt": "A cartoon segway, side view, with two large parallel wheels, a tall upright post, and T-shaped handlebars."
+  }
+]

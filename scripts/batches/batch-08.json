@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rhino",
+    "name": "Rhino",
+    "category": "animals",
+    "prompt": "A cartoon rhino, side view, with a large horn on its snout, thick grey skin folds, and four stocky legs."
+  },
+  {
+    "id": "zebra",
+    "name": "Zebra",
+    "category": "animals",
+    "prompt": "A cartoon zebra, side view, with bold black and white stripes, a short mane, and four hooved legs."
+  },
+  {
+    "id": "camel",
+    "name": "Camel",
+    "category": "animals",
+    "prompt": "A cartoon camel, side view, with two humps, a long neck, a small head, and four long legs."
+  },
+  {
+    "id": "peacock",
+    "name": "Peacock",
+    "category": "animals",
+    "prompt": "A cartoon peacock, side view, with a blue body, a crested head, and a large fan tail spread with eye spots."
+  },
+  {
+    "id": "swan",
+    "name": "Swan",
+    "category": "animals",
+    "prompt": "A cartoon swan, side view, floating on water with a gracefully curved long neck, white feathers, and an orange beak."
+  },
+  {
+    "id": "hedgehog",
+    "name": "Hedgehog",
+    "category": "animals",
+    "prompt": "A cartoon hedgehog, side view, with a round spiky back, a pointed snout, small legs, and a tiny nose."
+  },
+  {
+    "id": "squirrel",
+    "name": "Squirrel",
+    "category": "animals",
+    "prompt": "A cartoon squirrel, side view, sitting up with a large bushy tail curled over its back and holding an acorn."
+  },
+  {
+    "id": "raccoon",
+    "name": "Raccoon",
+    "category": "animals",
+    "prompt": "A cartoon raccoon, side view, with a black mask around its eyes, a striped ringed tail, and small paws."
+  },
+  {
+    "id": "bat",
+    "name": "Bat",
+    "category": "animals",
+    "prompt": "A cartoon bat, front view, hanging upside down with large leathery wings spread, pointed ears, and beady eyes."
+  },
+  {
+    "id": "jellyfish",
+    "name": "Jellyfish",
+    "category": "animals",
+    "prompt": "A cartoon jellyfish, front view, with a translucent dome bell and long trailing tentacles hanging below."
+  },
+  {
+    "id": "t-rex",
+    "name": "T-Rex",
+    "category": "dinosaurs",
+    "prompt": "A friendly green cartoon T-Rex, side view, standing on two legs with a big head, visible teeth, and tiny arms."
+  },
+  {
+    "id": "triceratops",
+    "name": "Triceratops",
+    "category": "dinosaurs",
+    "prompt": "A cartoon triceratops, side view, with three sharp horns on its face, a wide bony frill, and four sturdy legs."
+  },
+  {
+    "id": "brontosaurus",
+    "name": "Brontosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon brontosaurus, side view, with an extremely long neck, a tiny head, a plump body, and four thick legs."
+  },
+  {
+    "id": "stegosaurus",
+    "name": "Stegosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon stegosaurus, side view, with a row of diamond-shaped plates along its back and spikes on its tail."
+  },
+  {
+    "id": "velociraptor",
+    "name": "Velociraptor",
+    "category": "dinosaurs",
+    "prompt": "A cartoon velociraptor, side view, running with a curved claw raised, feathered arms, and a long stiff tail."
+  },
+  {
+    "id": "pterodactyl",
+    "name": "Pterodactyl",
+    "category": "dinosaurs",
+    "prompt": "A cartoon pterodactyl, side view, flying with large leathery wings, a long beak crest, and a trailing tail."
+  },
+  {
+    "id": "brachiosaurus",
+    "name": "Brachiosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon brachiosaurus, side view, with a very long neck reaching up, a small head, long front legs, and a round body."
+  },
+  {
+    "id": "ankylosaurus",
+    "name": "Ankylosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon ankylosaurus, side view, with an armored bony shell on its back, short legs, and a club tail."
+  },
+  {
+    "id": "parasaurolophus",
+    "name": "Parasaurolophus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon parasaurolophus, side view, with a long curved head crest, a duck bill, and two hind legs."
+  },
+  {
+    "id": "spinosaurus",
+    "name": "Spinosaurus",
+    "category": "dinosaurs",
+    "prompt": "A cartoon spinosaurus, side view, with a large sail fin along its back, a long crocodile snout, and clawed arms."
+  }
+]

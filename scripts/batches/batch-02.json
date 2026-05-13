@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dump-truck",
+    "name": "Dump Truck",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon dump truck, side view, with a large tilting bed, a cab with a window, and big round wheels."
+  },
+  {
+    "id": "crane",
+    "name": "Crane",
+    "category": "vehicles",
+    "prompt": "A cartoon tower crane, side view, with a tall vertical mast, a long horizontal jib, and a hanging hook."
+  },
+  {
+    "id": "cement-mixer",
+    "name": "Cement Mixer",
+    "category": "vehicles",
+    "prompt": "A cartoon cement mixer truck, side view, with a spinning drum on the back, a cab, and large round wheels."
+  },
+  {
+    "id": "forklift",
+    "name": "Forklift",
+    "category": "vehicles",
+    "prompt": "A cartoon forklift, side view, with two long forks at the front, a compact cab, and four small wheels."
+  },
+  {
+    "id": "steamroller",
+    "name": "Steamroller",
+    "category": "vehicles",
+    "prompt": "A cartoon steamroller, side view, with a huge smooth front roller, a cab with a canopy, and a small back wheel."
+  },
+  {
+    "id": "snow-plow",
+    "name": "Snow Plow",
+    "category": "vehicles",
+    "prompt": "A cartoon snow plow truck, side view, with a large angled blade at the front and a cab with a window."
+  },
+  {
+    "id": "road-roller",
+    "name": "Road Roller",
+    "category": "vehicles",
+    "prompt": "A cartoon road roller, side view, with two large smooth cylinders, a cab with a canopy, and a small steering wheel."
+  },
+  {
+    "id": "backhoe-loader",
+    "name": "Backhoe Loader",
+    "category": "vehicles",
+    "prompt": "A cartoon backhoe loader, side view, with a front bucket scoop and a rear digging arm, plus four wheels."
+  },
+  {
+    "id": "skid-steer",
+    "name": "Skid Steer",
+    "category": "vehicles",
+    "prompt": "A cartoon skid steer, side view, with a small bucket at the front, a compact enclosed cab, and four wheels."
+  },
+  {
+    "id": "telehandler",
+    "name": "Telehandler",
+    "category": "vehicles",
+    "prompt": "A cartoon telehandler, side view, with a long telescoping boom arm, a fork attachment, and four large wheels."
+  },
+  {
+    "id": "asphalt-paver",
+    "name": "Asphalt Paver",
+    "category": "vehicles",
+    "prompt": "A cartoon asphalt paver, side view, with a wide flat screed at the back, a hopper at the front, and tracks."
+  },
+  {
+    "id": "monster-truck",
+    "name": "Monster Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon monster truck, side view, with four enormous knobby tyres, a raised body, and a big exhaust pipe."
+  },
+  {
+    "id": "race-car",
+    "name": "Race Car",
+    "category": "vehicles",
+    "prompt": "A cartoon race car, side view, with a low body, a rear wing spoiler, a number on the door, and slick tyres."
+  },
+  {
+    "id": "hot-rod",
+    "name": "Hot Rod",
+    "category": "vehicles",
+    "prompt": "A cartoon hot rod, side view, with a raised engine sticking through the hood, flames on the side, and chrome wheels."
+  },
+  {
+    "id": "jeep",
+    "name": "Jeep",
+    "category": "vehicles",
+    "prompt": "A cartoon jeep, side view, with a round spare tyre on the back, an open top, and large chunky wheels."
+  },
+  {
+    "id": "rv",
+    "name": "RV",
+    "category": "vehicles",
+    "prompt": "A cartoon RV camper van, side view, with a large boxy body, two small square windows, and round wheels."
+  },
+  {
+    "id": "food-truck",
+    "name": "Food Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon food truck, side view, with a serving window cut in the side, a sign on the roof, and round wheels."
+  },
+  {
+    "id": "mail-truck",
+    "name": "Mail Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon mail truck, side view, with a flat boxy body, an envelope painted on the side, and round wheels."
+  },
+  {
+    "id": "tow-truck",
+    "name": "Tow Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon tow truck, side view, with a crane arm and hook at the back, a cab, and large round wheels."
+  },
+  {
+    "id": "fuel-tanker",
+    "name": "Fuel Tanker",
+    "category": "vehicles",
+    "prompt": "A cartoon fuel tanker truck, side view, with a long cylindrical tank on the back, a cab, and many wheels."
+  }
+]

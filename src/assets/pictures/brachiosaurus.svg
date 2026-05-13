@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <ellipse cx="240" cy="200" rx="95" ry="60" fill="#81c784"/>
+    <path d="M170,170 Q140,120 130,60 Q125,40 150,40 Q160,90 175,140 Q200,180 210,210 Z" fill="#81c784"/>
+    <ellipse cx="140" cy="45" rx="22" ry="16" fill="#81c784"/>
+    <path d="M325,210 Q370,210 370,180 Q350,225 320,235 Z" fill="#81c784"/>
+    <rect x="185" y="230" width="22" height="40" rx="4" fill="#81c784"/>
+    <rect x="215" y="235" width="22" height="35" rx="4" fill="#81c784"/>
+    <rect x="265" y="235" width="22" height="35" rx="4" fill="#81c784"/>
+    <rect x="295" y="235" width="22" height="35" rx="4" fill="#81c784"/>
+    <circle cx="133" cy="42" r="3" fill="#1F1F1F"/>
+  </g>
+  <g id="outline">
+    <ellipse cx="240" cy="200" rx="95" ry="60" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M170,170 Q140,120 130,60 Q125,40 150,40 Q160,90 175,140 Q200,180 210,210 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="140" cy="45" rx="22" ry="16" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M325,210 Q370,210 370,180 Q350,225 320,235 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="185" y="230" width="22" height="40" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="215" y="235" width="22" height="35" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="265" y="235" width="22" height="35" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="295" y="235" width="22" height="35" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="133" cy="42" r="3" fill="#1F1F1F"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <g id="fill">
+    <ellipse cx="195" cy="160" rx="65" ry="42" fill="#EF5350"/>
+    <ellipse cx="125" cy="125" rx="32" ry="22" fill="#EF5350"/>
+    <path d="M115,108 L108,90 L120,100 Z" fill="#FFEB3B"/>
+    <path d="M138,108 L145,90 L135,100 Z" fill="#FFEB3B"/>
+    <path d="M100,128 L86,135 L100,145" fill="#FFFFFF"/>
+    <path d="M250,148 Q300,138 335,148 Q360,156 370,170 Q358,176 332,168 Q295,160 250,162 Z" fill="#EF5350"/>
+    <rect x="170" y="195" width="22" height="58" rx="6" fill="#C62828"/>
+    <rect x="215" y="195" width="22" height="58" rx="6" fill="#C62828"/>
+    <rect x="178" y="170" width="6" height="15" rx="2" fill="#C62828"/>
+    <rect x="222" y="170" width="6" height="15" rx="2" fill="#C62828"/>
+    <circle cx="118" cy="125" r="2.5" fill="#1F1F1F"/>
+  </g>
+  <g id="outline">
+    <ellipse cx="195" cy="160" rx="65" ry="42" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="125" cy="125" rx="32" ry="22" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <path d="M115,108 L108,90 L120,100 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M138,108 L145,90 L135,100 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M100,128 L86,135 L100,145" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M250,148 Q300,138 335,148 Q360,156 370,170 Q358,176 332,168 Q295,160 250,162" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="170" y="195" width="22" height="58" rx="6" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <rect x="215" y="195" width="22" height="58" rx="6" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <rect x="178" y="170" width="6" height="15" rx="2" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+    <rect x="222" y="170" width="6" height="15" rx="2" fill="none" stroke="#1F1F1F" stroke-width="3"/>
+  </g>
+</svg>

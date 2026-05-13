@@ -1,0 +1,122 @@
+[
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "food",
+    "prompt": "A cartoon red apple, front view, with a shiny highlight spot, a brown stem on top, and a single green leaf."
+  },
+  {
+    "id": "banana",
+    "name": "Banana",
+    "category": "food",
+    "prompt": "A cartoon yellow banana, side view, with a curved shape, a brown tip at each end, and a peeled section."
+  },
+  {
+    "id": "ice-cream-cone",
+    "name": "Ice Cream Cone",
+    "category": "food",
+    "prompt": "A cartoon ice cream cone with a waffle cone at the bottom and a swirled scoop of pink ice cream on top."
+  },
+  {
+    "id": "pizza-slice",
+    "name": "Pizza Slice",
+    "category": "food",
+    "prompt": "A cartoon pizza slice with a golden crust, red sauce, round pepperoni pieces, and a stretchy cheese pull."
+  },
+  {
+    "id": "cupcake",
+    "name": "Cupcake",
+    "category": "food",
+    "prompt": "A cartoon cupcake with a paper case, a swirl of pink frosting on top, and a single sprinkle decoration."
+  },
+  {
+    "id": "donut",
+    "name": "Donut",
+    "category": "food",
+    "prompt": "A cartoon donut, front view, with a round ring shape, pink glaze on top, and colorful sprinkles."
+  },
+  {
+    "id": "watermelon-slice",
+    "name": "Watermelon Slice",
+    "category": "food",
+    "prompt": "A cartoon watermelon slice, front view, with a red interior, black seeds, and a green and white striped rind."
+  },
+  {
+    "id": "hot-dog",
+    "name": "Hot Dog",
+    "category": "food",
+    "prompt": "A cartoon hot dog in a bun, side view, with a brown sausage, a zigzag of yellow mustard, and a soft bun."
+  },
+  {
+    "id": "hamburger",
+    "name": "Hamburger",
+    "category": "food",
+    "prompt": "A cartoon hamburger, side view, with a sesame seed bun, a beef patty, lettuce, tomato, and cheese."
+  },
+  {
+    "id": "pancakes",
+    "name": "Pancakes",
+    "category": "food",
+    "prompt": "A cartoon stack of three pancakes with butter melting on top and golden syrup dripping down the sides."
+  },
+  {
+    "id": "sun",
+    "name": "Sun",
+    "category": "other",
+    "prompt": "A cartoon smiling sun with a round face, triangular rays pointing outward all around, and two eyes."
+  },
+  {
+    "id": "moon",
+    "name": "Moon",
+    "category": "other",
+    "prompt": "A cartoon crescent moon, with a smiling face, a sleepy eye, and several small stars around it."
+  },
+  {
+    "id": "star",
+    "name": "Star",
+    "category": "other",
+    "prompt": "A cartoon five-pointed star with a happy smiling face, a shiny highlight, and small sparkles around it."
+  },
+  {
+    "id": "robot",
+    "name": "Robot",
+    "category": "other",
+    "prompt": "A friendly cartoon robot, front view, with a boxy head, antenna on top, round eyes with lights, and claw hands."
+  },
+  {
+    "id": "castle",
+    "name": "Castle",
+    "category": "other",
+    "prompt": "A cartoon fantasy castle, front view, with two tall towers, crenellated battlements, a drawbridge, and a flag."
+  },
+  {
+    "id": "house",
+    "name": "House",
+    "category": "other",
+    "prompt": "A cartoon house, front view, with a triangular roof, a chimney with smoke, a front door, and two square windows."
+  },
+  {
+    "id": "balloon",
+    "name": "Balloon",
+    "category": "other",
+    "prompt": "A cartoon round balloon, with a happy smiley face, a tied knot at the bottom, and a curling string."
+  },
+  {
+    "id": "flower",
+    "name": "Flower",
+    "category": "other",
+    "prompt": "A cartoon sunflower with a large round yellow centre, petals spread all around, and a green stem with two leaves."
+  },
+  {
+    "id": "tree",
+    "name": "Tree",
+    "category": "other",
+    "prompt": "A cartoon oak tree, front view, with a wide round fluffy green canopy, a brown trunk, and roots at the base."
+  },
+  {
+    "id": "rainbow",
+    "name": "Rainbow",
+    "category": "other",
+    "prompt": "A cartoon rainbow with six colorful arching bands, a fluffy white cloud at each end, and sparkles in the sky."
+  }
+]

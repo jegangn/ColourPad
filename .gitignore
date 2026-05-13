@@ -2,7 +2,6 @@ node_modules/
 .env
 .env.local
 scripts/cache/
-src/assets/pictures/manifest.json
-src/assets/pictures/*.svg
+src/assets/pictures/.batch-*.json
 *.log
 .DS_Store

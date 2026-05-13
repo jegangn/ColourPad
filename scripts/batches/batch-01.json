@@ -1,0 +1,122 @@
+[
+  {
+    "id": "car",
+    "name": "Car",
+    "category": "vehicles",
+    "prompt": "A friendly cartoon car, side view, with round wheels, two windows, and a small antenna on the roof."
+  },
+  {
+    "id": "truck",
+    "name": "Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon truck, side view, with a large cargo box, big round wheels, and a tall cab with a window."
+  },
+  {
+    "id": "fire-truck",
+    "name": "Fire Truck",
+    "category": "vehicles",
+    "prompt": "A red cartoon fire truck, side view, with a ladder on top, blue cabin window, and a small siren on the roof."
+  },
+  {
+    "id": "ambulance",
+    "name": "Ambulance",
+    "category": "vehicles",
+    "prompt": "A white cartoon ambulance, side view, with a red cross on the side, a siren on the roof, and round wheels."
+  },
+  {
+    "id": "police-car",
+    "name": "Police Car",
+    "category": "vehicles",
+    "prompt": "A blue cartoon police car, side view, with a light bar on top, a star badge on the door, and round wheels."
+  },
+  {
+    "id": "school-bus",
+    "name": "School Bus",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon school bus, side view, with a flat front, two windows, and large round wheels."
+  },
+  {
+    "id": "garbage-truck",
+    "name": "Garbage Truck",
+    "category": "vehicles",
+    "prompt": "A green cartoon garbage truck, side view, with a large compactor box at the back and big round wheels."
+  },
+  {
+    "id": "ice-cream-truck",
+    "name": "Ice Cream Truck",
+    "category": "vehicles",
+    "prompt": "A white cartoon ice cream truck, side view, with a cone painted on the side and a speaker on the roof."
+  },
+  {
+    "id": "taxi",
+    "name": "Taxi",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon taxi cab, side view, with a taxi sign on the roof, a round window, and two wheels."
+  },
+  {
+    "id": "train",
+    "name": "Train",
+    "category": "vehicles",
+    "prompt": "A cartoon train engine, side view, with a round boiler, a tall chimney stack, and big drive wheels."
+  },
+  {
+    "id": "helicopter",
+    "name": "Helicopter",
+    "category": "vehicles",
+    "prompt": "A cartoon helicopter, side view, with a large rotor on top, a bubble cockpit window, and a tail rotor."
+  },
+  {
+    "id": "plane",
+    "name": "Plane",
+    "category": "vehicles",
+    "prompt": "A cartoon passenger plane, side view, with two wings, a row of oval windows, and engines under the wings."
+  },
+  {
+    "id": "boat",
+    "name": "Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon motorboat, side view, with a curved hull, a small windshield, and a propeller at the back."
+  },
+  {
+    "id": "submarine",
+    "name": "Submarine",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon submarine, side view, with a round porthole, a periscope on top, and a propeller at the tail."
+  },
+  {
+    "id": "motorcycle",
+    "name": "Motorcycle",
+    "category": "vehicles",
+    "prompt": "A cartoon motorcycle, side view, with two large spoke wheels, handlebars, and a rounded fuel tank."
+  },
+  {
+    "id": "bicycle",
+    "name": "Bicycle",
+    "category": "vehicles",
+    "prompt": "A cartoon bicycle, side view, with two round spoke wheels, handlebars, and a small seat on top."
+  },
+  {
+    "id": "scooter",
+    "name": "Scooter",
+    "category": "vehicles",
+    "prompt": "A cartoon kick scooter, side view, with two small wheels, a long deck, and tall handlebars."
+  },
+  {
+    "id": "tractor",
+    "name": "Tractor",
+    "category": "vehicles",
+    "prompt": "A red cartoon farm tractor, side view, with one large back wheel, one small front wheel, and an open cab."
+  },
+  {
+    "id": "excavator",
+    "name": "Excavator",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon excavator, side view, with a visible cabin window, large tracked wheels, and a digging arm with a bucket."
+  },
+  {
+    "id": "bulldozer",
+    "name": "Bulldozer",
+    "category": "vehicles",
+    "prompt": "A yellow cartoon bulldozer, side view, with a large flat blade at the front, a cab with a window, and wide tracks."
+  }
+]

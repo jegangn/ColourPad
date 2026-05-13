@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cat",
+    "name": "Cat",
+    "category": "animals",
+    "prompt": "A fluffy cartoon cat, side view, sitting upright with pointed ears, whiskers, and a curled tail."
+  },
+  {
+    "id": "dog",
+    "name": "Dog",
+    "category": "animals",
+    "prompt": "A happy cartoon dog, side view, with floppy ears, a wagging tail, a big nose, and four paws."
+  },
+  {
+    "id": "lion",
+    "name": "Lion",
+    "category": "animals",
+    "prompt": "A cartoon lion, side view, standing proud with a large fluffy mane, a long tail with a tuft, and big paws."
+  },
+  {
+    "id": "tiger",
+    "name": "Tiger",
+    "category": "animals",
+    "prompt": "A cartoon tiger, side view, with bold orange and black stripes, a long tail, and sharp visible claws."
+  },
+  {
+    "id": "elephant",
+    "name": "Elephant",
+    "category": "animals",
+    "prompt": "A cartoon elephant, side view, with a long trunk curled up, big round ears, and four pillar-like legs."
+  },
+  {
+    "id": "giraffe",
+    "name": "Giraffe",
+    "category": "animals",
+    "prompt": "A cartoon giraffe, side view, with a very long spotted neck, two short horns, and four long legs."
+  },
+  {
+    "id": "monkey",
+    "name": "Monkey",
+    "category": "animals",
+    "prompt": "A cartoon monkey, side view, hanging from a branch with a long curled tail and a round face with big eyes."
+  },
+  {
+    "id": "bear",
+    "name": "Bear",
+    "category": "animals",
+    "prompt": "A cartoon bear, side view, standing on four legs with round ears, a big snout, and a fluffy round body."
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "category": "animals",
+    "prompt": "A cartoon wolf, side view, with pointed ears, a bushy tail, grey fur, and sharp teeth in a howling pose."
+  },
+  {
+    "id": "fox",
+    "name": "Fox",
+    "category": "animals",
+    "prompt": "A cartoon fox, side view, with large pointed ears, a bushy white-tipped tail, and orange fur."
+  },
+  {
+    "id": "rabbit",
+    "name": "Rabbit",
+    "category": "animals",
+    "prompt": "A cartoon rabbit, side view, with very long ears, a small fluffy tail, and big round eyes."
+  },
+  {
+    "id": "deer",
+    "name": "Deer",
+    "category": "animals",
+    "prompt": "A cartoon deer, side view, with branching antlers, a spotted brown coat, a small white tail, and long legs."
+  },
+  {
+    "id": "horse",
+    "name": "Horse",
+    "category": "animals",
+    "prompt": "A cartoon horse, side view, standing tall with a flowing mane, a long tail, and four hooved legs."
+  },
+  {
+    "id": "cow",
+    "name": "Cow",
+    "category": "animals",
+    "prompt": "A cartoon cow, side view, with black and white patches, a pink udder, a bell around the neck, and four legs."
+  },
+  {
+    "id": "pig",
+    "name": "Pig",
+    "category": "animals",
+    "prompt": "A cartoon pig, side view, with a round pink body, a curly tail, a flat snout, and four short legs."
+  },
+  {
+    "id": "sheep",
+    "name": "Sheep",
+    "category": "animals",
+    "prompt": "A cartoon sheep, side view, with a fluffy woolly body, small black legs, and floppy ears."
+  },
+  {
+    "id": "goat",
+    "name": "Goat",
+    "category": "animals",
+    "prompt": "A cartoon goat, side view, with a small beard, curved horns, a short tail held up, and four hooved legs."
+  },
+  {
+    "id": "chicken",
+    "name": "Chicken",
+    "category": "animals",
+    "prompt": "A cartoon chicken, side view, with a red comb on its head, a beak, two wings, a round body, and two feet."
+  },
+  {
+    "id": "duck",
+    "name": "Duck",
+    "category": "animals",
+    "prompt": "A cartoon duck, side view, with a yellow beak, an orange bill, a rounded body, and two webbed feet."
+  },
+  {
+    "id": "owl",
+    "name": "Owl",
+    "category": "animals",
+    "prompt": "A cartoon owl, front view, perched on a branch with large round eyes, feathered ear tufts, and spread wings."
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "skateboard",
+    "name": "Skateboard",
+    "category": "vehicles",
+    "prompt": "A cartoon skateboard, side view, with a long flat deck, two trucks underneath, and four small wheels."
+  },
+  {
+    "id": "monorail",
+    "name": "Monorail",
+    "category": "vehicles",
+    "prompt": "A cartoon monorail train, side view, with a sleek smooth body, large windows, and a single rail underneath."
+  },
+  {
+    "id": "cable-car",
+    "name": "Cable Car",
+    "category": "vehicles",
+    "prompt": "A cartoon cable car, side view, with a boxy cabin, large windows, and a cable attached to the roof."
+  },
+  {
+    "id": "gondola",
+    "name": "Gondola",
+    "category": "vehicles",
+    "prompt": "A cartoon gondola boat, side view, with a long narrow black hull, a curved prow, and a gondolier's pole."
+  },
+  {
+    "id": "tram",
+    "name": "Tram",
+    "category": "vehicles",
+    "prompt": "A cartoon city tram, side view, with a boxy body, several windows, a pantograph on the roof, and rail wheels."
+  },
+  {
+    "id": "minivan",
+    "name": "Minivan",
+    "category": "vehicles",
+    "prompt": "A cartoon minivan, side view, with a tall boxy body, a sliding side door, two rows of windows, and round wheels."
+  },
+  {
+    "id": "sports-car",
+    "name": "Sports Car",
+    "category": "vehicles",
+    "prompt": "A cartoon sports car, side view, with a low sleek body, a large air vent on the hood, and wide tyres."
+  },
+  {
+    "id": "pickup-truck",
+    "name": "Pickup Truck",
+    "category": "vehicles",
+    "prompt": "A cartoon pickup truck, side view, with a cab, an open flat truck bed at the back, and large round wheels."
+  },
+  {
+    "id": "station-wagon",
+    "name": "Station Wagon",
+    "category": "vehicles",
+    "prompt": "A cartoon station wagon, side view, with an elongated roof, a large rear window, and round wheels."
+  },
+  {
+    "id": "limousine",
+    "name": "Limousine",
+    "category": "vehicles",
+    "prompt": "A cartoon limousine, side view, with an extra-long body, several windows, a sunroof, and six round wheels."
+  },
+  {
+    "id": "convertible",
+    "name": "Convertible",
+    "category": "vehicles",
+    "prompt": "A cartoon convertible car, side view, with the roof folded down, a windshield, and two large round wheels."
+  },
+  {
+    "id": "snowmobile",
+    "name": "Snowmobile",
+    "category": "vehicles",
+    "prompt": "A cartoon snowmobile, side view, with a long track underneath, two front skis, and a rounded body with handlebars."
+  },
+  {
+    "id": "atv",
+    "name": "ATV",
+    "category": "vehicles",
+    "prompt": "A cartoon all-terrain vehicle, side view, with four fat knobby tyres, handlebars, and a short boxy body."
+  },
+  {
+    "id": "go-kart",
+    "name": "Go-Kart",
+    "category": "vehicles",
+    "prompt": "A cartoon go-kart, side view, with a low open frame, a small steering wheel, a seat, and four small tyres."
+  },
+  {
+    "id": "dirt-bike",
+    "name": "Dirt Bike",
+    "category": "vehicles",
+    "prompt": "A cartoon dirt bike, side view, with tall knobby tyres, a high exhaust pipe, and a slim lightweight frame."
+  },
+  {
+    "id": "electric-scooter",
+    "name": "Electric Scooter",
+    "category": "vehicles",
+    "prompt": "A cartoon electric scooter, side view, with two small wheels, a flat deck, handlebars, and a battery pack."
+  },
+  {
+    "id": "unicycle",
+    "name": "Unicycle",
+    "category": "vehicles",
+    "prompt": "A cartoon unicycle, side view, with one large wheel, a seat on a post, and two pedals on the sides."
+  },
+  {
+    "id": "tricycle",
+    "name": "Tricycle",
+    "category": "vehicles",
+    "prompt": "A cartoon tricycle, side view, with one large front wheel, two small back wheels, handlebars, and a seat."
+  },
+  {
+    "id": "fire-boat",
+    "name": "Fire Boat",
+    "category": "vehicles",
+    "prompt": "A cartoon fire boat, side view, with a red hull, a water cannon on the deck, and a small cabin with a siren."
+  },
+  {
+    "id": "speedboat",
+    "name": "Speedboat",
+    "category": "vehicles",
+    "prompt": "A cartoon speedboat, side view, with a pointed nose, a sleek low hull, a windshield, and a large outboard motor."
+  }
+]
