@@ -19,8 +19,8 @@ describe('DotsEngine', () => {
   it('snaps next dot when finger enters snap radius', () => {
     engine = new DotsEngine(dots, { snapRadius: 15 });
     engine.tryStart(10, 10);
-    engine.move(40, 12); expect(engine.progress).toBe(1);
-    engine.move(48, 11); expect(engine.progress).toBe(2);
+    engine.move(30, 12); expect(engine.progress).toBe(1); // outside 15 of dot[1]=(50,10)
+    engine.move(40, 12); expect(engine.progress).toBe(2); // inside  15 of dot[1]=(50,10) (dist ~10.2)
   });
   it('ignores wrong-direction dots', () => {
     engine = new DotsEngine(dots, { snapRadius: 15 });

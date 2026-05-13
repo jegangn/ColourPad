@@ -31,8 +31,7 @@ export class DotsEngine {
     this.fingerXY = [x, y];
     const next = this.dots[this.progress];
     if (!next) return;
-    // Use a tighter inner threshold for movement snap (half of snapRadius)
-    if (this._dist(x, y, next) <= this.snapRadius * 0.5) this._snap(this.progress);
+    if (this._dist(x, y, next) <= this.snapRadius) this._snap(this.progress);
   }
   lift() {
     if (!this.isDragging) return;
@@ -41,9 +40,9 @@ export class DotsEngine {
     this.fingerXY = null;
   }
   _snap(idx) {
-    this.onSnap(idx);
-    this.fingerXY = [...this.dots[idx]]; // anchor at snapped dot so next move has a prev position
     this.progress = idx + 1;
+    this.fingerXY = [...this.dots[idx]]; // anchor at snapped dot so next move has a prev position
+    this.onSnap(idx);
     if (this.isComplete) { this.isDragging = false; this.fingerXY = null; this.onComplete(); }
   }
 }

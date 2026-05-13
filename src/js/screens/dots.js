@@ -84,12 +84,16 @@ export async function renderDots(root, params) {
   drawDots(engine);
 
   const stageSvg = stage.querySelector('.dots-svg');
+  // Use getScreenCTM().inverse() so the viewBox<->client mapping accounts for
+  // letterboxing when the SVG's aspect ratio differs from its container.
   const toLocal = (e) => {
-    const r = stageSvg.getBoundingClientRect();
-    return [
-      ((e.clientX - r.left) / r.width)  * W,
-      ((e.clientY - r.top)  / r.height) * H,
-    ];
+    const ctm = stageSvg.getScreenCTM();
+    if (!ctm) return [0, 0];
+    const inv = ctm.inverse();
+    const pt = stageSvg.createSVGPoint();
+    pt.x = e.clientX; pt.y = e.clientY;
+    const p = pt.matrixTransform(inv);
+    return [p.x, p.y];
   };
 
   stageSvg.addEventListener('pointerdown', e => {
