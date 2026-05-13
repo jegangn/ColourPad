@@ -1,5 +1,5 @@
 // src/sw.js
-const CACHE = 'dotpaint-v3';
+const CACHE = 'colorpad-v1';
 const PRECACHE = [
   './',
   './index.html',

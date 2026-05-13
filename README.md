@@ -1,4 +1,4 @@
-# DotPaint
+# ColorPad
 
 Finger-painting colouring PWA for a 5-year-old, built for Samsung Tab S8 landscape.
 

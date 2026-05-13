@@ -1,7 +1,7 @@
 {
-  "name": "DotPaint",
-  "short_name": "DotPaint",
-  "description": "Connect-the-dots and colouring for a 5-year-old.",
+  "name": "ColorPad",
+  "short_name": "ColorPad",
+  "description": "Finger-painting colouring app for a 5-year-old.",
   "display": "standalone",
   "orientation": "landscape",
   "background_color": "#FFF7ED",
