@@ -66,5 +66,5 @@ export async function renderPicker(root, params) {
       if (mode === 'dots') navigate('dots',   { pictureId: id, level: currentLevel });
       else                 navigate('colour', { pictureId: id });
     }
-  }, { once: true });
+  });
 }

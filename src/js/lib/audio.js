@@ -8,9 +8,11 @@ class AudioBus {
     this.enabled = true;
   }
   _ensure() {
-    if (this.ctx) return;
-    try { this.ctx = new (window.AudioContext || window.webkitAudioContext)(); }
-    catch { this.ctx = null; }
+    if (!this.ctx) {
+      try { this.ctx = new (window.AudioContext || window.webkitAudioContext)(); }
+      catch { this.ctx = null; }
+    }
+    if (this.ctx && this.ctx.state === 'suspended') this.ctx.resume().catch(() => {});
   }
   setEnabled(on) { this.enabled = !!on; if (!on) this.stopWhoosh(); }
 

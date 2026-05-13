@@ -55,9 +55,11 @@ export function renderGallery(root) {
       const img = document.createElement('img');
       img.src = item.dataUrl;
       lb.appendChild(close); lb.appendChild(img);
+      const cleanup = () => { lb.remove(); window.removeEventListener('hashchange', cleanup); };
       lb.addEventListener('click', e => {
-        if (e.target === lb || e.target.closest('[data-close]')) lb.remove();
+        if (e.target === lb || e.target.closest('[data-close]')) cleanup();
       });
+      window.addEventListener('hashchange', cleanup);
       document.body.appendChild(lb);
     });
   });

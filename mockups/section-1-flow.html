@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section 1 — Overall flow</title>
+<style>
+  :root{
+    --bg:#fef9f3; --ink:#3a2e26; --muted:#7a6a5d;
+    --dots:#3aa6ff; --colour:#ff7e5f; --accent:#ffd166;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;font-family:-apple-system,Segoe UI,Inter,sans-serif;background:#f3ede4;color:var(--ink)}
+  .page{max-width:1200px;margin:0 auto;padding:24px}
+  h1{font-size:24px;margin:0 0 4px}
+  .lead{color:var(--muted);font-size:14px;margin:0 0 24px}
+  .row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .step{background:#fff;border-radius:14px;padding:14px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+  .step h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px}
+  .frame{aspect-ratio:16/10;background:var(--bg);border-radius:10px;overflow:hidden;position:relative;border:1px solid #e8ddcc}
+
+  /* HOME */
+  .home{display:flex;flex-direction:column;height:100%;padding:14px}
+  .home-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+  .home-title{font-weight:800;font-size:14px}
+  .gear{width:24px;height:24px;border-radius:50%;background:#ece4d6;display:flex;align-items:center;justify-content:center;font-size:13px}
+  .tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;flex:1}
+  .tile{border-radius:14px;display:flex;flex-direction:column;justify-content:flex-end;padding:10px;color:#fff;font-weight:800;font-size:14px;position:relative;overflow:hidden}
+  .tile.dots{background:linear-gradient(135deg,#3aa6ff,#6c5ce7)}
+  .tile.col{background:linear-gradient(135deg,#ff7e5f,#feb47b)}
+  .tile .ic{font-size:34px;align-self:flex-start;margin-bottom:auto}
+  .home-bottom{display:flex;gap:8px;margin-top:10px}
+  .pill{flex:1;background:#fff;border:1px solid #e8ddcc;border-radius:999px;padding:6px 10px;text-align:center;font-size:11px;color:var(--muted)}
+
+  /* PICKER */
+  .picker{display:flex;flex-direction:column;height:100%;padding:10px}
+  .pick-top{display:flex;align-items:center;gap:6px;margin-bottom:6px}
+  .back{width:22px;height:22px;border-radius:50%;background:#ece4d6;display:flex;align-items:center;justify-content:center;font-size:12px}
+  .pick-title{font-weight:800;font-size:13px;flex:1}
+  .level-row{display:flex;gap:6px;margin-bottom:8px}
+  .lvl{flex:1;background:#fff;border:1px solid #e8ddcc;border-radius:10px;padding:6px;text-align:center;font-size:10px;font-weight:700;color:var(--muted)}
+  .lvl.on{background:var(--accent);color:var(--ink);border-color:var(--accent)}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;flex:1;overflow:hidden}
+  .thumb{background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:22px;border:1px solid #e8ddcc}
+
+  /* DONE */
+  .done{display:flex;flex-direction:column;height:100%;padding:10px;align-items:center;justify-content:center;gap:10px;background:#fffbf2}
+  .done-pic{font-size:50px}
+  .done-name{font-weight:800;font-size:14px}
+  .done-actions{display:flex;gap:8px}
+  .btn{background:#fff;border:1px solid #e8ddcc;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:700}
+  .btn.primary{background:var(--accent);border-color:var(--accent)}
+
+  .arrow{display:flex;align-items:center;justify-content:center;font-size:22px;color:var(--muted)}
+  .map{margin-top:24px;background:#fff;border-radius:14px;padding:16px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+  .map h3{margin:0 0 8px;font-size:14px}
+  .map ul{margin:0;padding-left:18px;color:var(--muted);font-size:13px;line-height:1.6}
+  .legend{display:flex;gap:14px;margin-top:6px;font-size:11px;color:var(--muted)}
+  .swatch{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:middle;margin-right:4px}
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Section 1 — Overall flow</h1>
+  <p class="lead">Three screens, in landscape on the Tab S8. Tap-only. Big targets.</p>
+
+  <div class="row">
+    <div class="step">
+      <h3>1 · Home</h3>
+      <div class="frame">
+        <div class="home">
+          <div class="home-top">
+            <div class="home-title">Hi! 👋</div>
+            <div class="gear">⚙️</div>
+          </div>
+          <div class="tiles">
+            <div class="tile dots">
+              <div class="ic">🔗</div>
+              Connect the Dots
+            </div>
+            <div class="tile col">
+              <div class="ic">🎨</div>
+              Colour
+            </div>
+          </div>
+          <div class="home-bottom">
+            <div class="pill">🖼 My Gallery</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3>2 · Pick a picture</h3>
+      <div class="frame">
+        <div class="picker">
+          <div class="pick-top">
+            <div class="back">‹</div>
+            <div class="pick-title">Connect the Dots</div>
+          </div>
+          <div class="level-row">
+            <div class="lvl on">Easy 10</div>
+            <div class="lvl">Medium 20</div>
+            <div class="lvl">Hard 40</div>
+          </div>
+          <div class="grid">
+            <div class="thumb">🚜</div><div class="thumb">🚒</div><div class="thumb">🚓</div><div class="thumb">🚂</div>
+            <div class="thumb">🚁</div><div class="thumb">🛻</div><div class="thumb">🚌</div><div class="thumb">🛺</div>
+            <div class="thumb">🦖</div><div class="thumb">🦒</div><div class="thumb">🐘</div><div class="thumb">🐳</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3>3 · Done — what next?</h3>
+      <div class="frame">
+        <div class="done">
+          <div class="done-pic">🚜</div>
+          <div class="done-name">"Excavator!" 🔊</div>
+          <div class="done-actions">
+            <div class="btn">Try another</div>
+            <div class="btn primary">⭐ Save</div>
+          </div>
+          <div class="done-actions">
+            <div class="btn">🏠 Home</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="map">
+    <h3>Notes for this section</h3>
+    <ul>
+      <li><b>Home</b>: Two huge tiles fill the screen — minimal choice for a 5yo. Gallery is a small pill below, gear (parent area) is small in the corner.</li>
+      <li><b>Picker</b>: Difficulty row appears <b>only for Connect-the-Dots</b>. Colouring goes straight to the grid. Grid scrolls horizontally if more than ~12 fit on screen.</li>
+      <li><b>Done</b>: After he finishes, the picture is shown briefly with the voice naming it. He can save manually (⭐), try another, or go home. Nothing saves automatically.</li>
+      <li><b>Categories filter</b>: With 200 pictures, he'll need a way to find vehicles. Top of the picker has tappable category chips: Vehicles, Animals, Dinosaurs, Food, etc. Not shown above for clarity.</li>
+    </ul>
+    <div class="legend">
+      <span><span class="swatch" style="background:#3aa6ff"></span>Connect-the-Dots flow</span>
+      <span><span class="swatch" style="background:#ff7e5f"></span>Colouring flow</span>
+      <span><span class="swatch" style="background:#ffd166"></span>Tap target</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>

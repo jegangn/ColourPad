@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Section 3 — Colouring, Gallery, Parent</title>
+<style>
+  :root{--bg:#fef9f3;--ink:#3a2e26;--muted:#7a6a5d;--accent:#ffd166}
+  *{box-sizing:border-box}
+  html,body{margin:0;font-family:-apple-system,Segoe UI,Inter,sans-serif;background:#f3ede4;color:var(--ink)}
+  .page{max-width:1200px;margin:0 auto;padding:24px}
+  h1{font-size:24px;margin:0 0 4px}
+  .lead{color:var(--muted);font-size:14px;margin:0 0 24px}
+  .row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .step{background:#fff;border-radius:14px;padding:14px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+  .step h3{font-size:13px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 8px}
+  .frame{aspect-ratio:16/10;background:var(--bg);border-radius:10px;overflow:hidden;position:relative;border:1px solid #e8ddcc}
+
+  .top{display:flex;align-items:center;gap:6px;padding:8px;border-bottom:1px solid #f0e8d8}
+  .back{width:22px;height:22px;border-radius:50%;background:#ece4d6;display:flex;align-items:center;justify-content:center;font-size:12px}
+  .title{flex:1;font-weight:800;font-size:12px}
+  .top-actions{display:flex;gap:5px}
+  .ic-btn{width:24px;height:24px;border-radius:6px;background:#fff8e6;display:flex;align-items:center;justify-content:center;font-size:12px;border:1px solid #f0e0a8}
+  .ic-btn.primary{background:#ffd166;border-color:#ffd166}
+
+  /* COLOURING */
+  .colour-wrap{display:flex;flex-direction:column;height:100%}
+  .canvas-area{flex:1;position:relative;display:flex;align-items:center;justify-content:center}
+  .palette{display:flex;align-items:center;gap:6px;padding:7px 8px;background:#fff;border-top:1px solid #f0e8d8}
+  .swatch{width:22px;height:22px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #e8ddcc}
+  .swatch.on{box-shadow:0 0 0 2px #3a2e26}
+  .brush-sizes{display:flex;gap:4px;margin-left:auto}
+  .bsize{width:22px;height:22px;border-radius:6px;background:#fff8e6;display:flex;align-items:center;justify-content:center;border:1px solid #f0e0a8}
+  .bsize.on{background:#ffd166;border-color:#ffd166}
+  .bsize .dot{background:#3a2e26;border-radius:50%}
+
+  /* GALLERY */
+  .gal-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;padding:8px;height:calc(100% - 39px);overflow:hidden}
+  .gal-item{background:#fff;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:24px;border:1px solid #e8ddcc;position:relative}
+  .gal-item .star{position:absolute;top:3px;right:5px;font-size:9px}
+  .gal-empty{padding:18px;text-align:center;color:var(--muted);font-size:11px}
+
+  /* PARENT */
+  .parent-pin{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px;padding:20px}
+  .pin-dots{display:flex;gap:10px}
+  .pin-dot{width:14px;height:14px;border-radius:50%;background:#ece4d6}
+  .pin-dot.on{background:#3a2e26}
+  .keypad{display:grid;grid-template-columns:repeat(3,38px);gap:6px}
+  .key{background:#fff;border:1px solid #e8ddcc;border-radius:10px;padding:6px;text-align:center;font-weight:700;font-size:13px}
+
+  .parent-menu{padding:10px;display:flex;flex-direction:column;gap:6px;height:100%}
+  .menu-row{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1px solid #e8ddcc;border-radius:10px;padding:8px 10px;font-size:11px}
+  .menu-row .v{color:var(--muted)}
+
+  .map{margin-top:24px;background:#fff;border-radius:14px;padding:16px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+  .map h3{margin:0 0 8px;font-size:14px}
+  .map ul{margin:0 0 8px;padding-left:18px;color:var(--muted);font-size:13px;line-height:1.7}
+  .map h4{margin:10px 0 4px;font-size:12px;color:var(--ink)}
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Section 3 — Colouring · Gallery · Parent</h1>
+  <p class="lead">Three more screens. Brush colouring, save-button gallery, PIN-gated parent area.</p>
+
+  <div class="row">
+    <!-- COLOURING -->
+    <div class="step">
+      <h3>Colouring screen</h3>
+      <div class="frame">
+        <div class="colour-wrap">
+          <div class="top">
+            <div class="back">‹</div>
+            <div class="title">Fire Truck</div>
+            <div class="top-actions">
+              <div class="ic-btn">↶</div>
+              <div class="ic-btn">🗑</div>
+              <div class="ic-btn primary">⭐</div>
+            </div>
+          </div>
+          <div class="canvas-area">
+            <svg viewBox="0 0 400 200" style="width:96%;height:96%">
+              <!-- Painted base (red body) -->
+              <rect x="60" y="100" width="220" height="60" fill="#ff5252" rx="4"/>
+              <rect x="60" y="80" width="100" height="20" fill="#ff5252"/>
+              <rect x="280" y="115" width="50" height="45" fill="#ff5252" rx="3"/>
+              <!-- Brush stroke in progress (yellow) -->
+              <path d="M170 90 Q180 92 195 88 T220 92" stroke="#ffd166" stroke-width="14" stroke-linecap="round" fill="none" opacity="0.95"/>
+              <!-- Outline -->
+              <path d="M60 100 L60 80 L160 80 L160 100 L280 100 L280 115 L330 115 L330 160 L60 160 Z" fill="none" stroke="#3a2e26" stroke-width="2.5" stroke-linejoin="round"/>
+              <rect x="80" y="90" width="30" height="15" fill="#bde0fe" stroke="#3a2e26" stroke-width="1.5"/>
+              <circle cx="110" cy="165" r="14" fill="#3a2e26"/>
+              <circle cx="240" cy="165" r="14" fill="#3a2e26"/>
+              <circle cx="300" cy="165" r="14" fill="#3a2e26"/>
+            </svg>
+          </div>
+          <div class="palette">
+            <div class="swatch" style="background:#e63946"></div>
+            <div class="swatch on" style="background:#ffd166"></div>
+            <div class="swatch" style="background:#06d6a0"></div>
+            <div class="swatch" style="background:#118ab2"></div>
+            <div class="swatch" style="background:#7b2cbf"></div>
+            <div class="swatch" style="background:#ff7e5f"></div>
+            <div class="swatch" style="background:#3a2e26"></div>
+            <div class="swatch" style="background:#fff"></div>
+            <div class="brush-sizes">
+              <div class="bsize"><div class="dot" style="width:5px;height:5px"></div></div>
+              <div class="bsize on"><div class="dot" style="width:9px;height:9px"></div></div>
+              <div class="bsize"><div class="dot" style="width:14px;height:14px"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="step">
+      <h3>My Gallery</h3>
+      <div class="frame">
+        <div class="top">
+          <div class="back">‹</div>
+          <div class="title">My Gallery (7)</div>
+        </div>
+        <div class="gal-grid">
+          <div class="gal-item">🚒<span class="star">⭐</span></div>
+          <div class="gal-item">🚜<span class="star">⭐</span></div>
+          <div class="gal-item">🦖<span class="star">⭐</span></div>
+          <div class="gal-item">🚂<span class="star">⭐</span></div>
+          <div class="gal-item">🚁<span class="star">⭐</span></div>
+          <div class="gal-item">🛻<span class="star">⭐</span></div>
+          <div class="gal-item">🐳<span class="star">⭐</span></div>
+          <div class="gal-item" style="background:#f3ede4;color:#bcb1a3">＋</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PARENT PIN -->
+    <div class="step">
+      <h3>Parent area · PIN gate</h3>
+      <div class="frame">
+        <div class="parent-pin">
+          <div style="font-size:11px;color:var(--muted)">Parent area</div>
+          <div style="font-weight:800;font-size:13px">Enter 4-digit PIN</div>
+          <div class="pin-dots">
+            <div class="pin-dot on"></div>
+            <div class="pin-dot on"></div>
+            <div class="pin-dot"></div>
+            <div class="pin-dot"></div>
+          </div>
+          <div class="keypad">
+            <div class="key">1</div><div class="key">2</div><div class="key">3</div>
+            <div class="key">4</div><div class="key">5</div><div class="key">6</div>
+            <div class="key">7</div><div class="key">8</div><div class="key">9</div>
+            <div class="key" style="visibility:hidden"></div><div class="key">0</div><div class="key">⌫</div>
+          </div>
+          <div style="font-size:9px;color:var(--muted)">Default 1234 — change inside</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Second row: parent menu + photo upload -->
+  <div class="row" style="margin-top:16px">
+    <div class="step">
+      <h3>Parent area · Menu</h3>
+      <div class="frame">
+        <div style="display:flex;flex-direction:column;height:100%">
+          <div class="top">
+            <div class="back">‹</div>
+            <div class="title">Parent settings</div>
+          </div>
+          <div class="parent-menu">
+            <div class="menu-row"><span>📷 Add photo as colouring page</span><span class="v">›</span></div>
+            <div class="menu-row"><span>🖼 Manage Gallery (7 items)</span><span class="v">›</span></div>
+            <div class="menu-row"><span>🔢 Change PIN</span><span class="v">1234</span></div>
+            <div class="menu-row"><span>👻 Faint outline hint</span><span class="v">On</span></div>
+            <div class="menu-row"><span>🔊 Sound effects</span><span class="v">On</span></div>
+            <div class="menu-row"><span>🗣 Voice naming</span><span class="v">On</span></div>
+            <div class="menu-row"><span>📊 Stats</span><span class="v">12 done</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3>Add photo · flow</h3>
+      <div class="frame">
+        <div style="display:flex;flex-direction:column;height:100%">
+          <div class="top">
+            <div class="back">‹</div>
+            <div class="title">Add photo as colouring page</div>
+          </div>
+          <div style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:8px;align-items:center">
+            <div style="background:#ddd;border-radius:8px;aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-size:30px">🚜</div>
+            <div style="background:#fff;border:2px dashed #e8ddcc;border-radius:8px;aspect-ratio:1;display:flex;align-items:center;justify-content:center;position:relative">
+              <svg viewBox="0 0 100 100" style="width:80%;height:80%">
+                <path d="M15 70 L15 50 L25 45 L30 30 L55 28 L62 35 L80 35 L85 45 L85 70 Z" fill="none" stroke="#3a2e26" stroke-width="2"/>
+                <circle cx="30" cy="72" r="6" fill="none" stroke="#3a2e26" stroke-width="2"/>
+                <circle cx="70" cy="72" r="6" fill="none" stroke="#3a2e26" stroke-width="2"/>
+              </svg>
+            </div>
+          </div>
+          <div style="display:flex;justify-content:center;gap:6px;padding:8px">
+            <div class="ic-btn" style="width:auto;padding:6px 10px">Cancel</div>
+            <div class="ic-btn primary" style="width:auto;padding:6px 10px">Add to colouring</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="step">
+      <h3>Empty state · Gallery</h3>
+      <div class="frame">
+        <div class="top">
+          <div class="back">‹</div>
+          <div class="title">My Gallery</div>
+        </div>
+        <div class="gal-empty" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:calc(100% - 39px);gap:8px">
+          <div style="font-size:40px">🖼</div>
+          <div style="font-weight:700;color:#3a2e26">No saved pictures yet</div>
+          <div>Tap the ⭐ button when you finish colouring or<br>connecting dots to save it here.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="map">
+    <h3>Notes</h3>
+    <h4>Colouring</h4>
+    <ul>
+      <li><b>Brush</b>: finger drag paints freely; stroke uses the selected colour and brush size. Strokes go into a canvas overlay above the SVG outline — outline is always visible on top.</li>
+      <li><b>Palette</b>: 8 default colours (red, yellow, green, blue, purple, orange, black, white/eraser). 3 brush sizes. White acts as an eraser.</li>
+      <li><b>Top buttons</b>: Undo (last stroke), Clear (whole canvas after a confirm), Save (⭐ takes a snapshot to gallery).</li>
+      <li><b>Sound</b>: soft brush whoosh while dragging.</li>
+    </ul>
+    <h4>Gallery</h4>
+    <ul>
+      <li>Grid of saved snapshots. Tap to view full-size, long-press for delete confirm.</li>
+      <li>Stored as base64 PNGs in <code>localStorage</code>. ~50KB each, comfortably 100+ before space matters.</li>
+      <li>Empty state shows clear instructions for how to save.</li>
+    </ul>
+    <h4>Parent area</h4>
+    <ul>
+      <li><b>PIN gate</b>: 4-digit PIN keeps a 5yo out of settings. Default 1234, changeable inside.</li>
+      <li><b>Add photo</b>: Pick from gallery → preview shows original + auto-generated outline (browser edge detection) → confirm to add to the colouring picker (flagged with a 📷 badge so you can find your own).</li>
+      <li><b>Settings</b>: Toggles for faint-outline hint, sound, voice. Change PIN. Manage gallery. Stats (just a count, nothing tracking-y).</li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
