@@ -1,0 +1,42 @@
+name: Deploy ColorPad to GitHub Pages
+
+# Publishes the `src/` folder as the GitHub Pages site. There is no build
+# step — this PWA is plain HTML / CSS / ES modules + a service worker, so
+# the same files we serve locally with `bunx serve src` are what gets
+# uploaded as the Pages artifact.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One in-flight deploy at a time; cancel in-progress runs in favour of newer ones
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload src/ as the Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./src
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

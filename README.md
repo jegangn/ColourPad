@@ -5,10 +5,12 @@ Finger-painting colouring PWA for a 5-year-old, built for Samsung Tab S8 landsca
 ## What's inside
 
 - **One game**: pick a picture → colour it with your finger.
-- **200 built-in outlines**: 100 vehicles (incl. construction & machinery), 50 animals, 30 dinosaurs, 10 food, 10 misc. Each is a side-view cartoon SVG with a stroke-only outline ready to paint over.
+- **213 built-in outlines** across vehicles, fire, construction, trains, aircraft, boats, space, robots and buildings. Each is a side-view cartoon SVG with a stroke-only outline ready to paint over.
 - **Add-your-own photos** (parent area) → auto-converted to colouring outlines via Sobel edge detection.
-- **8-colour palette + eraser, 3 brush sizes, undo, clear, save to gallery.**
-- **Fully offline PWA** after first install — service worker caches everything.
+- **24-colour palette + eraser, 4 brush sizes, undo, clear, save to gallery.**
+- **Auto-save** — every stroke persists per picture, so the kid can close the app and pick up where they left off.
+- **Prev / random-next arrows** on the colouring screen for easy picture-to-picture flow.
+- **Fully offline PWA** after first install — service worker caches everything and auto-reloads on updates.
 - **Voice + sound effects**: brush whoosh while painting, picture name spoken on completion. Toggle in parent area.
 - **Save to gallery** on tap (never automatic). Long-press a gallery item to delete.
 
@@ -31,14 +33,23 @@ bun test         # runs unit tests
 4. Menu → "Add to Home screen" → confirm. The icon appears on the home screen.
 5. Open from the icon → app runs fullscreen, landscape, fully offline thereafter.
 
-## Hosting (recommended)
+## Hosting
 
-To avoid keeping the dev machine on:
-- **Netlify Drop**: drag the `src/` folder into https://app.netlify.com/drop. Free, HTTPS, ~10s.
-- **GitHub Pages**: push `src/` to a repo, enable Pages on the branch.
-- **Cloudflare Pages**: free, custom domain, instant global edge cache.
+This repo auto-deploys to **GitHub Pages** on every push to `main`. The
+`/src` folder is uploaded as the Pages artifact — no build step.
 
-Once installed via the hosted URL, the service worker keeps a full offline copy.
+Setup (one-time, in the GitHub repo settings):
+
+1. **Settings → Pages → Build and deployment → Source: GitHub Actions**
+2. Push to `main`. The workflow at `.github/workflows/deploy.yml`
+   publishes `src/` to `https://<user>.github.io/<repo>/`.
+3. Open that URL on the Tab S8 → menu → "Add to Home screen".
+
+Once installed via the hosted URL, the service worker keeps a full
+offline copy and auto-refreshes whenever a new version is deployed.
+
+Other zero-config hosts (drop the `src/` folder in):
+**Netlify Drop**, **Cloudflare Pages**, **Vercel**.
 
 ## Updating the picture set
 
