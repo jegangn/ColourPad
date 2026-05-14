@@ -42,7 +42,25 @@ onRouteChange(({ name, params }) => {
   });
 });
 
-// Register service worker
+// Register service worker. When a new SW takes control of an EXISTING page
+// (i.e. a real version update, not the first-ever install), reload once so
+// the page picks up the latest JS/CSS instead of running stale cached code.
+//
+// We snapshot the initial controller: if it was null, this is a first
+// install and we don't reload. If it was a previous SW and `controllerchange`
+// fires, we know a new version just took over.
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch(() => {});
+
+  const hadController = !!navigator.serviceWorker.controller;
+  let alreadyReloaded = false;
+  const reloadIfUpdate = () => {
+    if (!hadController || alreadyReloaded) return;
+    alreadyReloaded = true;
+    location.reload();
+  };
+  navigator.serviceWorker.addEventListener('controllerchange', reloadIfUpdate);
+  navigator.serviceWorker.addEventListener('message', e => {
+    if (e.data?.type === 'SW_UPDATED') reloadIfUpdate();
+  });
 }

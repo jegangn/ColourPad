@@ -1,5 +1,5 @@
 // src/sw.js
-const CACHE = 'colorpad-v13';
+const CACHE = 'colorpad-v15';
 const PRECACHE = [
   './',
   './index.html',
@@ -45,6 +45,12 @@ self.addEventListener('activate', e => {
     const keys = await caches.keys();
     await Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)));
     await self.clients.claim();
+    // Tell every controlled client (open tab / installed PWA window) that a
+    // new version just activated. The page can react by reloading itself —
+    // see app.js's `controllerchange`/message listeners. Without this, the
+    // user keeps running the old JS until they manually refresh.
+    const clients = await self.clients.matchAll({ includeUncontrolled: true });
+    for (const c of clients) c.postMessage({ type: 'SW_UPDATED', cache: CACHE });
   })());
 });
 
