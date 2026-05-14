@@ -1,5 +1,5 @@
 // src/sw.js
-const CACHE = 'colorpad-v15';
+const CACHE = 'colorpad-v16';
 const PRECACHE = [
   './',
   './index.html',

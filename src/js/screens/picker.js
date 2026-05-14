@@ -22,6 +22,32 @@ const CATEGORY_META = [
 
 let currentCategory = 'all';
 let manifestPromise = null;
+// Per-session shuffle: same order across tab switches (so the user's
+// scroll position feels stable), but freshly randomized on each app
+// open / reload. Mixes categories together in the "All" tab — vehicle,
+// then space, then construction, etc. — rather than grouping by type.
+let shuffleSeed = Math.random();
+
+function fisherYates(arr, rng) {
+  const out = arr.slice();
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+// Mulberry32 — tiny, fast seeded RNG so the order stays the same
+// across re-renders within a session (tab switches don't reshuffle).
+function seededRng(seed) {
+  let t = Math.floor(seed * 2 ** 32) >>> 0;
+  return function () {
+    t = (t + 0x6D2B79F5) >>> 0;
+    let r = Math.imul(t ^ (t >>> 15), 1 | t);
+    r = (r + Math.imul(r ^ (r >>> 7), 61 | r)) ^ r;
+    return ((r ^ (r >>> 14)) >>> 0) / 4294967296;
+  };
+}
 
 function loadManifest() {
   manifestPromise ??= fetch('./assets/pictures/manifest.json').then(r => r.json());
@@ -40,9 +66,15 @@ export async function renderPicker(root) {
     })),
   ];
 
+  // Shuffle the full set once per session (seeded), so:
+  //  - "All" tab mixes categories instead of grouping (vehicle, space, fire, ...)
+  //  - Tab-specific views still appear in randomized order within the category
+  //  - Switching tabs and coming back keeps the same order (no jarring re-shuffle)
+  const shuffled = fisherYates(items, seededRng(shuffleSeed));
+
   const filtered = currentCategory === 'all'
-    ? items
-    : items.filter(p => p.category === currentCategory);
+    ? shuffled
+    : shuffled.filter(p => p.category === currentCategory);
 
   // Build chip row, hiding "My Photos" when there aren't any
   const chips = CATEGORY_META

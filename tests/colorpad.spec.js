@@ -34,7 +34,7 @@ test('home shows greeting "Hi Jhanav!" + paintbrush tile + gallery pill', async 
 // ---------------------------------------------------------------------------
 // Picker
 // ---------------------------------------------------------------------------
-test('picker loads with 10 category chips + 213 thumbs in "All"', async ({ page }) => {
+test('picker loads with 10 chips + 213 thumbs + mixes categories in "All"', async ({ page }) => {
   await page.goto('/?cb=' + Date.now() + '#/picker');
   await page.waitForSelector('.thumb');
   // Categories: All + 9 real + (no My Photos because user has none yet)
@@ -43,6 +43,20 @@ test('picker loads with 10 category chips + 213 thumbs in "All"', async ({ page 
   await expect(chips.first()).toContainText('All');
   // Picker has 213 built-in pictures
   await expect(page.locator('.thumb')).toHaveCount(213);
+  // The "All" tab should INTERLEAVE categories (vehicle, then space, then
+  // construction, etc.) rather than grouping all 44 vehicles together
+  // before the next category. Look up the first 30 thumbs in the manifest
+  // and assert at least 3 distinct categories appear in that prefix —
+  // impossible if the list is grouped by category.
+  const manifest = await page.evaluate(() =>
+    fetch('./assets/pictures/manifest.json').then(r => r.json())
+  );
+  const catById = Object.fromEntries(manifest.map(p => [p.id, p.category]));
+  const ids = await page.locator('.thumb').evaluateAll(els =>
+    els.slice(0, 30).map(el => el.dataset.pic)
+  );
+  const distinct = new Set(ids.map(id => catById[id]).filter(Boolean));
+  expect(distinct.size).toBeGreaterThanOrEqual(3);
 });
 
 test('thumb has separated image area and title row (no overlap)', async ({ page }) => {
