@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M70 125 L130 125 L125 115 L75 115 Z" fill="white"></path>
+<rect x="78" y="100" width="44" height="18" rx="2" fill="white"></rect>
+<path d="M75 60 L75 100 L125 100 L125 60 Q125 50 100 50 Q75 50 75 60 Z" fill="white"></path>
+<path d="M60 75 L75 75 L75 90 L60 90 Z" fill="white"></path>
+<path d="M125 75 L140 75 L140 90 L125 90 Z" fill="white"></path>
+<circle cx="100" cy="60" r="6" fill="white"></circle>
+<line x1="96" y1="60" x2="104" y2="60"></line>
+<line x1="100" y1="56" x2="100" y2="64"></line>
+<line x1="78" y1="80" x2="122" y2="80"></line>
+
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M16 130 L16 70 L184 70 L184 130 Z" fill="white"></path>
+
+<rect x="12" y="130" width="176" height="4" fill="white"></rect>
+<rect x="8" y="134" width="184" height="4" fill="white"></rect>
+
+<path d="M68 70 L100 50 L132 70 Z" fill="white"></path>
+
+<rect x="78" y="36" width="44" height="14" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="86" y1="36" x2="86" y2="50"></line>
+  <line x1="100" y1="36" x2="100" y2="50"></line>
+  <line x1="114" y1="36" x2="114" y2="50"></line>
+</g>
+
+<path d="M76 36 Q100 8 124 36 Z" fill="white"></path>
+<line x1="100" y1="36" x2="100" y2="14"></line>
+
+<line x1="100" y1="14" x2="100" y2="2"></line>
+<path d="M100 4 L112 6 L100 10" fill="white"></path>
+
+<g>
+  <rect x="26" y="74" width="6" height="50" fill="white"></rect>
+  <rect x="46" y="74" width="6" height="50" fill="white"></rect>
+  <rect x="66" y="74" width="6" height="50" fill="white"></rect>
+  <rect x="128" y="74" width="6" height="50" fill="white"></rect>
+  <rect x="148" y="74" width="6" height="50" fill="white"></rect>
+  <rect x="168" y="74" width="6" height="50" fill="white"></rect>
+</g>
+<line x1="22" y1="76" x2="178" y2="76"></line>
+
+<path d="M84 130 L84 92 Q84 80 100 80 Q116 80 116 92 L116 130" fill="white"></path>
+<line x1="100" y1="80" x2="100" y2="130"></line>
+<g fill="#1f1f1f" stroke="none">
+  <circle cx="96" cy="108" r="1.2"></circle>
+  <circle cx="104" cy="108" r="1.2"></circle>
+</g>
+
+<rect x="78" y="60" width="44" height="8" fill="white"></rect>
+<text x="80" y="67" font-family="ui-monospace, monospace" font-size="6" font-weight="700">CITY HALL</text>
+
+<rect x="36" y="86" width="10" height="14" fill="white"></rect>
+<line x1="36" y1="93" x2="46" y2="93"></line>
+<line x1="41" y1="86" x2="41" y2="100"></line>
+<rect x="56" y="86" width="10" height="14" fill="white"></rect>
+<line x1="56" y1="93" x2="66" y2="93"></line>
+<line x1="61" y1="86" x2="61" y2="100"></line>
+<rect x="138" y="86" width="10" height="14" fill="white"></rect>
+<line x1="138" y1="93" x2="148" y2="93"></line>
+<line x1="143" y1="86" x2="143" y2="100"></line>
+<rect x="158" y="86" width="10" height="14" fill="white"></rect>
+<line x1="158" y1="93" x2="168" y2="93"></line>
+<line x1="163" y1="86" x2="163" y2="100"></line>
+
+<line x1="6" y1="142" x2="194" y2="142"></line>
+</svg>

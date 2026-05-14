@@ -1,36 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <g id="fill">
-    <!-- truck body/cab -->
-    <rect x="40" y="155" width="90" height="70" rx="6" fill="#FFD600"/>
-    <!-- dump bed -->
-    <polygon points="130,120 310,120 320,225 130,225" fill="#FFB300"/>
-    <!-- cab roof -->
-    <rect x="50" y="130" width="70" height="30" rx="5" fill="#FFD600"/>
-    <!-- window -->
-    <rect x="60" y="137" width="45" height="20" rx="3" fill="#bde0fe"/>
-    <!-- wheels -->
-    <circle cx="90" cy="235" r="28" fill="#3a3a3a"/>
-    <circle cx="90" cy="235" r="14" fill="#5a5a5a"/>
-    <circle cx="250" cy="235" r="28" fill="#3a3a3a"/>
-    <circle cx="250" cy="235" r="14" fill="#5a5a5a"/>
-    <circle cx="310" cy="235" r="28" fill="#3a3a3a"/>
-    <circle cx="310" cy="235" r="14" fill="#5a5a5a"/>
-  </g>
-  <g id="outline">
-    <!-- cab -->
-    <rect x="40" y="155" width="90" height="70" rx="6" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <!-- dump bed -->
-    <polygon points="130,120 310,120 320,225 130,225" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <!-- cab roof -->
-    <rect x="50" y="130" width="70" height="30" rx="5" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <!-- window -->
-    <rect x="60" y="137" width="45" height="20" rx="3" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-    <!-- wheels -->
-    <circle cx="90" cy="235" r="28" stroke="#1F1F1F" stroke-width="3" fill="none"/>
-    <circle cx="90" cy="235" r="14" stroke="#1F1F1F" stroke-width="2" fill="none"/>
-    <circle cx="250" cy="235" r="28" stroke="#1F1F1F" stroke-width="3" fill="none"/>
-    <circle cx="250" cy="235" r="14" stroke="#1F1F1F" stroke-width="2" fill="none"/>
-    <circle cx="310" cy="235" r="28" stroke="#1F1F1F" stroke-width="3" fill="none"/>
-    <circle cx="310" cy="235" r="14" stroke="#1F1F1F" stroke-width="2" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M10 115 L10 90 L55 90 L55 70 Q55 62 65 60 L92 60 L100 80 L188 80 L188 115 Z" fill="white"></path>
+<path d="M105 75 L188 75 L182 40 L112 40 Z" fill="white"></path>
+<rect x="62" y="65" width="28" height="14" rx="2" fill="white"></rect>
+<circle cx="40" cy="117" r="13" fill="white"></circle><circle cx="40" cy="117" r="4" fill="#1f1f1f" stroke="none"></circle><circle cx="120" cy="117" r="13" fill="white"></circle><circle cx="120" cy="117" r="4" fill="#1f1f1f" stroke="none"></circle><circle cx="160" cy="117" r="13" fill="white"></circle><circle cx="160" cy="117" r="4" fill="#1f1f1f" stroke="none"></circle>
+<line x1="105" y1="75" x2="105" y2="80"></line>
+
 </svg>

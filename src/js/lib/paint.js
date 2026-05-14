@@ -24,6 +24,10 @@ export class PaintLayer {
   setColour(c) { this.colour = c; }
   setSize(s)   { this.size = s; }
 
+  /** Reset the undo baseline to the canvas's CURRENT contents
+   *  (e.g. after drawing a saved draft on top). */
+  setBaseline() { this.undo.reset(); this._snapshot(); }
+
   beginStroke(x, y) { this._snapshot(); this.prev = [x, y]; this._dot(x, y); }
   drawTo(x, y) {
     if (!this.prev) return;

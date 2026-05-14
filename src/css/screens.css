@@ -3,9 +3,12 @@
   display: grid; grid-template-rows: auto 1fr auto;
   height: 100%; padding: var(--s-5); gap: var(--s-4);
 }
-.screen-home .header { display: flex; justify-content: space-between; align-items: center; }
+.screen-home .header {
+  display: flex; justify-content: space-between; align-items: center;
+}
 .screen-home .greeting {
   font-family: var(--font-display); font-weight: 700; font-size: var(--fs-title);
+  color: var(--c-fg);
 }
 .screen-home .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-5); }
 .screen-home .tiles.single { grid-template-columns: 1fr; }
@@ -16,13 +19,47 @@
 .screen-colour .stage { position: relative; flex: 1; overflow: hidden; touch-action: none; background: white; }
 .screen-colour canvas.paint { position: absolute; inset: 0; width: 100%; height: 100%; }
 .screen-colour .outline-top { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+
+/* Brush cursor — translucent circle showing where & how big the next paint will be */
+.screen-colour .brush-cursor {
+  position: absolute;
+  border: 3px solid #1F1F1F;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 80ms ease-out;
+  z-index: 10;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.8);
+}
+.screen-colour .brush-cursor.visible { opacity: 1; }
 .screen-colour .palette {
-  display: flex; align-items: center; gap: var(--s-3);
+  display: flex; flex-direction: column; gap: var(--s-2);
   padding: var(--s-3) var(--s-4);
   border-top: 2px solid var(--c-border); background: var(--c-bg);
-  flex-wrap: wrap;
 }
-.screen-colour .palette .spacer { flex: 1; }
+.screen-colour .palette-row {
+  display: flex; align-items: center; gap: var(--s-3);
+}
+.screen-colour .palette-row .group-label {
+  font-size: 12px; color: var(--c-fg-soft); font-weight: 700;
+  text-transform: uppercase; letter-spacing: 1px;
+  flex: 0 0 60px;
+}
+.screen-colour .palette-row .swatches {
+  display: flex; flex-wrap: wrap; gap: 6px;
+  flex: 1;
+}
+.screen-colour .palette-row .brush-sizes {
+  display: flex; gap: var(--s-2);
+  flex: 1;
+}
+/* slightly tighter swatches so 24 colours fit comfortably */
+.screen-colour .swatches .swatch {
+  width: 48px; height: 48px;
+  border-width: 3px;
+}
 
 /* === Gallery === */
 .screen-gallery { display: grid; grid-template-rows: auto 1fr; height: 100%; }
@@ -40,9 +77,12 @@
 .screen-gallery .item img { width: 100%; height: 100%; object-fit: contain; }
 .screen-gallery .empty {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  height: 100%; gap: var(--s-3); color: var(--c-fg-soft); padding: var(--s-7); text-align: center;
+  height: 100%; gap: var(--s-4); color: var(--c-fg-soft); padding: var(--s-7); text-align: center;
 }
-.screen-gallery .empty .icon { font-size: 64px; }
+.screen-gallery .empty .icon { color: var(--c-border); }
+.screen-gallery .empty .title {
+  font-family: var(--font-display); font-weight: 700; font-size: var(--fs-button); color: var(--c-fg);
+}
 .lightbox {
   position: fixed; inset: 0; background: rgba(0,0,0,0.85);
   display: flex; align-items: center; justify-content: center; z-index: 1000;
@@ -56,25 +96,115 @@
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   height: 100%; gap: var(--s-5); padding: var(--s-5);
 }
-.parent-pin .label { font-family: var(--font-display); font-weight: 700; font-size: var(--fs-button); color: var(--c-fg); }
+.parent-pin .label {
+  font-family: var(--font-display); font-weight: 700; font-size: var(--fs-button);
+  color: var(--c-fg);
+}
 .pin-dots { display: flex; gap: var(--s-3); }
-.pin-dots .d { width: 18px; height: 18px; border-radius: 50%; background: var(--c-muted); border: 2px solid var(--c-border); }
-.pin-dots .d.on { background: var(--c-fg); }
+.pin-dots .d {
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--c-muted); border: 2px solid var(--c-border);
+}
+.pin-dots .d.on { background: var(--c-primary); border-color: var(--c-primary-deep); }
 .keypad { display: grid; grid-template-columns: repeat(3, 80px); gap: var(--s-3); }
-.parent-menu { display: flex; flex-direction: column; gap: var(--s-3); padding: var(--s-5); overflow-y: auto; }
+.parent-menu {
+  display: flex; flex-direction: column; gap: var(--s-3);
+  padding: var(--s-5); overflow-y: auto;
+}
 .menu-row {
   display: flex; align-items: center; justify-content: space-between;
   background: var(--c-surface); border: 3px solid var(--c-border); border-radius: var(--r-md);
   padding: var(--s-4); font-family: var(--font-display); font-weight: 700; font-size: var(--fs-button);
   min-height: var(--touch-min); box-shadow: var(--shadow-soft); cursor: pointer;
+  color: var(--c-fg);
 }
-.menu-row .v { color: var(--c-fg-soft); font-size: var(--fs-body); font-weight: 400; }
+.menu-row .leading { display: flex; align-items: center; gap: var(--s-3); color: var(--c-primary); }
+.menu-row .v { color: var(--c-fg-soft); font-size: var(--fs-body); font-weight: 500; }
 
 /* === Picker === */
-.screen-picker { display: grid; grid-template-rows: auto auto auto 1fr; height: 100%; gap: var(--s-3); padding-bottom: var(--s-4); }
-.screen-picker .level-row { display: flex; gap: var(--s-3); padding: 0 var(--s-5); }
-.screen-picker .category-row { display: flex; gap: var(--s-2); padding: 0 var(--s-5); overflow-x: auto; }
+.screen-picker {
+  display: grid; grid-template-rows: auto auto 1fr;
+  height: 100%; gap: var(--s-3); padding-bottom: var(--s-4);
+}
+.screen-picker .category-row {
+  position: relative;
+  display: flex; gap: var(--s-2);
+  padding: 0 var(--s-5);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.screen-picker .category-row::-webkit-scrollbar { display: none; }
+.screen-picker .category-row::after {
+  /* fade hint that there's more to scroll */
+  content: ''; position: sticky; right: 0;
+  width: 24px; flex: 0 0 24px;
+  background: linear-gradient(to right, transparent, var(--c-bg));
+  pointer-events: none;
+}
 .screen-picker .grid {
-  display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr;
+  display: grid; grid-template-columns: repeat(4, 1fr);
   gap: var(--s-4); padding: 0 var(--s-5) var(--s-5); overflow-y: auto;
+  align-content: start;
+}
+.screen-picker .empty {
+  display: flex; align-items: center; justify-content: center;
+  color: var(--c-fg-soft); font-size: var(--fs-body);
+}
+
+/* === Wide layout (Samsung Tab S8 landscape ~1280x800, desktop, etc.) ===
+   Placed at the END of the file so its rules win source-order ties against
+   the per-screen defaults above. At >=1024px wide the palette becomes a
+   vertical sidebar on the right of the colour screen, and picker/gallery
+   widen to 6 columns. Width-based (not `orientation: landscape`) so it
+   works in headless Chromium, in browser dev-tools tablet emulation, and
+   on real tablets — orientation media queries read the device chassis,
+   not the viewport. */
+@media (min-width: 1024px) {
+  .screen-colour {
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 320px;
+    grid-template-areas:
+      "topbar  topbar"
+      "stage   palette";
+  }
+  .screen-colour > .topbar  { grid-area: topbar; }
+  .screen-colour > .stage   { grid-area: stage; }
+  .screen-colour > .palette { grid-area: palette; }
+
+  .screen-colour .palette {
+    border-top: none;
+    border-left: 2px solid var(--c-border);
+    padding: var(--s-4);
+    gap: var(--s-4);
+    overflow-y: auto;
+  }
+  .screen-colour .palette-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--s-2);
+  }
+  .screen-colour .palette-row .group-label {
+    flex: none;
+  }
+  .screen-colour .palette-row .swatches {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--s-2);
+    justify-items: center;
+  }
+  .screen-colour .palette-row .brush-sizes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--s-2);
+    justify-items: center;
+  }
+
+  /* Picker & gallery use 6 columns so more thumbs fit in the wider view */
+  .screen-picker .grid,
+  .screen-gallery .grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  /* Home tile shouldn't sprawl across 1280px */
+  .screen-home .tiles { max-width: 760px; margin: 0 auto; width: 100%; }
 }

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M16 90 L170 60 L184 78 L30 110 Z" fill="white"></path>
+
+<g stroke-width="1.6">
+  <path d="M22 96 L172 66"></path>
+  <path d="M28 102 L176 72"></path>
+</g>
+
+<path d="M152 64 L160 78"></path>
+
+<path d="M170 60 Q180 50 192 56 Q188 64 184 70 L184 78 Z" fill="white"></path>
+<line x1="172" y1="64" x2="186" y2="60"></line>
+
+<path d="M16 86 L170 56"></path>
+<g stroke-width="1.4">
+  <line x1="30" y1="83" x2="32" y2="92"></line>
+  <line x1="50" y1="79" x2="52" y2="88"></line>
+  <line x1="70" y1="75" x2="72" y2="84"></line>
+  <line x1="90" y1="71" x2="92" y2="80"></line>
+  <line x1="110" y1="67" x2="112" y2="76"></line>
+  <line x1="130" y1="63" x2="132" y2="72"></line>
+  <line x1="150" y1="59" x2="152" y2="68"></line>
+</g>
+
+<path d="M22 104 Q14 110 14 116 L36 118"></path>
+<path d="M176 76 Q188 82 184 88 L30 122"></path>
+<line x1="30" y1="108" x2="184" y2="80"></line>
+
+<g stroke-width="1.6">
+  <line x1="40" y1="106" x2="40" y2="120"></line>
+  <line x1="80" y1="98" x2="80" y2="112"></line>
+  <line x1="120" y1="90" x2="120" y2="104"></line>
+  <line x1="160" y1="82" x2="160" y2="96"></line>
+</g>
+
+<path d="M188 56 Q196 44 184 32 Q170 26 162 32 Q160 38 168 38"></path>
+
+<rect x="164" y="32" width="4" height="10" rx="2" fill="white"></rect>
+
+<g stroke-width="1.6">
+  <path d="M-2 130 Q14 124 30 130 Q46 124 62 130 Q78 124 94 130 Q110 124 126 130 Q142 124 158 130 Q174 124 200 130"></path>
+</g>
+
+<g stroke-width="1.4">
+  <path d="M14 108 Q8 104 4 108"></path>
+  <path d="M16 114 Q8 112 4 116"></path>
+</g>
+</svg>

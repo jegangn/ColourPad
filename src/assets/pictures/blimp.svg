@@ -1,22 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <g id="fill">
-    <ellipse cx="180" cy="140" rx="140" ry="55" fill="#e63946"/>
-    <path d="M310,110 L370,90 L370,190 L310,170 Z" fill="#FFD600"/>
-    <path d="M340,110 L370,90 L370,140" fill="#22c55e"/>
-    <rect x="140" y="195" width="80" height="35" rx="4" fill="#3a3a3a"/>
-    <rect x="150" y="200" width="20" height="20" rx="2" fill="#bde0fe"/>
-    <rect x="180" y="200" width="20" height="20" rx="2" fill="#bde0fe"/>
-    <line x1="160" y1="195" x2="155" y2="180" stroke="#3a3a3a" stroke-width="2"/>
-    <line x1="200" y1="195" x2="205" y2="180" stroke="#3a3a3a" stroke-width="2"/>
-  </g>
-  <g id="outline">
-    <ellipse cx="180" cy="140" rx="140" ry="55" fill="none" stroke="#1F1F1F" stroke-width="3"/>
-    <path d="M310,110 L370,90 L370,190 L310,170" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linejoin="round"/>
-    <path d="M340,110 L370,90 L370,140" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linejoin="round"/>
-    <rect x="140" y="195" width="80" height="35" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="150" y="200" width="20" height="20" rx="2" fill="none" stroke="#1F1F1F" stroke-width="2"/>
-    <rect x="180" y="200" width="20" height="20" rx="2" fill="none" stroke="#1F1F1F" stroke-width="2"/>
-    <line x1="160" y1="195" x2="155" y2="180" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
-    <line x1="200" y1="195" x2="205" y2="180" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<ellipse cx="100" cy="70" rx="80" ry="28" fill="white"></ellipse>
+<line x1="80" y1="55" x2="80" y2="85"></line>
+<line x1="120" y1="55" x2="120" y2="85"></line>
+<path d="M168 50 L188 38 L188 70 L172 64"></path>
+<path d="M168 90 L188 102 L188 70 L172 76"></path>
+<rect x="85" y="95" width="30" height="14" rx="3" fill="white"></rect>
+<line x1="90" y1="95" x2="90" y2="86"></line>
+<line x1="110" y1="95" x2="110" y2="86"></line>
+<g fill="white"><circle cx="90" cy="102" r="2"></circle><circle cx="100" cy="102" r="2"></circle><circle cx="110" cy="102" r="2"></circle></g>
+
 </svg>

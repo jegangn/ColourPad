@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<rect x="14" y="124" width="172" height="5" fill="white"></rect>
+<rect x="10" y="129" width="180" height="5" fill="white"></rect>
+
+<path d="M28 124 L28 56 L172 56 L172 124 Z" fill="white"></path>
+
+<path d="M22 56 L100 30 L178 56 Z" fill="white"></path>
+
+<path d="M88 38 L100 34 L100 50 L88 48 Z" fill="white"></path>
+<path d="M112 38 L100 34 L100 50 L112 48 Z" fill="white"></path>
+<g stroke-width="1.4">
+  <line x1="90" y1="42" x2="98" y2="40"></line>
+  <line x1="102" y1="40" x2="110" y2="42"></line>
+  <line x1="90" y1="46" x2="98" y2="44"></line>
+  <line x1="102" y1="44" x2="110" y2="46"></line>
+</g>
+
+<line x1="44" y1="50" x2="156" y2="50"></line>
+
+<rect x="58" y="58" width="84" height="12" fill="white"></rect>
+<text x="74" y="68" font-family="ui-monospace, monospace" font-size="9" font-weight="700">LIBRARY</text>
+
+<rect x="42" y="74" width="10" height="46" fill="white"></rect>
+<rect x="40" y="72" width="14" height="4" fill="white"></rect>
+<rect x="40" y="118" width="14" height="4" fill="white"></rect>
+<g stroke-width="1.4"><line x1="45" y1="76" x2="45" y2="118"></line><line x1="49" y1="76" x2="49" y2="118"></line></g>
+<rect x="94" y="74" width="10" height="46" fill="white"></rect>
+<rect x="92" y="72" width="14" height="4" fill="white"></rect>
+<rect x="92" y="118" width="14" height="4" fill="white"></rect>
+<g stroke-width="1.4"><line x1="97" y1="76" x2="97" y2="118"></line><line x1="101" y1="76" x2="101" y2="118"></line></g>
+<rect x="146" y="74" width="10" height="46" fill="white"></rect>
+<rect x="144" y="72" width="14" height="4" fill="white"></rect>
+<rect x="144" y="118" width="14" height="4" fill="white"></rect>
+<g stroke-width="1.4"><line x1="149" y1="76" x2="149" y2="118"></line><line x1="153" y1="76" x2="153" y2="118"></line></g>
+
+<rect x="58" y="74" width="34" height="46" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="58" y1="86" x2="92" y2="86"></line>
+  <line x1="58" y1="100" x2="92" y2="100"></line>
+  <line x1="58" y1="114" x2="92" y2="114"></line>
+</g>
+<rect x="108" y="74" width="34" height="46" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="108" y1="86" x2="142" y2="86"></line>
+  <line x1="108" y1="100" x2="142" y2="100"></line>
+  <line x1="108" y1="114" x2="142" y2="114"></line>
+</g>
+
+<rect x="64" y="92" width="10" height="6" fill="white"></rect>
+<rect x="76" y="90" width="10" height="8" fill="white"></rect>
+
+<rect x="114" y="92" width="10" height="6" fill="white"></rect>
+<rect x="126" y="90" width="10" height="8" fill="white"></rect>
+
+<line x1="6" y1="142" x2="194" y2="142"></line>
+</svg>

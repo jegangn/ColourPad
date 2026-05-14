@@ -1,22 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <g id="fill">
-    <path d="M40,180 L360,180 L320,260 L80,260 Z" fill="#e63946"/>
-    <rect x="140" y="120" width="120" height="60" rx="4" fill="#FFD600"/>
-    <rect x="155" y="130" width="40" height="30" rx="2" fill="#bde0fe"/>
-    <rect x="205" y="130" width="40" height="30" rx="2" fill="#bde0fe"/>
-    <line x1="200" y1="120" x2="200" y2="40" stroke="#3a3a3a" stroke-width="4"/>
-    <line x1="200" y1="50" x2="290" y2="180" stroke="#3a3a3a" stroke-width="2"/>
-    <line x1="290" y1="180" x2="340" y2="180" stroke="#3a3a3a" stroke-width="2"/>
-    <path d="M210,60 L280,180 L210,180 Z" fill="#bde0fe" opacity="0.7"/>
-  </g>
-  <g id="outline">
-    <path d="M40,180 L360,180 L320,260 L80,260 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="140" y="120" width="120" height="60" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="155" y="130" width="40" height="30" rx="2" fill="none" stroke="#1F1F1F" stroke-width="2"/>
-    <rect x="205" y="130" width="40" height="30" rx="2" fill="none" stroke="#1F1F1F" stroke-width="2"/>
-    <line x1="200" y1="120" x2="200" y2="40" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round"/>
-    <line x1="200" y1="50" x2="290" y2="180" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
-    <line x1="290" y1="180" x2="340" y2="180" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
-    <path d="M210,60 L280,180 L210,180 Z" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linejoin="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M14 110 Q20 130 60 130 L150 130 Q166 124 178 110 Z" fill="white"></path>
+<rect x="60" y="72" width="55" height="38" fill="white"></rect>
+<rect x="68" y="82" width="14" height="14" fill="white"></rect>
+<rect x="90" y="82" width="14" height="14" fill="white"></rect>
+<line x1="115" y1="72" x2="115" y2="30"></line>
+<g><line x1="115" y1="30" x2="160" y2="100"></line><line x1="115" y1="30" x2="155" y2="80"></line></g>
+<path d="M155 80 L165 105 L150 105 Z" fill="white"></path>
+<line x1="118" y1="32" x2="125" y2="32"></line>
+
 </svg>

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<rect x="76" y="134" width="48" height="10" fill="white"></rect>
+<g stroke-width="1.6"><line x1="80" y1="138" x2="120" y2="138"></line></g>
+
+<path d="M88 134 L88 50 L112 50 L112 134 Z" fill="white"></path>
+
+<g stroke-width="1.6">
+  <line x1="88" y1="120" x2="112" y2="120"></line>
+  <line x1="88" y1="108" x2="112" y2="108"></line>
+  <line x1="88" y1="96" x2="112" y2="96"></line>
+  <line x1="88" y1="84" x2="112" y2="84"></line>
+  <line x1="88" y1="72" x2="112" y2="72"></line>
+  <line x1="88" y1="60" x2="112" y2="60"></line>
+  <line x1="88" y1="130" x2="112" y2="120"></line>
+  <line x1="112" y1="130" x2="88" y2="120"></line>
+  <line x1="88" y1="120" x2="112" y2="108"></line>
+  <line x1="112" y1="120" x2="88" y2="108"></line>
+  <line x1="88" y1="108" x2="112" y2="96"></line>
+  <line x1="112" y1="108" x2="88" y2="96"></line>
+  <line x1="88" y1="96" x2="112" y2="84"></line>
+  <line x1="112" y1="96" x2="88" y2="84"></line>
+  <line x1="88" y1="84" x2="112" y2="72"></line>
+  <line x1="112" y1="84" x2="88" y2="72"></line>
+  <line x1="88" y1="72" x2="112" y2="60"></line>
+  <line x1="112" y1="72" x2="88" y2="60"></line>
+</g>
+
+<path d="M84 38 L116 38 L116 50 L84 50 Z" fill="white"></path>
+<rect x="98" y="42" width="14" height="8" fill="white"></rect>
+
+<path d="M100 38 L88 18 L112 18 Z" fill="white"></path>
+<line x1="100" y1="18" x2="100" y2="38"></line>
+
+<path d="M116 32 L188 32 L188 42 L116 42 Z" fill="white"></path>
+<g stroke-width="1.6">
+  <line x1="120" y1="32" x2="128" y2="42"></line>
+  <line x1="128" y1="32" x2="120" y2="42"></line>
+  <line x1="136" y1="32" x2="144" y2="42"></line>
+  <line x1="144" y1="32" x2="136" y2="42"></line>
+  <line x1="152" y1="32" x2="160" y2="42"></line>
+  <line x1="160" y1="32" x2="152" y2="42"></line>
+  <line x1="168" y1="32" x2="176" y2="42"></line>
+  <line x1="176" y1="32" x2="168" y2="42"></line>
+</g>
+
+<path d="M100 18 L188 32"></path>
+
+<path d="M84 32 L40 32 L40 42 L84 42 Z" fill="white"></path>
+<g stroke-width="1.6">
+  <line x1="44" y1="32" x2="52" y2="42"></line>
+  <line x1="52" y1="32" x2="44" y2="42"></line>
+  <line x1="60" y1="32" x2="68" y2="42"></line>
+  <line x1="68" y1="32" x2="60" y2="42"></line>
+</g>
+<path d="M100 18 L40 32"></path>
+
+<rect x="30" y="38" width="14" height="14" fill="white"></rect>
+<line x1="30" y1="42" x2="44" y2="42"></line>
+<line x1="30" y1="46" x2="44" y2="46"></line>
+
+<rect x="160" y="42" width="10" height="6" fill="white"></rect>
+<line x1="165" y1="48" x2="165" y2="76"></line>
+
+<rect x="160" y="76" width="10" height="8" fill="white"></rect>
+<path d="M165 84 Q160 88 165 92 Q170 88 165 84"></path>
+</svg>

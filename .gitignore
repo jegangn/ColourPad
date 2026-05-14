@@ -6,3 +6,13 @@ src/assets/pictures/.batch-*.json
 *.log
 .DS_Store
 .playwright-cli/
+
+# Playwright artefacts
+test-results/
+playwright-report/
+
+# Pilot / scratch picture folders
+src/assets/pictures/_pilot/
+src/assets/pictures/_pilot2/
+src/assets/pictures/_openpilot/
+src/assets/pictures/_pngpilot/

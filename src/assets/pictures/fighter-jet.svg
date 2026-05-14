@@ -1,15 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <g id="fill">
-    <path d="M30,160 L320,135 L360,150 L360,170 L320,185 L30,160 Z" fill="#7c8a98"/>
-    <path d="M120,160 L80,210 L160,180 L200,165 Z" fill="#5b6770"/>
-    <path d="M250,135 L290,80 L310,90 L290,135 Z" fill="#5b6770"/>
-    <ellipse cx="280" cy="150" rx="22" ry="10" fill="#bde0fe"/>
-    <circle cx="30" cy="160" r="6" fill="#ff6b6b"/>
-  </g>
-  <g id="outline">
-    <path d="M30,160 L320,135 L360,150 L360,170 L320,185 L30,160 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M120,160 L80,210 L160,180" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M250,135 L290,80 L310,90 L290,135" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <ellipse cx="280" cy="150" rx="22" ry="10" fill="none" stroke="#1F1F1F" stroke-width="2"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M10 80 L60 70 Q90 60 130 62 L195 78 Q198 80 195 83 L130 90 Q90 90 60 80 Z" fill="white"></path>
+<path d="M40 80 L20 50 L30 50 L60 75" fill="white"></path>
+<path d="M40 80 L20 110 L30 110 L60 85" fill="white"></path>
+<path d="M110 64 L120 32 L135 32 L130 62" fill="white"></path>
+<rect x="140" y="68" width="20" height="14" rx="3" fill="white"></rect>
+<path d="M10 80 L0 76"></path>
+<path d="M10 80 L0 84"></path>
+
 </svg>

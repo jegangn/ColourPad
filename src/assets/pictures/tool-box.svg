@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M28 56 L172 56 L172 124 L28 124 Z" fill="white"></path>
+
+<path d="M70 56 L70 42 Q70 36 78 36 L122 36 Q130 36 130 42 L130 56"></path>
+<rect x="80" y="32" width="40" height="4" rx="2" fill="white"></rect>
+
+<path d="M28 56 L40 36 L172 36 L172 56" fill="white"></path>
+<line x1="40" y1="36" x2="172" y2="36"></line>
+
+<path d="M28 70 L100 70 L108 78 L36 78 Z" fill="white"></path>
+<path d="M28 86 L116 86 L124 94 L36 94 Z" fill="white"></path>
+
+<g stroke-width="1.4">
+  <line x1="46" y1="70" x2="46" y2="78"></line>
+  <line x1="64" y1="70" x2="64" y2="78"></line>
+  <line x1="82" y1="70" x2="82" y2="78"></line>
+  <line x1="46" y1="86" x2="46" y2="94"></line>
+  <line x1="68" y1="86" x2="68" y2="94"></line>
+  <line x1="90" y1="86" x2="90" y2="94"></line>
+</g>
+
+<rect x="74" y="106" width="50" height="8" rx="2" fill="white"></rect>
+<rect x="40" y="108" width="6" height="6" fill="white"></rect>
+<rect x="152" y="108" width="6" height="6" fill="white"></rect>
+
+<rect x="32" y="124" width="10" height="6" fill="white"></rect>
+<rect x="158" y="124" width="10" height="6" fill="white"></rect>
+
+
+<path d="M50 60 L50 40"></path>
+<rect x="46" y="40" width="8" height="10" rx="2" fill="white"></rect>
+<line x1="50" y1="62" x2="46" y2="66"></line>
+<line x1="50" y1="62" x2="54" y2="66"></line>
+
+<rect x="64" y="40" width="6" height="22" fill="white"></rect>
+<path d="M62 38 L72 38 L72 44 L70 46 L64 46 L62 44 Z" fill="white"></path>
+<line x1="64" y1="40" x2="70" y2="40"></line>
+
+<rect x="82" y="44" width="14" height="8" rx="1" fill="white"></rect>
+<rect x="86" y="52" width="6" height="14" fill="white"></rect>
+
+<path d="M104 66 L102 50 L110 42 L114 42 L114 50 L110 54 L112 66" fill="white"></path>
+<line x1="108" y1="54" x2="108" y2="66"></line>
+
+<g>
+  <circle cx="50" cy="90" r="2.5" fill="white"></circle>
+  <circle cx="60" cy="90" r="2.5" fill="white"></circle>
+  <circle cx="78" cy="90" r="2.5" fill="white"></circle>
+  <circle cx="100" cy="90" r="2.5" fill="white"></circle>
+  <circle cx="110" cy="90" r="2.5" fill="white"></circle>
+</g>
+
+<rect x="80" y="116" width="40" height="4" fill="white"></rect>
+<g stroke-width="1.4"><line x1="84" y1="118" x2="116" y2="118"></line></g>
+</svg>

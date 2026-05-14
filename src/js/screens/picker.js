@@ -2,6 +2,23 @@
 import { navigate } from '../lib/router.js';
 import { storage } from '../lib/storage.js';
 import { render, escapeHtml } from '../lib/render.js';
+import { icon } from '../lib/icons.js';
+
+// Category order = order shown in the picker chip row.
+// Icon picks one chip-friendly glyph; the count is computed from the manifest.
+const CATEGORY_META = [
+  { key: 'all',          label: 'All',          iconName: 'squares' },
+  { key: 'vehicles',     label: 'Vehicles',     iconName: 'truck' },
+  { key: 'fire',         label: 'Fire',         iconName: 'fire' },
+  { key: 'construction', label: 'Construction', iconName: 'wrench' },
+  { key: 'trains',       label: 'Trains',       iconName: 'train' },
+  { key: 'aircraft',     label: 'Aircraft',     iconName: 'paperAirplane' },
+  { key: 'boats',        label: 'Boats',        iconName: 'anchorIcon' },
+  { key: 'space',        label: 'Space',        iconName: 'rocket' },
+  { key: 'robots',       label: 'Robots',       iconName: 'cpuChip' },
+  { key: 'buildings',    label: 'Buildings',    iconName: 'buildingOffice' },
+  { key: 'mine',         label: 'My Photos',    iconName: 'camera' },
+];
 
 let currentCategory = 'all';
 let manifestPromise = null;
@@ -17,30 +34,59 @@ export async function renderPicker(root) {
 
   const items = [
     ...all,
-    ...userPhotos.map(p => ({ id: p.id, name: p.name, category: 'mine', outlineDataUrl: p.outlineDataUrl })),
+    ...userPhotos.map(p => ({
+      id: p.id, name: p.name, category: 'mine',
+      outlineDataUrl: p.outlineDataUrl,
+    })),
   ];
-  const filtered = items.filter(p => currentCategory === 'all' || p.category === currentCategory);
-  const cats = ['all', 'vehicles', 'animals', 'dinosaurs', 'food', 'other'];
-  if (userPhotos.length) cats.push('mine');
 
-  const thumbs = filtered.map(p => {
+  const filtered = currentCategory === 'all'
+    ? items
+    : items.filter(p => p.category === currentCategory);
+
+  // Build chip row, hiding "My Photos" when there aren't any
+  const chips = CATEGORY_META
+    .filter(c => c.key !== 'mine' || userPhotos.length > 0)
+    .map(c => {
+      const isActive = currentCategory === c.key;
+      return `
+        <button class="pill small ${isActive ? 'primary' : ''}"
+                data-category="${c.key}" aria-pressed="${isActive}">
+          ${icon(c.iconName, 18)}
+          <span>${c.label}</span>
+        </button>
+      `;
+    }).join('');
+
+  const thumbsHtml = filtered.map(p => {
     const inner = p.outlineDataUrl
       ? `<img src="${escapeHtml(p.outlineDataUrl)}" alt="${escapeHtml(p.name)}">`
       : `<object data="./assets/pictures/${escapeHtml(p.id)}.svg" type="image/svg+xml" style="pointer-events:none"></object>`;
-    const badge = p.category === 'mine' ? '<span class="badge">📷</span>' : '';
-    return `<button class="thumb" data-pic="${escapeHtml(p.id)}">${inner}${badge}</button>`;
+    const badge = p.category === 'mine' ? `<span class="badge">${icon('camera', 11)}</span>` : '';
+    return `
+      <button class="thumb" data-pic="${escapeHtml(p.id)}" aria-label="${escapeHtml(p.name)}">
+        <div class="image">${inner}${badge}</div>
+        <div class="title">${escapeHtml(p.name)}</div>
+      </button>
+    `;
   }).join('');
+
+  const body = filtered.length === 0
+    ? `<div class="empty">No pictures in this category yet.</div>`
+    : `<div class="grid">${thumbsHtml}</div>`;
 
   render(root, `
     <section class="screen-picker">
       <div class="topbar">
-        <button class="icon-btn" data-action="back" aria-label="Back">‹</button>
+        <button class="icon-btn" data-action="back" aria-label="Back">
+          ${icon('chevronLeft', 28)}
+        </button>
         <div class="title">Pick a picture</div>
       </div>
-      <div class="category-row">
-        ${cats.map(c => `<button class="pill small ${currentCategory===c?'primary':''}" data-category="${c}">${c}</button>`).join('')}
+      <div class="category-row" role="tablist">
+        ${chips}
       </div>
-      <div class="grid">${thumbs}</div>
+      ${body}
     </section>
   `);
 

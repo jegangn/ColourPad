@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M30 36 L86 58 L150 60 L80 62 Z" fill="white"></path>
+
+<path d="M30 116 L86 92 L150 90 L80 88 Z" fill="white"></path>
+
+<path d="M80 64 L80 86 L160 80 L184 78 Q190 75 184 72 L160 70 Z" fill="white"></path>
+
+<path d="M118 70 L150 70 L154 74 L150 76 L118 76 Z" fill="white"></path>
+<line x1="130" y1="70" x2="130" y2="76"></line>
+<line x1="142" y1="70" x2="142" y2="76"></line>
+
+<circle cx="138" cy="73" r="2" fill="#1f1f1f" stroke="none"></circle>
+
+<path d="M184 74 L196 74 L196 76 L184 76"></path>
+
+
+<path d="M24 32 L40 32 L42 44 L22 44 Z" fill="white"></path>
+<g stroke-width="1.6"><line x1="24" y1="38" x2="40" y2="38"></line></g>
+
+<path d="M24 120 L40 120 L42 108 L22 108 Z" fill="white"></path>
+<g stroke-width="1.6"><line x1="24" y1="114" x2="40" y2="114"></line></g>
+
+<path d="M22 38 L8 36 L6 42 L20 44" fill="white"></path>
+<path d="M22 114 L8 112 L6 118 L20 120" fill="white"></path>
+
+<path d="M150 60 L162 56 L162 64"></path>
+<path d="M150 90 L162 86 L162 94"></path>
+
+<g stroke-width="1.6">
+  <line x1="56" y1="50" x2="56" y2="60"></line>
+  <line x1="76" y1="56" x2="76" y2="62"></line>
+  <line x1="100" y1="58" x2="100" y2="62"></line>
+  <line x1="56" y1="100" x2="56" y2="110"></line>
+  <line x1="76" y1="92" x2="76" y2="88"></line>
+  <line x1="100" y1="88" x2="100" y2="92"></line>
+</g>
+
+<line x1="80" y1="75" x2="118" y2="75"></line>
+</svg>

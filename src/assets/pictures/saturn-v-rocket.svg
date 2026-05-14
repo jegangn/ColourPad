@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M100 12 Q90 20 90 32 L90 40 L80 50 L80 78 L75 90 L75 110 L125 110 L125 90 L120 78 L120 50 L110 40 L110 32 Q110 20 100 12 Z" fill="white"></path>
+<line x1="80" y1="60" x2="120" y2="60"></line>
+<line x1="75" y1="98" x2="125" y2="98"></line>
+<text x="93" y="86" font-size="9" font-weight="bold" stroke="none" fill="#1f1f1f" font-family="sans-serif">USA</text>
+<path d="M75 110 L60 134 L75 134 Z" fill="white"></path>
+<path d="M125 110 L140 134 L125 134 Z" fill="white"></path>
+<path d="M85 134 L115 134"></path>
+<path d="M88 134 Q92 142 96 134 M100 134 Q104 144 108 134"></path>
+
+</svg>

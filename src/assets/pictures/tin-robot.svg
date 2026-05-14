@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<rect x="68" y="132" width="22" height="10" rx="2" fill="white"></rect>
+<rect x="110" y="132" width="22" height="10" rx="2" fill="white"></rect>
+
+<rect x="74" y="108" width="14" height="24" fill="white"></rect>
+<rect x="112" y="108" width="14" height="24" fill="white"></rect>
+<g stroke-width="1.6"><line x1="74" y1="116" x2="88" y2="116"></line><line x1="74" y1="124" x2="88" y2="124"></line><line x1="112" y1="116" x2="126" y2="116"></line><line x1="112" y1="124" x2="126" y2="124"></line></g>
+
+<rect x="66" y="100" width="68" height="10" fill="white"></rect>
+
+<rect x="58" y="56" width="84" height="46" rx="3" fill="white"></rect>
+
+<rect x="70" y="64" width="60" height="30" rx="2" fill="white"></rect>
+
+<circle cx="82" cy="76" r="5" fill="white"></circle>
+<line x1="82" y1="76" x2="85" y2="73"></line>
+<circle cx="100" cy="76" r="5" fill="white"></circle>
+<line x1="100" y1="76" x2="103" y2="79"></line>
+<circle cx="118" cy="76" r="5" fill="white"></circle>
+<line x1="118" y1="76" x2="115" y2="73"></line>
+
+<rect x="74" y="84" width="52" height="6" rx="1" fill="white"></rect>
+<line x1="86" y1="84" x2="86" y2="90"></line>
+<line x1="98" y1="84" x2="98" y2="90"></line>
+<line x1="110" y1="84" x2="110" y2="90"></line>
+
+<path d="M142 70 L154 70 L154 80 L142 80"></path>
+<circle cx="158" cy="75" r="5" fill="white"></circle>
+<line x1="153" y1="75" x2="163" y2="75"></line>
+<line x1="158" y1="70" x2="158" y2="80"></line>
+
+<rect x="40" y="60" width="14" height="40" rx="2" fill="white"></rect>
+<g stroke-width="1.6"><line x1="40" y1="70" x2="54" y2="70"></line><line x1="40" y1="80" x2="54" y2="80"></line><line x1="40" y1="90" x2="54" y2="90"></line></g>
+<circle cx="47" cy="106" r="6" fill="white"></circle>
+<g stroke-width="1.6"><line x1="42" y1="110" x2="46" y2="112"></line><line x1="48" y1="111" x2="50" y2="112"></line></g>
+<rect x="146" y="60" width="14" height="40" rx="2" fill="white"></rect>
+<g stroke-width="1.6"><line x1="146" y1="70" x2="160" y2="70"></line><line x1="146" y1="80" x2="160" y2="80"></line><line x1="146" y1="90" x2="160" y2="90"></line></g>
+<circle cx="153" cy="106" r="6" fill="white"></circle>
+<g stroke-width="1.6"><line x1="148" y1="110" x2="152" y2="112"></line><line x1="154" y1="111" x2="156" y2="112"></line></g>
+
+<rect x="74" y="22" width="52" height="32" rx="2" fill="white"></rect>
+<line x1="74" y1="30" x2="126" y2="30"></line>
+<g stroke-width="1.6"><circle cx="78" cy="26" r="1" fill="#1f1f1f" stroke="none"></circle><circle cx="82" cy="26" r="1" fill="#1f1f1f" stroke="none"></circle></g>
+
+<rect x="82" y="34" width="14" height="10" fill="white"></rect>
+<circle cx="89" cy="39" r="2.5" fill="#1f1f1f" stroke="none"></circle>
+<rect x="104" y="34" width="14" height="10" fill="white"></rect>
+<circle cx="111" cy="39" r="2.5" fill="#1f1f1f" stroke="none"></circle>
+
+<g stroke-width="1.6"><line x1="86" y1="48" x2="114" y2="48"></line><line x1="90" y1="50" x2="110" y2="50"></line></g>
+
+<line x1="84" y1="22" x2="80" y2="14"></line>
+<circle cx="80" cy="13" r="2" fill="#1f1f1f" stroke="none"></circle>
+<line x1="116" y1="22" x2="120" y2="14"></line>
+<circle cx="120" cy="13" r="2" fill="#1f1f1f" stroke="none"></circle>
+</svg>

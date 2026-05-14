@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M30 100 L30 80 L60 75 L80 55 L130 55 L150 75 L175 80 L175 100 Z" fill="white"></path>
+<path d="M60 75 L80 55 L130 55 L150 75 L150 95 L60 95 Z" fill="white"></path>
+<line x1="80" y1="55" x2="80" y2="95"></line>
+<line x1="130" y1="55" x2="130" y2="95"></line>
+<circle cx="50" cy="110" r="22" fill="white"></circle><circle cx="50" cy="110" r="4" fill="#1f1f1f" stroke="none"></circle><circle cx="155" cy="110" r="22" fill="white"></circle><circle cx="155" cy="110" r="4" fill="#1f1f1f" stroke="none"></circle>
+<line x1="35" y1="110" x2="20" y2="108"></line>
+
+</svg>

@@ -1,18 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <g id="fill">
-    <path d="M120,140 Q120,40 200,40 Q280,40 280,140 Q280,180 240,200 L160,200 Q120,180 120,140 Z" fill="#e63946"/>
-    <path d="M155,42 Q145,120 160,200 L180,200 Q170,120 180,42 Z" fill="#FFD600"/>
-    <path d="M220,42 Q230,120 220,200 L240,200 Q255,120 245,42 Z" fill="#22c55e"/>
-    <line x1="160" y1="200" x2="170" y2="240" stroke="#3a3a3a" stroke-width="2"/>
-    <line x1="200" y1="200" x2="200" y2="240" stroke="#3a3a3a" stroke-width="2"/>
-    <line x1="240" y1="200" x2="230" y2="240" stroke="#3a3a3a" stroke-width="2"/>
-    <rect x="165" y="240" width="70" height="40" rx="4" fill="#F97316"/>
-  </g>
-  <g id="outline">
-    <path d="M120,140 Q120,40 200,40 Q280,40 280,140 Q280,180 240,200 L160,200 Q120,180 120,140 Z" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linejoin="round"/>
-    <line x1="160" y1="200" x2="170" y2="240" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
-    <line x1="200" y1="200" x2="200" y2="240" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
-    <line x1="240" y1="200" x2="230" y2="240" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round"/>
-    <rect x="165" y="240" width="70" height="40" rx="4" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M55 60 Q40 30 100 20 Q160 30 145 60 Q140 72 100 78 Q60 72 55 60 Z" fill="white"></path>
+<g><line x1="60" y1="62" x2="100" y2="22"></line><line x1="80" y1="68" x2="100" y2="20"></line><line x1="120" y1="68" x2="100" y2="20"></line><line x1="140" y1="62" x2="100" y2="22"></line></g>
+<line x1="65" y1="76" x2="80" y2="100"></line>
+<line x1="135" y1="76" x2="120" y2="100"></line>
+<rect x="78" y="100" width="44" height="22" rx="3" fill="white"></rect>
+<line x1="78" y1="110" x2="122" y2="110"></line>
+<path d="M85 50 Q85 38 100 38 Q115 38 115 50"></path>
+
 </svg>

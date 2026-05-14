@@ -2,14 +2,15 @@
 import { navigate } from '../lib/router.js';
 import { storage } from '../lib/storage.js';
 import { render, escapeHtml } from '../lib/render.js';
+import { icon } from '../lib/icons.js';
 
 export function renderGallery(root) {
   const items = storage.getGallery();
   const body = items.length === 0 ? `
     <div class="empty">
-      <div class="icon">🖼</div>
-      <div style="font-family:var(--font-display);font-weight:700;font-size:24px;color:var(--c-fg)">No pictures saved yet</div>
-      <div>Tap the ⭐ button when you finish a picture to save it here.</div>
+      <div class="icon">${icon('photo', 96)}</div>
+      <div class="title">No pictures saved yet</div>
+      <div>Tap the star button when you finish a picture to save it here.</div>
     </div>` : `
     <div class="grid">
       ${items.map(it => `
@@ -22,7 +23,9 @@ export function renderGallery(root) {
   render(root, `
     <section class="screen-gallery">
       <div class="topbar">
-        <button class="icon-btn" data-action="back">‹</button>
+        <button class="icon-btn" data-action="back" aria-label="Back">
+          ${icon('chevronLeft', 28)}
+        </button>
         <div class="title">My Gallery (${items.length})</div>
       </div>
       ${body}
@@ -48,13 +51,12 @@ export function renderGallery(root) {
       const item = items.find(i => i.savedAt === Number(el.dataset.saved));
       const lb = document.createElement('div');
       lb.className = 'lightbox';
-      const close = document.createElement('button');
-      close.className = 'icon-btn close';
-      close.textContent = '✕';
-      close.dataset.close = '';
-      const img = document.createElement('img');
-      img.src = item.dataUrl;
-      lb.appendChild(close); lb.appendChild(img);
+      render(lb, `
+        <button class="icon-btn close" data-close="" aria-label="Close">
+          ${icon('xMark', 28)}
+        </button>
+        <img src="${escapeHtml(item.dataUrl)}" alt="">
+      `);
       const cleanup = () => { lb.remove(); window.removeEventListener('hashchange', cleanup); };
       lb.addEventListener('click', e => {
         if (e.target === lb || e.target.closest('[data-close]')) cleanup();

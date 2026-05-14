@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M40 70 L40 100 L160 100 L160 70 L150 60 L50 60 Z" fill="white"></path>
+
+<line x1="40" y1="84" x2="160" y2="84"></line>
+<line x1="100" y1="60" x2="100" y2="100"></line>
+
+<g stroke-width="1.6">
+  <circle cx="52" cy="72" r="1.2" fill="#1f1f1f" stroke="none"></circle>
+  <circle cx="64" cy="72" r="1.2" fill="#1f1f1f" stroke="none"></circle>
+  <circle cx="76" cy="72" r="1.2" fill="#1f1f1f" stroke="none"></circle>
+  <circle cx="124" cy="72" r="1.2" fill="#1f1f1f" stroke="none"></circle>
+  <circle cx="136" cy="72" r="1.2" fill="#1f1f1f" stroke="none"></circle>
+  <circle cx="148" cy="72" r="1.2" fill="#1f1f1f" stroke="none"></circle>
+</g>
+<g stroke-width="1.6"><line x1="46" y1="90" x2="78" y2="90"></line><line x1="122" y1="90" x2="154" y2="90"></line></g>
+
+<path d="M160 70 L184 64 L188 76 L184 88 L160 88" fill="white"></path>
+
+<circle cx="178" cy="76" r="4" fill="white"></circle>
+<circle cx="178" cy="76" r="2" fill="#1f1f1f" stroke="none"></circle>
+
+<line x1="170" y1="64" x2="170" y2="54"></line>
+<rect x="166" y="48" width="8" height="6" fill="white"></rect>
+
+<path d="M40 78 L30 76 L30 82 L40 82" fill="white"></path>
+
+<path d="M150 100 L156 116 L148 128 L154 138" fill="none"></path>
+<circle cx="150" cy="100" r="3" fill="white"></circle>
+<circle cx="156" cy="116" r="3" fill="white"></circle>
+<circle cx="148" cy="128" r="3" fill="white"></circle>
+<path d="M150 138 L160 138"></path>
+
+<path d="M138 100 L132 116 L138 130 L132 140" fill="none"></path>
+<circle cx="138" cy="100" r="3" fill="white"></circle>
+<circle cx="132" cy="116" r="3" fill="white"></circle>
+<circle cx="138" cy="130" r="3" fill="white"></circle>
+<path d="M128 140 L138 140"></path>
+
+<path d="M60 100 L66 118 L58 130 L64 140" fill="none"></path>
+<circle cx="60" cy="100" r="3" fill="white"></circle>
+<circle cx="66" cy="118" r="3" fill="white"></circle>
+<circle cx="58" cy="130" r="3" fill="white"></circle>
+<path d="M60 140 L70 140"></path>
+
+<path d="M48 100 L42 118 L48 132 L42 142" fill="none"></path>
+<circle cx="48" cy="100" r="3" fill="white"></circle>
+<circle cx="42" cy="118" r="3" fill="white"></circle>
+<circle cx="48" cy="132" r="3" fill="white"></circle>
+<path d="M38 142 L48 142"></path>
+</svg>

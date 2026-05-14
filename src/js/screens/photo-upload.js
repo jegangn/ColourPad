@@ -1,6 +1,7 @@
 import { storage } from '../lib/storage.js';
 import { imageToOutline } from '../lib/photo-to-outline.js';
 import { render } from '../lib/render.js';
+import { icon } from '../lib/icons.js';
 
 export function renderPhotoUpload(root, onDone) {
   let lastImg = null;
@@ -10,7 +11,7 @@ export function renderPhotoUpload(root, onDone) {
   render(root, `
     <section class="screen-parent">
       <div class="topbar">
-        <button class="icon-btn" data-action="back">‹</button>
+        <button class="icon-btn" data-action="back" aria-label="Back">${icon('chevronLeft', 28)}</button>
         <div class="title">Add photo as colouring page</div>
       </div>
       <div style="display:grid;grid-template-rows:auto 1fr auto;gap:16px;padding:24px;height:100%">

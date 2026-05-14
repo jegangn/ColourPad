@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "dotpaint", "runtimeExecutable": "C:\\Users\\JeganGN\\.bun\\bin\\bunx.exe", "runtimeArgs": ["serve", "-p", "5173", "src"], "port": 5173 },
+    { "name": "dotpaint", "runtimeExecutable": "C:\\Users\\JeganGN\\.bun\\bin\\bunx.exe", "runtimeArgs": ["serve", "-p", "5183", "src"], "port": 5183 },
     { "name": "mockups",  "runtimeExecutable": "C:\\Users\\JeganGN\\.bun\\bin\\bunx.exe", "runtimeArgs": ["serve", "-p", "5174", "mockups"], "port": 5174 }
   ]
 }

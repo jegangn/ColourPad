@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M14 130 L14 70 L80 70 L80 130 Z" fill="white"></path>
+
+<rect x="10" y="64" width="74" height="8" fill="white"></rect>
+<rect x="22" y="46" width="50" height="16" fill="white"></rect>
+<text x="28" y="58" font-family="ui-monospace, monospace" font-size="9" font-weight="700">GAS</text>
+
+<rect x="20" y="78" width="22" height="22" fill="white"></rect>
+<line x1="20" y1="89" x2="42" y2="89"></line>
+<line x1="31" y1="78" x2="31" y2="100"></line>
+<rect x="48" y="78" width="22" height="22" fill="white"></rect>
+<line x1="48" y1="89" x2="70" y2="89"></line>
+<line x1="59" y1="78" x2="59" y2="100"></line>
+
+<rect x="32" y="108" width="14" height="22" fill="white"></rect>
+<line x1="39" y1="108" x2="39" y2="130"></line>
+<g fill="#1f1f1f" stroke="none"><circle cx="36" cy="120" r="1"></circle><circle cx="42" cy="120" r="1"></circle></g>
+
+<rect x="90" y="40" width="20" height="34" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="90" y1="48" x2="110" y2="48"></line>
+  <line x1="90" y1="56" x2="110" y2="56"></line>
+  <line x1="90" y1="64" x2="110" y2="64"></line>
+</g>
+<text x="93" y="46" font-family="ui-monospace, monospace" font-size="5" font-weight="700">3.49</text>
+<text x="93" y="54" font-family="ui-monospace, monospace" font-size="5" font-weight="700">3.69</text>
+<text x="93" y="62" font-family="ui-monospace, monospace" font-size="5" font-weight="700">3.99</text>
+<line x1="100" y1="74" x2="100" y2="130"></line>
+
+<rect x="118" y="40" width="78" height="14" fill="white"></rect>
+<line x1="118" y1="48" x2="196" y2="48"></line>
+
+<rect x="124" y="54" width="6" height="76" fill="white"></rect>
+<line x1="127" y1="54" x2="127" y2="130"></line>
+<rect x="184" y="54" width="6" height="76" fill="white"></rect>
+<line x1="187" y1="54" x2="187" y2="130"></line>
+
+<rect x="138" y="80" width="14" height="40" fill="white"></rect>
+<rect x="138" y="84" width="14" height="14" fill="white"></rect>
+<g stroke-width="1.4"><line x1="142" y1="92" x2="148" y2="92"></line></g>
+<line x1="145" y1="120" x2="145" y2="124"></line>
+<rect x="142" y="124" width="6" height="4" fill="white"></rect>
+
+<path d="M138 92 Q132 96 132 104"></path>
+<rect x="130" y="104" width="6" height="8" fill="white"></rect>
+
+<rect x="164" y="80" width="14" height="40" fill="white"></rect>
+<rect x="164" y="84" width="14" height="14" fill="white"></rect>
+<g stroke-width="1.4"><line x1="168" y1="92" x2="174" y2="92"></line></g>
+<line x1="171" y1="120" x2="171" y2="124"></line>
+<rect x="168" y="124" width="6" height="4" fill="white"></rect>
+<path d="M178 92 Q184 96 184 104"></path>
+<rect x="180" y="104" width="6" height="8" fill="white"></rect>
+
+<line x1="6" y1="138" x2="194" y2="138"></line>
+</svg>

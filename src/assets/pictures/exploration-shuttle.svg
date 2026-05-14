@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M40 60 L160 60 L172 80 L172 102 L28 102 L28 80 Z" fill="white"></path>
+
+<line x1="28" y1="80" x2="172" y2="80"></line>
+<line x1="64" y1="60" x2="60" y2="102"></line>
+<line x1="100" y1="60" x2="100" y2="102"></line>
+<line x1="136" y1="60" x2="140" y2="102"></line>
+
+<path d="M76 60 Q80 38 100 36 Q120 38 124 60 Z" fill="white"></path>
+<line x1="76" y1="50" x2="124" y2="50"></line>
+<line x1="100" y1="36" x2="100" y2="60"></line>
+
+<path d="M140 68 L168 76 L168 86 L140 90 Z" fill="white"></path>
+<line x1="154" y1="72" x2="154" y2="88"></line>
+
+<rect x="40" y="84" width="16" height="14" fill="white"></rect>
+<g stroke-width="1.6"><line x1="44" y1="88" x2="52" y2="88"></line><line x1="44" y1="92" x2="52" y2="92"></line></g>
+
+<rect x="74" y="84" width="20" height="14" fill="white"></rect>
+<line x1="84" y1="84" x2="84" y2="98"></line>
+
+<path d="M28 84 L18 80 L14 84 L14 96 L18 100 L28 96" fill="white"></path>
+<line x1="16" y1="90" x2="26" y2="90"></line>
+
+<path d="M172 88 L184 88 L186 92 L172 92"></path>
+<circle cx="180" cy="90" r="1.5" fill="#1f1f1f" stroke="none"></circle>
+
+<path d="M40 102 L24 122 L20 130"></path>
+<path d="M24 122 L36 130"></path>
+<rect x="16" y="130" width="22" height="6" fill="white"></rect>
+<path d="M70 102 L66 122"></path>
+<path d="M66 122 L60 130"></path>
+<path d="M66 122 L72 130"></path>
+<rect x="56" y="130" width="22" height="6" fill="white"></rect>
+<path d="M130 102 L134 122"></path>
+<path d="M134 122 L128 130"></path>
+<path d="M134 122 L140 130"></path>
+<rect x="122" y="130" width="22" height="6" fill="white"></rect>
+<path d="M160 102 L176 122 L180 130"></path>
+<path d="M176 122 L164 130"></path>
+<rect x="162" y="130" width="22" height="6" fill="white"></rect>
+
+<line x1="92" y1="36" x2="88" y2="26"></line>
+<circle cx="88" cy="26" r="2"></circle>
+<line x1="108" y1="36" x2="112" y2="26"></line>
+<circle cx="112" cy="26" r="2"></circle>
+</svg>

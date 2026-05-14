@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<circle cx="100" cy="75" r="55" fill="white"></circle>
+<path d="M55 65 Q70 50 92 56 Q100 70 86 80 Q70 86 60 80 Z"></path>
+<path d="M110 50 Q130 56 134 70 Q128 78 116 76 Z"></path>
+<path d="M100 90 Q124 90 140 102 Q132 116 116 116 Q104 106 100 90 Z"></path>
+<path d="M70 100 Q80 108 70 116"></path>
+<g stroke-width="1.5"><line x1="46" y1="75" x2="154" y2="75"></line></g>
+
+</svg>

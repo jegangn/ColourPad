@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M14 130 L14 84 L150 84 L150 130 Z" fill="white"></path>
+
+<path d="M14 84 L14 70 L40 70 L40 84" fill="white"></path>
+<path d="M14 70 L26 60 L40 70"></path>
+<path d="M40 84 L40 70 L68 70 L68 84" fill="white"></path>
+<path d="M40 70 L54 60 L68 70"></path>
+<path d="M68 84 L68 70 L96 70 L96 84" fill="white"></path>
+<path d="M68 70 L82 60 L96 70"></path>
+<path d="M96 84 L96 70 L124 70 L124 84" fill="white"></path>
+<path d="M96 70 L110 60 L124 70"></path>
+<path d="M124 84 L124 70 L150 70 L150 84" fill="white"></path>
+<path d="M124 70 L138 60 L150 70"></path>
+
+<g stroke-width="1.4">
+  <line x1="20" y1="74" x2="30" y2="74"></line>
+  <line x1="48" y1="74" x2="58" y2="74"></line>
+  <line x1="76" y1="74" x2="86" y2="74"></line>
+  <line x1="104" y1="74" x2="114" y2="74"></line>
+  <line x1="132" y1="74" x2="142" y2="74"></line>
+</g>
+
+<rect x="158" y="20" width="14" height="80" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="158" y1="30" x2="172" y2="30"></line>
+  <line x1="158" y1="40" x2="172" y2="40"></line>
+</g>
+<rect x="156" y="14" width="18" height="8" fill="white"></rect>
+<rect x="178" y="38" width="12" height="62" fill="white"></rect>
+<rect x="176" y="32" width="16" height="8" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="178" y1="46" x2="190" y2="46"></line>
+</g>
+
+<g stroke-width="1.6">
+  <path d="M165 10 Q160 4 168 0 Q175 4 170 10"></path>
+  <path d="M184 26 Q179 22 186 18 Q191 22 188 26"></path>
+</g>
+
+<g stroke-width="1.4">
+  <line x1="14" y1="98" x2="150" y2="98"></line>
+  <line x1="14" y1="112" x2="150" y2="112"></line>
+</g>
+
+<rect x="22" y="90" width="28" height="20" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="22" y1="100" x2="50" y2="100"></line>
+  <line x1="29" y1="90" x2="29" y2="110"></line>
+  <line x1="36" y1="90" x2="36" y2="110"></line>
+  <line x1="43" y1="90" x2="43" y2="110"></line>
+</g>
+<rect x="56" y="90" width="28" height="20" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="56" y1="100" x2="84" y2="100"></line>
+  <line x1="63" y1="90" x2="63" y2="110"></line>
+  <line x1="70" y1="90" x2="70" y2="110"></line>
+  <line x1="77" y1="90" x2="77" y2="110"></line>
+</g>
+<rect x="90" y="90" width="28" height="20" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="90" y1="100" x2="118" y2="100"></line>
+  <line x1="97" y1="90" x2="97" y2="110"></line>
+  <line x1="104" y1="90" x2="104" y2="110"></line>
+  <line x1="111" y1="90" x2="111" y2="110"></line>
+</g>
+<rect x="124" y="90" width="20" height="20" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="124" y1="100" x2="144" y2="100"></line>
+  <line x1="131" y1="90" x2="131" y2="110"></line>
+  <line x1="137" y1="90" x2="137" y2="110"></line>
+</g>
+
+<rect x="22" y="116" width="30" height="14" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="22" y1="120" x2="52" y2="120"></line>
+  <line x1="22" y1="124" x2="52" y2="124"></line>
+  <line x1="37" y1="116" x2="37" y2="130"></line>
+</g>
+
+<rect x="62" y="116" width="14" height="14" fill="white"></rect>
+<line x1="69" y1="116" x2="69" y2="130"></line>
+
+<rect x="80" y="118" width="56" height="10" fill="white"></rect>
+<text x="90" y="125" font-family="ui-monospace, monospace" font-size="6" font-weight="700">FACTORY</text>
+
+<line x1="6" y1="138" x2="194" y2="138"></line>
+</svg>

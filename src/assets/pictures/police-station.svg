@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<rect x="20" y="124" width="160" height="6" fill="white"></rect>
+<rect x="16" y="130" width="168" height="6" fill="white"></rect>
+
+<path d="M28 124 L28 50 L172 50 L172 124 Z" fill="white"></path>
+
+<path d="M22 50 L100 24 L178 50 Z" fill="white"></path>
+
+<line x1="42" y1="42" x2="158" y2="42"></line>
+
+<path d="M100 30 L106 36 L106 42 L100 46 L94 42 L94 36 Z" fill="white"></path>
+<g fill="#1f1f1f" stroke="none"><circle cx="100" cy="38" r="1.6"></circle></g>
+
+<rect x="38" y="58" width="10" height="62" fill="white"></rect>
+<rect x="36" y="116" width="14" height="6" fill="white"></rect>
+<rect x="36" y="56" width="14" height="6" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="41" y1="62" x2="41" y2="116"></line>
+  <line x1="45" y1="62" x2="45" y2="116"></line>
+</g>
+<rect x="68" y="58" width="10" height="62" fill="white"></rect>
+<rect x="66" y="116" width="14" height="6" fill="white"></rect>
+<rect x="66" y="56" width="14" height="6" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="71" y1="62" x2="71" y2="116"></line>
+  <line x1="75" y1="62" x2="75" y2="116"></line>
+</g>
+<rect x="122" y="58" width="10" height="62" fill="white"></rect>
+<rect x="120" y="116" width="14" height="6" fill="white"></rect>
+<rect x="120" y="56" width="14" height="6" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="125" y1="62" x2="125" y2="116"></line>
+  <line x1="129" y1="62" x2="129" y2="116"></line>
+</g>
+<rect x="152" y="58" width="10" height="62" fill="white"></rect>
+<rect x="150" y="116" width="14" height="6" fill="white"></rect>
+<rect x="150" y="56" width="14" height="6" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="155" y1="62" x2="155" y2="116"></line>
+  <line x1="159" y1="62" x2="159" y2="116"></line>
+</g>
+
+<path d="M86 124 L86 80 Q86 76 90 76 L110 76 Q114 76 114 80 L114 124" fill="white"></path>
+<line x1="100" y1="76" x2="100" y2="124"></line>
+<g fill="#1f1f1f" stroke="none">
+  <circle cx="96" cy="100" r="1.2"></circle>
+  <circle cx="104" cy="100" r="1.2"></circle>
+</g>
+
+<rect x="80" y="64" width="40" height="10" fill="white"></rect>
+<text x="84" y="72" font-family="ui-monospace, monospace" font-size="8" font-weight="700">POLICE</text>
+
+<line x1="56" y1="124" x2="56" y2="100"></line>
+<circle cx="56" cy="96" r="4" fill="white"></circle>
+<line x1="144" y1="124" x2="144" y2="100"></line>
+<circle cx="144" cy="96" r="4" fill="white"></circle>
+
+<line x1="6" y1="138" x2="194" y2="138"></line>
+</svg>

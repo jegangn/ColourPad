@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M16 76 Q40 70 100 70 Q160 70 184 76 L194 96 Q170 110 100 110 Q30 110 6 96 Z" fill="white"></path>
+
+<line x1="16" y1="76" x2="184" y2="76"></line>
+
+<path d="M10 84 Q40 80 100 80 Q160 80 190 84"></path>
+<path d="M8 92 Q40 90 100 90 Q160 90 192 92"></path>
+<path d="M8 100 Q40 100 100 100 Q160 100 192 100"></path>
+
+<path d="M16 76 L12 70 L20 70"></path>
+<path d="M184 76 L188 70 L180 70"></path>
+
+<path d="M180 76 L184 100 L194 96 L188 76"></path>
+<g stroke-width="1.4"><line x1="184" y1="82" x2="190" y2="82"></line></g>
+
+<path d="M54 76 L82 76 L82 82 L50 82 Z" fill="white"></path>
+<g stroke-width="1.4">
+  <line x1="58" y1="76" x2="56" y2="82"></line>
+  <line x1="64" y1="76" x2="62" y2="82"></line>
+  <line x1="70" y1="76" x2="68" y2="82"></line>
+  <line x1="76" y1="76" x2="74" y2="82"></line>
+</g>
+<path d="M118 76 L146 76 L150 82 L114 82 Z" fill="white"></path>
+<g stroke-width="1.4">
+  <line x1="122" y1="76" x2="120" y2="82"></line>
+  <line x1="128" y1="76" x2="126" y2="82"></line>
+  <line x1="134" y1="76" x2="132" y2="82"></line>
+  <line x1="140" y1="76" x2="138" y2="82"></line>
+</g>
+
+<path d="M52 74 L52 68 Q52 64 56 64 Q60 64 60 68 L60 74"></path>
+<path d="M148 74 L148 68 Q148 64 152 64 Q156 64 156 68 L156 74"></path>
+
+<path d="M56 64 L24 32"></path>
+<rect x="18" y="26" width="10" height="10" rx="2" fill="white"></rect>
+
+<path d="M56 66 L80 110 Q86 116 96 114 Q90 110 84 102 L66 70 Z" fill="white"></path>
+<line x1="74" y1="88" x2="86" y2="112"></line>
+
+<path d="M152 64 L184 32"></path>
+<rect x="180" y="26" width="10" height="10" rx="2" fill="white"></rect>
+
+<path d="M152 66 L130 110 Q124 116 114 114 Q120 110 126 102 L142 70 Z" fill="white"></path>
+<line x1="134" y1="88" x2="124" y2="112"></line>
+
+<g stroke-width="1.4">
+  <line x1="40" y1="78" x2="42" y2="84"></line>
+  <line x1="92" y1="78" x2="92" y2="84"></line>
+  <line x1="106" y1="78" x2="106" y2="84"></line>
+  <line x1="160" y1="78" x2="158" y2="84"></line>
+</g>
+
+<g stroke-width="1.6">
+  <path d="M-4 124 Q16 120 36 124 Q56 120 76 124 Q96 120 116 124 Q136 120 156 124 Q176 120 200 124"></path>
+  <path d="M0 132 Q20 128 40 132 Q60 128 80 132 Q100 128 120 132 Q140 128 160 132 Q180 128 196 132"></path>
+</g>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M8 130 L8 60 L192 60 L192 130 Z" fill="white"></path>
+
+<rect x="6" y="54" width="188" height="8" fill="white"></rect>
+
+<rect x="74" y="22" width="52" height="22" rx="2" fill="white"></rect>
+<text x="80" y="38" font-family="ui-monospace, monospace" font-size="13" font-weight="700">MALL</text>
+
+<line x1="84" y1="44" x2="84" y2="54"></line>
+<line x1="116" y1="44" x2="116" y2="54"></line>
+
+<rect x="14" y="80" width="32" height="46" fill="white"></rect>
+<rect x="14" y="66" width="32" height="10" fill="white"></rect>
+<text x="18" y="73" font-family="ui-monospace, monospace" font-size="5" font-weight="700">SHOES</text>
+<rect x="18" y="92" width="24" height="20" fill="white"></rect>
+<line x1="30" y1="92" x2="30" y2="112"></line>
+<rect x="20" y="116" width="20" height="10" fill="white"></rect>
+<line x1="30" y1="116" x2="30" y2="126"></line>
+<g fill="#1f1f1f" stroke="none"><circle cx="28" cy="121" r="0.8"></circle><circle cx="32" cy="121" r="0.8"></circle></g>
+
+<rect x="52" y="80" width="32" height="46" fill="white"></rect>
+<rect x="52" y="66" width="32" height="10" fill="white"></rect>
+<text x="56" y="73" font-family="ui-monospace, monospace" font-size="5" font-weight="700">TOYS</text>
+<rect x="56" y="92" width="24" height="20" fill="white"></rect>
+<line x1="68" y1="92" x2="68" y2="112"></line>
+<line x1="56" y1="102" x2="80" y2="102"></line>
+<rect x="58" y="116" width="20" height="10" fill="white"></rect>
+<line x1="68" y1="116" x2="68" y2="126"></line>
+<g fill="#1f1f1f" stroke="none"><circle cx="66" cy="121" r="0.8"></circle><circle cx="70" cy="121" r="0.8"></circle></g>
+
+<rect x="90" y="80" width="32" height="46" fill="white"></rect>
+<rect x="90" y="66" width="32" height="10" fill="white"></rect>
+<text x="94" y="73" font-family="ui-monospace, monospace" font-size="5" font-weight="700">CAFE</text>
+<rect x="94" y="92" width="24" height="20" fill="white"></rect>
+<g stroke-width="1.4"><line x1="100" y1="92" x2="100" y2="112"></line><line x1="108" y1="92" x2="108" y2="112"></line></g>
+<rect x="96" y="116" width="20" height="10" fill="white"></rect>
+<line x1="106" y1="116" x2="106" y2="126"></line>
+<g fill="#1f1f1f" stroke="none"><circle cx="104" cy="121" r="0.8"></circle><circle cx="108" cy="121" r="0.8"></circle></g>
+
+<rect x="128" y="80" width="32" height="46" fill="white"></rect>
+<rect x="128" y="66" width="32" height="10" fill="white"></rect>
+<text x="132" y="73" font-family="ui-monospace, monospace" font-size="5" font-weight="700">BOOKS</text>
+<rect x="132" y="92" width="24" height="20" fill="white"></rect>
+<line x1="132" y1="102" x2="156" y2="102"></line>
+<rect x="134" y="116" width="20" height="10" fill="white"></rect>
+<line x1="144" y1="116" x2="144" y2="126"></line>
+<g fill="#1f1f1f" stroke="none"><circle cx="142" cy="121" r="0.8"></circle><circle cx="146" cy="121" r="0.8"></circle></g>
+
+<rect x="166" y="80" width="20" height="46" fill="white"></rect>
+<rect x="166" y="66" width="20" height="10" fill="white"></rect>
+<text x="168" y="73" font-family="ui-monospace, monospace" font-size="5" font-weight="700">FOOD</text>
+<rect x="170" y="92" width="12" height="20" fill="white"></rect>
+<line x1="176" y1="92" x2="176" y2="112"></line>
+<rect x="170" y="116" width="12" height="10" fill="white"></rect>
+
+
+<rect x="44" y="130" width="14" height="8" fill="white"></rect>
+<line x1="44" y1="134" x2="58" y2="134"></line>
+<g stroke-width="1.4">
+  <line x1="46" y1="130" x2="46" y2="138"></line>
+  <line x1="50" y1="130" x2="50" y2="138"></line>
+  <line x1="54" y1="130" x2="54" y2="138"></line>
+</g>
+<path d="M44 130 L40 124"></path>
+<circle cx="46" cy="142" r="1.4" fill="#1f1f1f" stroke="none"></circle>
+<circle cx="56" cy="142" r="1.4" fill="#1f1f1f" stroke="none"></circle>
+
+<line x1="6" y1="146" x2="194" y2="146"></line>
+</svg>

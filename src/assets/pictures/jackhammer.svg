@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M70 18 Q70 12 78 12 L122 12 Q130 12 130 18 L130 32 L70 32 Z" fill="white"></path>
+<line x1="74" y1="20" x2="126" y2="20"></line>
+<line x1="74" y1="26" x2="126" y2="26"></line>
+
+<path d="M70 22 L50 22 Q42 22 42 30 Q42 38 50 38 L70 38" fill="white"></path>
+<line x1="50" y1="28" x2="62" y2="28"></line>
+<line x1="50" y1="34" x2="62" y2="34"></line>
+<path d="M130 22 L150 22 Q158 22 158 30 Q158 38 150 38 L130 38" fill="white"></path>
+<line x1="138" y1="28" x2="150" y2="28"></line>
+<line x1="138" y1="34" x2="150" y2="34"></line>
+
+<path d="M50 30 L46 38 L52 40"></path>
+
+<path d="M100 12 L100 4 L108 4 L108 12"></path>
+<path d="M104 4 Q116 0 124 6"></path>
+
+<rect x="80" y="32" width="40" height="44" rx="2" fill="white"></rect>
+<g stroke-width="1.6">
+  <line x1="80" y1="42" x2="120" y2="42"></line>
+  <line x1="80" y1="52" x2="120" y2="52"></line>
+  <line x1="80" y1="62" x2="120" y2="62"></line>
+  <line x1="80" y1="72" x2="120" y2="72"></line>
+</g>
+
+<g stroke-width="1.4">
+  <line x1="78" y1="46" x2="74" y2="46"></line>
+  <line x1="78" y1="50" x2="74" y2="50"></line>
+  <line x1="78" y1="54" x2="74" y2="54"></line>
+  <line x1="78" y1="58" x2="74" y2="58"></line>
+  <line x1="122" y1="46" x2="126" y2="46"></line>
+  <line x1="122" y1="50" x2="126" y2="50"></line>
+  <line x1="122" y1="54" x2="126" y2="54"></line>
+  <line x1="122" y1="58" x2="126" y2="58"></line>
+</g>
+
+<path d="M84 76 L116 76 L120 86 L80 86 Z" fill="white"></path>
+<line x1="80" y1="82" x2="120" y2="82"></line>
+
+<path d="M96 86 L96 116 L100 122 L104 116 L104 86" fill="white"></path>
+<line x1="100" y1="86" x2="100" y2="122"></line>
+
+<g stroke-width="1.6">
+  <path d="M60 130 L80 130 L88 124 L98 130 L104 126 L116 130 L140 130"></path>
+  <line x1="70" y1="134" x2="74" y2="134"></line>
+  <line x1="86" y1="134" x2="90" y2="134"></line>
+  <line x1="108" y1="134" x2="112" y2="134"></line>
+</g>
+
+<g stroke-width="1.4">
+  <line x1="86" y1="118" x2="82" y2="122"></line>
+  <line x1="114" y1="118" x2="118" y2="122"></line>
+  <line x1="100" y1="126" x2="100" y2="130"></line>
+</g>
+</svg>

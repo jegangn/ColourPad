@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M30 60 L150 60 L160 70 L160 110 L30 110 Z" fill="white"></path>
+
+<line x1="30" y1="85" x2="160" y2="85"></line>
+<line x1="60" y1="60" x2="60" y2="110"></line>
+<line x1="90" y1="60" x2="90" y2="110"></line>
+<line x1="120" y1="60" x2="120" y2="110"></line>
+
+<g stroke-width="1.6">
+  <rect x="38" y="68" width="12" height="6"></rect>
+  <rect x="68" y="68" width="12" height="6"></rect>
+  <rect x="98" y="68" width="12" height="6"></rect>
+  <rect x="128" y="68" width="12" height="6"></rect>
+  <rect x="38" y="94" width="12" height="6"></rect>
+  <rect x="68" y="94" width="12" height="6"></rect>
+  <rect x="98" y="94" width="12" height="6"></rect>
+  <rect x="128" y="94" width="12" height="6"></rect>
+</g>
+
+<path d="M150 60 L150 44 L172 44 L180 56 L180 70 L160 70 Z" fill="white"></path>
+
+<path d="M154 50 L172 50 L176 56 L160 56 Z" fill="white"></path>
+<line x1="166" y1="50" x2="166" y2="56"></line>
+
+<path d="M180 60 L188 62 L188 68 L180 68"></path>
+
+<line x1="160" y1="44" x2="160" y2="36"></line>
+<circle cx="160" cy="34" r="2"></circle>
+
+<rect x="14" y="64" width="16" height="14" rx="2" fill="white"></rect>
+<rect x="14" y="82" width="16" height="14" rx="2" fill="white"></rect>
+<rect x="14" y="100" width="16" height="14" rx="2" fill="white"></rect>
+<g stroke-width="1.6">
+  <line x1="6" y1="71" x2="14" y2="71"></line>
+  <line x1="6" y1="89" x2="14" y2="89"></line>
+  <line x1="6" y1="107" x2="14" y2="107"></line>
+</g>
+
+<path d="M40 110 L40 122 L60 122"></path>
+<path d="M140 110 L140 122 L120 122"></path>
+<rect x="38" y="120" width="24" height="6" fill="white"></rect>
+<rect x="118" y="120" width="24" height="6" fill="white"></rect>
+
+<path d="M80 100 L80 110"></path>
+<path d="M110 100 L110 110"></path>
+
+<line x1="50" y1="110" x2="50" y2="114"></line>
+<line x1="100" y1="110" x2="100" y2="114"></line>
+<line x1="150" y1="110" x2="150" y2="114"></line>
+</svg>

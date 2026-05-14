@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M40 70 L160 70 L168 100 L32 100 Z" fill="white"></path>
+
+<g fill="#1f1f1f" stroke="none">
+  <circle cx="44" cy="76" r="1"></circle>
+  <circle cx="44" cy="92" r="1"></circle>
+  <circle cx="156" cy="76" r="1"></circle>
+  <circle cx="156" cy="92" r="1"></circle>
+</g>
+
+<rect x="76" y="80" width="48" height="14" rx="2" fill="white"></rect>
+<g stroke-width="1.4">
+  <line x1="80" y1="85" x2="120" y2="85"></line>
+  <line x1="80" y1="89" x2="120" y2="89"></line>
+</g>
+
+<line x1="36" y1="74" x2="164" y2="74"></line>
+
+<g stroke-width="1.4">
+  <line x1="60" y1="70" x2="64" y2="70"></line>
+  <line x1="80" y1="70" x2="84" y2="70"></line>
+  <line x1="100" y1="70" x2="104" y2="70"></line>
+  <line x1="120" y1="70" x2="124" y2="70"></line>
+  <line x1="140" y1="70" x2="144" y2="70"></line>
+</g>
+
+<circle cx="54" cy="108" r="14" fill="white"></circle>
+<circle cx="54" cy="108" r="8"></circle>
+<circle cx="54" cy="108" r="3" fill="#1f1f1f" stroke="none"></circle>
+<g stroke-width="1.6">
+  <line x1="54" y1="100" x2="54" y2="116"></line>
+  <line x1="46" y1="108" x2="62" y2="108"></line>
+  <line x1="48" y1="102" x2="60" y2="114"></line>
+  <line x1="60" y1="102" x2="48" y2="114"></line>
+</g>
+<circle cx="146" cy="108" r="14" fill="white"></circle>
+<circle cx="146" cy="108" r="8"></circle>
+<circle cx="146" cy="108" r="3" fill="#1f1f1f" stroke="none"></circle>
+<g stroke-width="1.6">
+  <line x1="146" y1="100" x2="146" y2="116"></line>
+  <line x1="138" y1="108" x2="154" y2="108"></line>
+  <line x1="140" y1="102" x2="152" y2="114"></line>
+  <line x1="152" y1="102" x2="140" y2="114"></line>
+</g>
+
+<path d="M168 84 L196 56"></path>
+<rect x="186" y="46" width="14" height="6" rx="2" fill="white"></rect>
+
+<circle cx="168" cy="84" r="3" fill="white"></circle>
+<circle cx="168" cy="84" r="1.2" fill="#1f1f1f" stroke="none"></circle>
+
+<path d="M40 100 L46 110"></path>
+<path d="M160 100 L154 110"></path>
+
+<rect x="50" y="58" width="14" height="14" fill="white"></rect>
+<g fill="#1f1f1f" stroke="none">
+  <text x="53" y="69" font-family="ui-monospace, monospace" font-size="9" font-weight="700">A</text>
+</g>
+<rect x="66" y="62" width="12" height="10" fill="white"></rect>
+<rect x="124" y="56" width="14" height="16" fill="white"></rect>
+<g fill="#1f1f1f" stroke="none">
+  <text x="127" y="68" font-family="ui-monospace, monospace" font-size="9" font-weight="700">B</text>
+</g>
+
+<circle cx="100" cy="60" r="8" fill="white"></circle>
+<path d="M92 60 Q100 56 108 60"></path>
+<path d="M92 60 Q100 64 108 60"></path>
+<line x1="100" y1="52" x2="100" y2="68"></line>
+
+<line x1="6" y1="124" x2="36" y2="124"></line>
+<line x1="70" y1="124" x2="130" y2="124"></line>
+<line x1="164" y1="124" x2="194" y2="124"></line>
+</svg>

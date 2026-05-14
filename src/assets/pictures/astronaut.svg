@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+
+
+<path d="M70 64 L70 110 Q70 114 74 114 L80 114" fill="white"></path>
+<path d="M130 64 L130 110 Q130 114 126 114 L120 114" fill="white"></path>
+<line x1="74" y1="72" x2="74" y2="106"></line>
+<line x1="126" y1="72" x2="126" y2="106"></line>
+
+
+<circle cx="100" cy="44" r="22" fill="white"></circle>
+
+<path d="M84 60 Q100 68 116 60"></path>
+<path d="M82 62 L84 60 M118 60 L120 62"></path>
+
+
+<path d="M84 38 Q100 24 116 38 Q116 50 100 54 Q84 50 84 38 Z" fill="white"></path>
+<path d="M88 32 Q92 28 98 28"></path>
+
+<path d="M118 30 L122 24"></path>
+<circle cx="122" cy="24" r="1.6" fill="#1f1f1f" stroke="none"></circle>
+
+
+<path d="M76 66 Q76 64 80 64 L120 64 Q124 64 124 66 L124 110 Q124 116 118 116 L82 116 Q76 116 76 110 Z" fill="white"></path>
+
+
+<rect x="86" y="76" width="28" height="16" rx="2" fill="white"></rect>
+<g fill="#1f1f1f" stroke="none">
+  <circle cx="92" cy="84" r="1.5"></circle>
+  <circle cx="100" cy="84" r="1.5"></circle>
+  <circle cx="108" cy="84" r="1.5"></circle>
+</g>
+<line x1="86" y1="96" x2="114" y2="96"></line>
+<line x1="86" y1="100" x2="110" y2="100"></line>
+
+
+<line x1="100" y1="64" x2="100" y2="76"></line>
+<line x1="100" y1="104" x2="100" y2="116"></line>
+
+
+<path d="M76 108 L124 108"></path>
+<rect x="96" y="106" width="8" height="6" fill="white"></rect>
+
+
+<path d="M76 70 Q60 76 54 92 Q52 100 60 104 Q66 104 70 100" fill="white"></path>
+
+<g stroke-width="1.6">
+  <path d="M58 86 L66 84"></path>
+  <path d="M58 92 L66 90"></path>
+  <path d="M58 98 L66 96"></path>
+</g>
+
+<path d="M58 100 Q56 106 62 108 Q68 108 70 102"></path>
+<path d="M64 108 L62 112"></path>
+
+
+<path d="M124 70 Q138 76 142 92 Q144 102 138 108 Q132 110 128 106" fill="white"></path>
+<g stroke-width="1.6">
+  <path d="M134 86 L142 84"></path>
+  <path d="M134 92 L142 90"></path>
+  <path d="M134 98 L142 96"></path>
+</g>
+<path d="M138 106 Q140 112 134 114 Q128 114 128 108"></path>
+<path d="M136 114 L138 118"></path>
+
+
+<path d="M84 116 L82 138"></path>
+<path d="M98 116 L98 138"></path>
+<path d="M102 116 L102 138"></path>
+<path d="M116 116 L118 138"></path>
+
+
+<g stroke-width="1.6">
+  <path d="M84 126 L98 126"></path>
+  <path d="M84 130 L98 130"></path>
+  <path d="M102 126 L116 126"></path>
+  <path d="M102 130 L116 130"></path>
+</g>
+
+
+<path d="M80 138 L80 144 L96 144 L96 138 Z" fill="white"></path>
+<path d="M104 138 L104 144 L120 144 L120 138 Z" fill="white"></path>
+<line x1="80" y1="142" x2="96" y2="142"></line>
+<line x1="104" y1="142" x2="120" y2="142"></line>
+
+
+<rect x="118" y="68" width="8" height="6" fill="white"></rect>
+<line x1="118" y1="71" x2="126" y2="71"></line>
+
+</svg>

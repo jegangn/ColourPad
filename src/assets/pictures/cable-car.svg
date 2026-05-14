@@ -1,18 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <g id="fill">
-    <line x1="20" y1="40" x2="380" y2="40" stroke="#888" stroke-width="4"/>
-    <rect x="180" y="40" width="40" height="35" fill="#FFD600"/>
-    <rect x="100" y="75" width="200" height="170" rx="14" fill="#E91E63"/>
-    <rect x="120" y="95" width="70" height="60" rx="6" fill="#bde0fe"/>
-    <rect x="210" y="95" width="70" height="60" rx="6" fill="#bde0fe"/>
-    <rect x="120" y="175" width="160" height="50" rx="4" fill="#FFD600"/>
-  </g>
-  <g id="outline">
-    <line x1="20" y1="40" x2="380" y2="40" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round"/>
-    <rect x="180" y="40" width="40" height="35" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="100" y="75" width="200" height="170" rx="14" fill="none" stroke="#1F1F1F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="120" y="95" width="70" height="60" rx="6" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="210" y="95" width="70" height="60" rx="6" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="120" y="175" width="160" height="50" rx="4" fill="none" stroke="#1F1F1F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<line x1="0" y1="20" x2="200" y2="20" stroke-width="2"></line>
+<line x1="98" y1="20" x2="98" y2="40"></line>
+<line x1="102" y1="20" x2="102" y2="40"></line>
+<path d="M40 40 Q40 35 50 35 L150 35 Q160 35 160 40 L160 115 Q160 122 152 122 L48 122 Q40 122 40 115 Z" fill="white"></path>
+<g fill="white" stroke="#1f1f1f"><rect x="52" y="48" width="34" height="28" rx="2"></rect><rect x="92" y="48" width="34" height="28" rx="2"></rect><rect x="132" y="48" width="20" height="28" rx="2"></rect></g>
+<line x1="40" y1="85" x2="160" y2="85"></line>
+<rect x="60" y="92" width="24" height="26" rx="1" fill="white"></rect>
+<rect x="116" y="92" width="24" height="26" rx="1" fill="white"></rect>
+
 </svg>

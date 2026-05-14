@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 150" fill="none" stroke="#1f1f1f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M20 85 Q40 70 90 68 L150 70 Q170 75 175 85 Q170 92 150 95 L40 95 Q22 92 20 85 Z" fill="white"></path>
+<rect x="60" y="74" width="14" height="14" rx="2" fill="white"></rect>
+<rect x="80" y="74" width="14" height="14" rx="2" fill="white"></rect>
+<path d="M150 70 L180 50 L190 50 L165 75" fill="white"></path>
+<path d="M150 95 L180 115 L190 115 L165 95" fill="white"></path>
+<path d="M90 76 L80 50 L100 50 L105 76" fill="white"></path>
+<line x1="20" y1="85" x2="6" y2="70"></line>
+<line x1="20" y1="85" x2="6" y2="100"></line>
+<line x1="6" y1="60" x2="6" y2="110"></line>
+
+</svg>
