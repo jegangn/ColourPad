@@ -94,6 +94,33 @@ test('clicking a thumb navigates to colour screen for that picture', async ({ pa
 // ---------------------------------------------------------------------------
 // Colour screen
 // ---------------------------------------------------------------------------
+test('first picture has no prev arrow; next arrow goes to a different picture; prev returns', async ({ page }) => {
+  // Fresh page so the in-memory history starts empty.
+  await page.goto('/?cb=' + Date.now() + '#/colour/pumper-fire-truck');
+  await page.waitForSelector('.outline-top path');
+  // First picture: prev hidden, next visible, home visible.
+  await expect(page.locator('[data-action="prev"]')).toHaveCount(0);
+  await expect(page.locator('[data-action="next"]')).toBeVisible();
+  await expect(page.locator('[data-action="home"]')).toBeVisible();
+
+  // Tap next → URL must change to a different picture id.
+  await page.locator('[data-action="next"]').click();
+  await page.waitForFunction(() => !location.hash.includes('pumper-fire-truck'));
+  const afterNext = await page.evaluate(() => location.hash);
+  expect(afterNext).not.toContain('pumper-fire-truck');
+
+  // Now there's a previous picture, so prev arrow appears.
+  await page.waitForSelector('.outline-top path');
+  await expect(page.locator('[data-action="prev"]')).toBeVisible();
+
+  // Tap prev → back to the original picture.
+  await page.locator('[data-action="prev"]').click();
+  await page.waitForFunction(() => location.hash.includes('pumper-fire-truck'));
+  // And prev disappears again because we're back to the head of history.
+  await page.waitForSelector('.outline-top path');
+  await expect(page.locator('[data-action="prev"]')).toHaveCount(0);
+});
+
 test('colour screen shows 24 swatches + eraser + 4 brush sizes + outline', async ({ page }) => {
   await page.goto('/?cb=' + Date.now() + '#/colour/pumper-fire-truck');
   // Wait for the SVG outline to mount

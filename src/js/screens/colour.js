@@ -58,11 +58,43 @@ async function loadPicture(id) {
   return { meta, svgText };
 }
 
+// === Picture navigation history ===========================================
+// In-memory stack of picture IDs the kid has visited this session. Kept as a
+// module-level so it survives re-renders (going prev/next re-runs renderColour
+// but doesn't reload the page). A fresh app open / page reload starts empty —
+// "first picture" then has no prev arrow, by design.
+const HISTORY_MAX = 50;
+const pictureHistory = [];
+
+function pushHistory(id) {
+  if (pictureHistory[pictureHistory.length - 1] === id) return;
+  pictureHistory.push(id);
+  if (pictureHistory.length > HISTORY_MAX) pictureHistory.shift();
+}
+function popCurrentReturnPrev() {
+  pictureHistory.pop(); // drop current
+  return pictureHistory[pictureHistory.length - 1] || null;
+}
+async function pickRandomNextId(currentId) {
+  manifestCache ??= await fetch('./assets/pictures/manifest.json').then(r => r.json());
+  // Random across ALL categories — vehicles, fire, space, construction, etc.
+  // Excludes the current picture so the kid never lands on the same one.
+  const candidates = manifestCache.filter(p => p.id !== currentId);
+  if (candidates.length === 0) return currentId;
+  return candidates[Math.floor(Math.random() * candidates.length)].id;
+}
+
 export async function renderColour(root, params) {
   const { meta, svgText, outlineDataUrl } = await loadPicture(params.pictureId);
   // Canvas resolution — independent of SVG viewBox. 4:3 ratio matches all built-ins.
   const W = 400, H = 300;
   const safeName = escapeHtml(meta.name);
+
+  // Register this visit so the prev arrow can step back through what the
+  // kid has been colouring. Skip if we're already at the head (e.g. coming
+  // back here via a hash refresh) so duplicates don't pile up.
+  pushHistory(meta.id);
+  const hasPrev = pictureHistory.length > 1;
 
   const swatchHtml = PAINT_COLOURS.map(([hex, name], i) => `
     <button class="swatch ${i === 0 ? 'selected' : ''}"
@@ -86,10 +118,18 @@ export async function renderColour(root, params) {
   render(root, `
     <section class="screen-colour">
       <div class="topbar">
-        <button class="icon-btn" data-action="back" aria-label="Back">
-          ${icon('chevronLeft', 28)}
+        <button class="icon-btn" data-action="home" aria-label="Home">
+          ${icon('home', 26)}
         </button>
+        ${hasPrev ? `
+          <button class="icon-btn" data-action="prev" aria-label="Previous picture">
+            ${icon('chevronLeft', 28)}
+          </button>
+        ` : ''}
         <div class="title">${safeName}</div>
+        <button class="icon-btn" data-action="next" aria-label="Next random picture">
+          ${icon('chevronRight', 28)}
+        </button>
         <button class="icon-btn" data-action="undo" aria-label="Undo">
           ${icon('arrowUturnLeft', 26)}
         </button>
@@ -260,7 +300,17 @@ export async function renderColour(root, params) {
   root.querySelector('.topbar').addEventListener('click', async e => {
     const btn = e.target.closest('[data-action]');
     if (!btn) return;
-    if (btn.dataset.action === 'back')  return navigate('home');
+    if (btn.dataset.action === 'home')  return navigate('home');
+    if (btn.dataset.action === 'prev') {
+      const prevId = popCurrentReturnPrev();
+      if (prevId) navigate('colour', { pictureId: prevId });
+      return;
+    }
+    if (btn.dataset.action === 'next') {
+      const nextId = await pickRandomNextId(meta.id);
+      navigate('colour', { pictureId: nextId });
+      return;
+    }
     if (btn.dataset.action === 'undo')  return layer.doUndo();
     if (btn.dataset.action === 'clear') {
       if (confirm('Clear the whole picture?')) {
