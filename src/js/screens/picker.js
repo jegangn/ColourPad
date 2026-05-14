@@ -63,11 +63,14 @@ export async function renderPicker(root) {
       ? `<img src="${escapeHtml(p.outlineDataUrl)}" alt="${escapeHtml(p.name)}">`
       : `<object data="./assets/pictures/${escapeHtml(p.id)}.svg" type="image/svg+xml" style="pointer-events:none"></object>`;
     const badge = p.category === 'mine' ? `<span class="badge">${icon('camera', 11)}</span>` : '';
+    // div + role="button" instead of <button>: native <button> intrinsic
+    // sizing collapses inside CSS grid (image + title overflow the button's
+    // 6px border-only height), even with display:grid set on the button.
     return `
-      <button class="thumb" data-pic="${escapeHtml(p.id)}" aria-label="${escapeHtml(p.name)}">
+      <div class="thumb" data-pic="${escapeHtml(p.id)}" role="button" tabindex="0" aria-label="${escapeHtml(p.name)}">
         <div class="image">${inner}${badge}</div>
         <div class="title">${escapeHtml(p.name)}</div>
-      </button>
+      </div>
     `;
   }).join('');
 

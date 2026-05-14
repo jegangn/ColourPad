@@ -227,7 +227,10 @@ export async function renderColour(root, params) {
   };
   canvas.addEventListener('pointerup',     onPointerEnd);
   canvas.addEventListener('pointercancel', onPointerEnd);
-  canvas.addEventListener('pointerleave',  onPointerEnd);
+  // pointerleave should NOT end the stroke — with setPointerCapture the user
+  // can drag their finger briefly off the canvas and back without losing the
+  // stroke. Just hide the visual cursor so it doesn't freeze at the edge.
+  canvas.addEventListener('pointerleave',  hideCursor);
 
   root.querySelector('.palette').addEventListener('click', e => {
     const sw = e.target.closest('[data-colour]');

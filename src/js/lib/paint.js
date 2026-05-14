@@ -28,7 +28,7 @@ export class PaintLayer {
    *  (e.g. after drawing a saved draft on top). */
   setBaseline() { this.undo.reset(); this._snapshot(); }
 
-  beginStroke(x, y) { this._snapshot(); this.prev = [x, y]; this._dot(x, y); }
+  beginStroke(x, y) { this.prev = [x, y]; this._dot(x, y); }
   drawTo(x, y) {
     if (!this.prev) return;
     const [px, py] = this.prev, ctx = this.ctx;
@@ -38,7 +38,16 @@ export class PaintLayer {
     ctx.beginPath(); ctx.moveTo(px, py); ctx.lineTo(x, y); ctx.stroke();
     this.prev = [x, y];
   }
-  endStroke() { this.prev = null; }
+  /** Finalise a stroke and capture an undo snapshot of the post-stroke canvas.
+   *  Snapshotting AFTER drawing means each undo pops exactly one stroke
+   *  (snapshotting BEFORE drawing duplicates the baseline at the first stroke
+   *  and causes the first undo to skip two states). The `prev !== null` check
+   *  makes back-to-back endStroke calls (e.g. pointerup right after pointercancel)
+   *  a no-op so we don't double-snapshot a single stroke. */
+  endStroke() {
+    if (this.prev !== null) this._snapshot();
+    this.prev = null;
+  }
 
   _dot(x, y) {
     const ctx = this.ctx;
@@ -63,7 +72,9 @@ export class PaintLayer {
     });
   }
   clear() {
-    this._snapshot();
     this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    // Snapshot the post-clear (empty) state so a subsequent undo can revert
+    // back to the pre-clear canvas in exactly one step.
+    this._snapshot();
   }
 }

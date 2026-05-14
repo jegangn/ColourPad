@@ -102,13 +102,19 @@
 .brush-size .dot { background: var(--c-fg); border-radius: 50%; }
 .brush-size.selected .dot { background: white; }
 
-/* === Thumbnail (picker tile) === */
+/* === Thumbnail (picker tile) ===
+   IMPORTANT: keep this `display: grid` with explicit rows. <button>
+   elements with `display: flex` collapse to their min-content height
+   inside an outer CSS grid (only the borders show, ~6px tall). Grid
+   layout with `grid-template-rows: auto auto` forces the picture row
+   and the title row to both render at their natural size. */
 .thumb {
   background: var(--c-surface); border: 3px solid var(--c-border); border-radius: var(--r-md);
-  display: flex; flex-direction: column;
+  display: grid; grid-template-rows: auto auto;
   cursor: pointer; box-shadow: var(--shadow-soft);
   transition: transform var(--t-press) var(--ease-out), border-color var(--t-press) var(--ease-out);
   overflow: hidden; padding: 0; position: relative; text-align: left;
+  width: 100%;
 }
 .thumb:active { transform: scale(0.95); border-color: var(--c-primary); }
 .thumb .image {
@@ -116,8 +122,10 @@
   display: flex; align-items: center; justify-content: center;
   padding: var(--s-3);
   position: relative;
+  width: 100%;
 }
-.thumb .image svg, .thumb .image img { max-width: 100%; max-height: 100%; }
+.thumb .image svg, .thumb .image img,
+.thumb .image object { max-width: 100%; max-height: 100%; }
 .thumb .title {
   font-family: var(--font-display); font-weight: 700;
   font-size: 13px; color: var(--c-fg);
@@ -132,6 +140,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   word-break: break-word;
+  min-height: 36px;
 }
 .thumb .badge {
   position: absolute; top: 6px; right: 6px;

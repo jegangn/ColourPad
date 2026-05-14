@@ -143,6 +143,10 @@
 }
 .screen-picker .grid {
   display: grid; grid-template-columns: repeat(4, 1fr);
+  /* `max-content` (not `auto`) so each thumb grows to fit its image + title.
+     With `auto`, the constrained-height grid container collapses each row
+     to min-content (~6px = just borders) and image/title overflow. */
+  grid-auto-rows: max-content;
   gap: var(--s-4); padding: 0 var(--s-5) var(--s-5); overflow-y: auto;
   align-content: start;
 }

@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/JeganGN/.bun/bin/**)"
+      "Read(//c/Users/JeganGN/.bun/bin/**)",
+      "Bash(rmdir /S /Q debug-shots)"
     ]
   }
 }

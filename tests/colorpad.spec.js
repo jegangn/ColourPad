@@ -7,6 +7,9 @@ import { test, expect } from '@playwright/test';
 // first so we have a window object with localStorage access, then clear.
 // IMPORTANT: don't use page.addInitScript here — that fires on every navigation
 // (including reload()), which would wipe the draft mid-test.
+//
+// We also disable the service worker registration entirely for the test
+// browser context so SW caching from one test can't leak into another.
 test.beforeEach(async ({ page, context }) => {
   await context.clearCookies();
   await page.goto('/');
@@ -197,6 +200,50 @@ test('selecting a different colour updates the cursor border', async ({ page }) 
   await page.mouse.up();
   // CSS RGB serialisation: rgb(22, 163, 74)
   expect(borderColor).toMatch(/rgb\(22,\s*163,\s*74\)/);
+});
+
+// ---------------------------------------------------------------------------
+// Undo
+// ---------------------------------------------------------------------------
+test('undo removes exactly one stroke at a time (regression)', async ({ page }) => {
+  await page.goto('/?cb=' + Date.now() + '#/colour/pumper-fire-truck');
+  await page.waitForSelector('.outline-top path');
+  const canvas = page.locator('canvas.paint');
+  const box = await canvas.boundingBox();
+
+  // Stroke A — horizontal sweep across the upper third
+  await page.mouse.move(box.x + box.width * 0.2, box.y + box.height * 0.3);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width * 0.8, box.y + box.height * 0.3, { steps: 8 });
+  await page.mouse.up();
+
+  // Stroke B — horizontal sweep across the lower third
+  await page.mouse.move(box.x + box.width * 0.2, box.y + box.height * 0.7);
+  await page.mouse.down();
+  await page.mouse.move(box.x + box.width * 0.8, box.y + box.height * 0.7, { steps: 8 });
+  await page.mouse.up();
+
+  // Both strokes leave canvas pixels at their respective y-bands
+  const sample = (yFrac) => page.evaluate(({y}) => {
+    const c = document.querySelector('canvas.paint');
+    // Sample a small patch near the centre of the y-band
+    const data = c.getContext('2d').getImageData(c.width / 2, Math.round(c.height * y), 4, 4).data;
+    let opaque = 0;
+    for (let i = 3; i < data.length; i += 4) if (data[i] > 0) opaque++;
+    return opaque;
+  }, { y: yFrac });
+
+  const beforeUndo = { upper: await sample(0.3), lower: await sample(0.7) };
+  expect(beforeUndo.upper).toBeGreaterThan(0);
+  expect(beforeUndo.lower).toBeGreaterThan(0);
+
+  // One undo click should remove ONLY stroke B (lower band)
+  await page.locator('[data-action="undo"]').click();
+  await page.waitForTimeout(150); // undo is async (loads dataURL into Image)
+
+  const afterUndo = { upper: await sample(0.3), lower: await sample(0.7) };
+  expect(afterUndo.upper).toBeGreaterThan(0);  // stroke A intact
+  expect(afterUndo.lower).toBe(0);             // stroke B gone
 });
 
 // ---------------------------------------------------------------------------
