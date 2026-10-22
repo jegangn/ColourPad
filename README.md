@@ -53,7 +53,7 @@ Other zero-config hosts (drop the `src/` folder in):
 
 ## Updating the picture set
 
-The 200 pictures live as committed SVGs in `src/assets/pictures/`. To add more:
+The 213 pictures live as committed SVGs in `src/assets/pictures/`. To add more:
 
 1. Drop a new outline SVG at `src/assets/pictures/{id}.svg`. The file should be a `viewBox="0 0 400 300"` SVG with two groups: `<g id="fill">` (filled shapes — used as the "answer" if you ever want to show it) and `<g id="outline">` (stroke-only — what the child paints over).
 2. Append a matching entry to `src/assets/pictures/manifest.json`:
